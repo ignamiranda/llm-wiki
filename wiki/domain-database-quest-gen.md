@@ -13,7 +13,7 @@ summary: "A formal description of the game world used in genetic-algorithm-based
 
 ## Definition / 定义
 
-The Domain Database (DB) is the formal specification of a game world for the purpose of procedural quest generation. It comprises five elements: A (object-type pairs), B (ground literals describing world properties), Γ (semantic integrity constraints), Δ (STRIPS planning operators representing possible events), and T (operator-to-tension mappings). The DB is authored manually and is the primary input configuring what kinds of quests can be generated.
+The Domain Database (DB) is the formal specification of a game world for the purpose of procedural quest generation. It comprises five elements: A (object-type pairs), B (ground literals describing world properties), Γ (semantic integrity constraints), Δ (STRIPS planning operators representing possible events), and T (operator-to-tension mappings). The DB is authored manually and is the primary input configuring what kinds of quests can be generated. The formalism was introduced in Lima's 2019 PhD thesis [[2019-11-01-lima-genetic-planning-quests]] and refined in the 2022 journal publication.
 
 ## Key Properties / 关键特性
 
@@ -35,8 +35,10 @@ The Domain Database (DB) is the formal specification of a game world for the pur
 - [[quest-genetic-algorithm]] — uses DB as input
 - [[quest-motif]] — defined within DB's Γ constraints
 - [[off-line-quest-generator]] — subsystem using DB
-- [[2026-06-11-branching-quests-genetic-planning]] — the paper
+- [[2019-11-01-lima-genetic-planning-quests]] — foundational PhD thesis
+- [[2026-06-11-branching-quests-genetic-planning]] — the journal paper
 
 ## References / 参考资料
 
+- Lima, E.S. (2019). Procedural generation of quests for games using genetic algorithms and automated planning. PhD Thesis, PUC-Rio.
 - Lima, E.S., Feijó, B. & Furtado, A.L. (2022). Procedural generation of branching quests for games. Entertainment Computing, 43, 100491.

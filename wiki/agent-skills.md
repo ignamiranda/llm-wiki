@@ -40,6 +40,10 @@ Agent Skills are folders of instructions, scripts, and resources that an AI agen
 - [[2026-06-11-anthropic-skills-repo]] — Anthropic's reference repository of example skills
 - [[2026-06-11-mattpocock-skills]] — Matt Pocock's skills repository (engineering-focused, composable skills)
 - [[matt-pocock]] — Creator of the influential skills repository for AI coding agents
+- [[shokunin]] — A large-scale skill ecosystem with 62 CI-validated engineering skills and persistent memory
+- [[2026-06-11-shokunin]] — Article describing the Shokunin ecosystem as a concrete example
+
+> 📝 **Updated from [[2026-06-11-shokunin]]**: Added Shokunin as a concrete example of a large-scale skill ecosystem with CI validation and multi-runtime support.
 
 ## References
 

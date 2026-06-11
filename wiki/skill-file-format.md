@@ -50,6 +50,9 @@ description: A clear description of what this skill does and when to use it
 - [[agent-skills]] — The Agent Skills framework that uses this format
 - [[claude-skills-plugin]] — Plugin marketplace registration for distributing skills
 - [[2026-06-11-anthropic-skills-repo]] — Reference repository with example skills using this format
+- [[shokunin]] — Large-scale skill ecosystem (62 skills) using the SKILL.md format with CI validation
+
+> 📝 **Updated from [[2026-06-11-shokunin]]**: Added Shokunin as a major adopter of the SKILL.md format.
 
 ## References
 

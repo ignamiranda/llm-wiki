@@ -47,6 +47,7 @@ Distribution is non-uniform; the authors suggest designers can shift distributio
 
 - [[procedural-quest-generation]] — uses NPC motivations as the root of quest generation
 - [[quest-structural-analysis]] — the methodology that identified these motivations
+- [[conan-quest-generator]] — used this taxonomy to evaluate its generated quests against commercial games
 - [[2011-03-01-procedural-quest-generator]] — the paper defining this taxonomy
 - [[ian-parberry]] — co-author
 - [[jonathan-doran]] — co-author

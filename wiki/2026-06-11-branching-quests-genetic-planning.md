@@ -14,9 +14,11 @@ summary: "Lima, Feijó & Furtado (2022) present a novel method combining automat
 
 ## Summary / 摘要
 
-This paper presents a quest generation method combining automated planning with a genetic algorithm guided by story arcs to produce coherent branching quests for interactive game worlds. Quests are modeled as tree structures where branches represent different story paths. The genetic algorithm uses state-compatibility crossover (equal, sub, super types) and a fitness function comparing story arcs to a desired template via MSE. A Turing Test with 38 players achieved 48.68% accuracy — statistically indistinguishable from human-designed quests.
+This paper presents a quest generation method combining automated planning with a genetic algorithm guided by story arcs to produce coherent branching quests for interactive game worlds. Quests are modeled as tree structures where branches represent different story paths. The genetic algorithm uses state-compatibility crossover (equal, sub, super types) and a fitness function comparing story arcs to a desired template via MSE. A Turing Test with 38 players achieved 48.68% accuracy — statistically indistinguishable from human-designed quests. This journal publication builds on the foundational method established in Lima's 2019 PhD thesis [[2019-11-01-lima-genetic-planning-quests]].
 
 ## Content / 内容
+
+> Updated from [[2019-11-01-lima-genetic-planning-quests]] — the 2019 PhD thesis established the core method, Domain Database formalism, GA design, and story arc fitness. The 2022 paper adds the Turing Test evaluation and focuses specifically on branching quests.
 
 ### Core Method
 

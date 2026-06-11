@@ -13,7 +13,7 @@ summary: "Procedural generation of quests with branching storylines where player
 
 ## Definition / 定义
 
-Branching quest generation is the procedural creation of quests with nonlinear storylines, where player choices at decision points lead to different narrative paths and outcomes. Unlike linear quest generation (which produces a fixed sequence of events), branching quest generation must maintain coherence across multiple possible plot variants while ensuring each branch is reachable through valid game actions. The approach by Lima, Feijó & Furtado (2022) combines automated planning with a genetic algorithm, representing quests as tree structures and using story arc fitness to guide evolution.
+Branching quest generation is the procedural creation of quests with nonlinear storylines, where player choices at decision points lead to different narrative paths and outcomes. Unlike linear quest generation (which produces a fixed sequence of events), branching quest generation must maintain coherence across multiple possible plot variants while ensuring each branch is reachable through valid game actions. The approach by Lima, Feijó & Furtado (2022) combines automated planning with a genetic algorithm, representing quests as tree structures and using story arc fitness to guide evolution. The method was originally developed in Lima's 2019 PhD thesis [[2019-11-01-lima-genetic-planning-quests]] at PUC-Rio.
 
 ## Key Properties / 关键特性
 
@@ -37,8 +37,10 @@ Branching quest generation is the procedural creation of quests with nonlinear s
 - [[story-arc-fitness]] — evaluating branching quest quality
 - [[quest-structural-analysis]] — grammar-based approach (linear quests)
 - [[tension-story-arc]] — narrative structure used in fitness
-- [[2026-06-11-branching-quests-genetic-planning]] — the paper
+- [[2019-11-01-lima-genetic-planning-quests]] — foundational PhD thesis
+- [[2026-06-11-branching-quests-genetic-planning]] — the journal paper
 
 ## References / 参考资料
 
+- Lima, E.S. (2019). Procedural generation of quests for games using genetic algorithms and automated planning. PhD Thesis, PUC-Rio.
 - Lima, E.S., Feijó, B. & Furtado, A.L. (2022). Procedural generation of branching quests for games. Entertainment Computing, 43, 100491.

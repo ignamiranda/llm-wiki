@@ -13,7 +13,7 @@ summary: "A set of six constraint types (t, opp, u, r, qualif, motif) used in ge
 
 ## Definition / 定义
 
-Semantic integrity constraints (Γ) are a set of rules in the Domain Database that guide branch generation in the quest genetic algorithm. Each constraint is a 5-tuple γ = ⟨pred, (u₁r₁t₁, ..., uₙrₙtₙ), opp, qualif, motif⟩ attached to a predicate symbol, defining six types of semantic restrictions: variable types, opposite/contradictory relations, existential uniqueness, recurrence importance, qualification types, and goal motifs. These constraints ensure generated branches respect the logical structure of the game world.
+Semantic integrity constraints (Γ) are a set of rules in the Domain Database that guide branch generation in the quest genetic algorithm. Each constraint is a 5-tuple γ = ⟨pred, (u₁r₁t₁, ..., uₙrₙtₙ), opp, qualif, motif⟩ attached to a predicate symbol, defining six types of semantic restrictions: variable types, opposite/contradictory relations, existential uniqueness, recurrence importance, qualification types, and goal motifs. These constraints ensure generated branches respect the logical structure of the game world. The constraint formalism was introduced in Lima's 2019 PhD thesis [[2019-11-01-lima-genetic-planning-quests]] at PUC-Rio.
 
 ## Key Properties / 关键特性
 
@@ -37,8 +37,10 @@ Six constraint types:
 - [[quest-genetic-algorithm]] — uses constraints in branch generation
 - [[quest-motif]] — the motif constraint type
 - [[branching-quest-generation]] — broader context
-- [[2026-06-11-branching-quests-genetic-planning]] — the paper
+- [[2019-11-01-lima-genetic-planning-quests]] — foundational PhD thesis
+- [[2026-06-11-branching-quests-genetic-planning]] — the journal paper
 
 ## References / 参考资料
 
+- Lima, E.S. (2019). Procedural generation of quests for games using genetic algorithms and automated planning. PhD Thesis, PUC-Rio.
 - Lima, E.S., Feijó, B. & Furtado, A.L. (2022). Procedural generation of branching quests for games. Entertainment Computing, 43, 100491.

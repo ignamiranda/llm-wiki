@@ -1,6 +1,6 @@
 ---
 title: "LayerProcGen"
-type: article
+type: concept
 language: en
 created: 2026-06-11
 modified: 2026-06-11

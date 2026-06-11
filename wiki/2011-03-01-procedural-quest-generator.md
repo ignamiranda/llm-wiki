@@ -73,3 +73,4 @@ The paper distinguishes itself from prior quest classification work by Sullivan,
 - [[quest-generator-prolog]] — the Prolog-based prototype
 - [[ian-parberry]] — co-author
 - [[jonathan-doran]] — co-author
+- [[2019-09-13-text-adventure-quest-generation]] — related work on sequence-generation approaches to quest generation

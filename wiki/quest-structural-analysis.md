@@ -42,6 +42,7 @@ Non-terminal symbols expand via production rules (18 rules in the paper). Termin
 
 ## Related Concepts / 相关概念
 
+- [[conan-quest-generator]] — evaluated its output against this structural analysis taxonomy
 - [[npc-motivations]] — the root level of the analysis
 - [[procedural-quest-generation]] — applies this analysis for generation
 - [[quest-generator-prolog]] — implements generation using this grammar

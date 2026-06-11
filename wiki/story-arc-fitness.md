@@ -13,7 +13,7 @@ summary: "A fitness function for genetic-algorithm-based quest generation that e
 
 ## Definition / 定义
 
-The story arc fitness function evaluates the quality of a branching quest by measuring how well its possible plot variants match a desired story arc. For each plot variant, the story arc (derived from tension values assigned to each event operator) is compared to the target arc using mean squared error after scaling both to standard time interval [1,10] and tension interval [0,1]. The final fitness is the inverse of the average MSE across all variants, multiplied by assessment factors such as continuity.
+The story arc fitness function evaluates the quality of a branching quest by measuring how well its possible plot variants match a desired story arc. For each plot variant, the story arc (derived from tension values assigned to each event operator) is compared to the target arc using mean squared error after scaling both to standard time interval [1,10] and tension interval [0,1]. The final fitness is the inverse of the average MSE across all variants, multiplied by assessment factors such as continuity. This fitness function was first introduced in Lima's 2019 PhD thesis [[2019-11-01-lima-genetic-planning-quests]].
 
 ## Key Properties / 关键特性
 
@@ -34,8 +34,10 @@ The story arc fitness function evaluates the quality of a branching quest by mea
 - [[tension-story-arc]] — story arc representation
 - [[semantic-integrity-constraints]] — recurrence importance feeds the continuity factor
 - [[branching-quest-generation]] — broader context
-- [[2026-06-11-branching-quests-genetic-planning]] — the paper
+- [[2019-11-01-lima-genetic-planning-quests]] — foundational PhD thesis
+- [[2026-06-11-branching-quests-genetic-planning]] — the journal paper
 
 ## References / 参考资料
 
+- Lima, E.S. (2019). Procedural generation of quests for games using genetic algorithms and automated planning. PhD Thesis, PUC-Rio.
 - Lima, E.S., Feijó, B. & Furtado, A.L. (2022). Procedural generation of branching quests for games. Entertainment Computing, 43, 100491.

@@ -43,6 +43,9 @@ Once installed, skills are activated by mentioning the task — for example: "Us
 - [[agent-skills]] — The skills that plugins distribute
 - [[skill-file-format]] — The format used to define skills within plugins
 - [[2026-06-11-anthropic-skills-repo]] — The reference repository that serves as the primary skills marketplace
+- [[shokunin]] — A broader ecosystem supporting 6 runtimes (OpenCode, Claude Code, Cursor, Windsurf, Cline, Continue.dev) with skills, memory, and MCP servers
+
+> 📝 **Updated from [[2026-06-11-shokunin]]**: Added Shokunin as an example of multi-runtime skill distribution beyond Claude Code's plugin system.
 
 ## References
 

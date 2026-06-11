@@ -13,7 +13,7 @@ summary: "A preprocessing subsystem that runs the quest generation genetic algor
 
 ## Definition / 定义
 
-The Offline Quest Generator (OQG) is the preprocessing subsystem of the quest generation architecture by Lima, Feijó & Furtado (2022). It runs the genetic algorithm during a setup phase (before gameplay), generating the complete set of branching quests that will populate the Game Tree. The OQG includes a Genetic Algorithm module implementing evolutionary operators and a Quest Planner module (HSP2) that validates generated branches by solving their STRIPS planning problems.
+The Offline Quest Generator (OQG) is the preprocessing subsystem of the quest generation architecture originally defined in Lima's 2019 PhD thesis [[2019-11-01-lima-genetic-planning-quests]] and refined in the 2022 journal publication. It runs the genetic algorithm during a setup phase (before gameplay), generating the complete set of branching quests that will populate the Game Tree. The OQG includes a Genetic Algorithm module implementing evolutionary operators and a Quest Planner module (HSP2) that validates generated branches by solving their STRIPS planning problems.
 
 ## Key Properties / 关键特性
 
@@ -30,8 +30,10 @@ The Offline Quest Generator (OQG) is the preprocessing subsystem of the quest ge
 - [[domain-database-quest-gen]] — input defining the world
 - [[quest-giver]] — selection happens in OQG
 - [[quest-motif]] — motif selection happens in OQG
-- [[2026-06-11-branching-quests-genetic-planning]] — the paper
+- [[2019-11-01-lima-genetic-planning-quests]] — foundational PhD thesis
+- [[2026-06-11-branching-quests-genetic-planning]] — the journal paper
 
 ## References / 参考资料
 
+- Lima, E.S. (2019). Procedural generation of quests for games using genetic algorithms and automated planning. PhD Thesis, PUC-Rio.
 - Lima, E.S., Feijó, B. & Furtado, A.L. (2022). Procedural generation of branching quests for games. Entertainment Computing, 43, 100491.
