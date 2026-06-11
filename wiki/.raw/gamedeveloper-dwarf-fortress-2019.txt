@@ -1,0 +1,39 @@
+Q&A: Dissecting the development of Dwarf Fortress with creator Tarn Adams
+
+Creator Tarn Adams has agreed to answer some of our questions about the creation of what is still, despite the presence of a number of imitators, an entirely unique game.
+
+Q: I hear that Dwarf Fortress is coming to Steam and itch.io in a paid version with an easier interface. I heard the reason was concern over possible future medical costs. Do you find it challenging staying afloat as an indie developer?
+
+A: Yeah, a lot of work goes into sticking around, and almost everybody ends up needing to think of creative ways to continue to pay the rent and other basic expenses. And something could always come up that is just too much to handle. We've been lucky so far, but we've also had to make some large shifts over the years, whether that's changing jobs or moving to Patreon, or to Steam and itch now, or making crayon drawings, which is somewhat far removed from our video games.
+
+Q: What does your day-to-day coding on Dwarf Fortress look like? What languages do you use? What libraries? What IDE?
+
+A: I just work with a Windows 10 Toshiba laptop that isn't notable. I use some horrifying amalgam of C/C++ in MSVC Community. I'm using OpenGL by itself for the legacy version, and SDL for the main one, with FMod for the sound. I don't use anything else on Windows, just some of the headers that comes with MSVC that I've been using for decades.
+
+Q: What strategies do you use to keep the codebase comprehensible?
+
+A: I have a consistent way of naming things, and I don't skimp on longer variable and function names so that everything is readable, even after years away. Generally, I'm mindful of being kinder to my future self. My comments are all made toward that purpose. Find In Files sees a lot of use. But there are times when I do have to re-familiarize myself with what's going on, when an old system needs to be extended or a bug needs to be fixed, and it can take an hour or more sometimes just to collect the pieces.
+
+Q: Threetoe (Tarn's brother) writes stories that you then try to create a game engine in which they could occur. Are there any stories that you've had to reject as too difficult?
+
+A: Ha, I think they are all too difficult in some sense. Character motivations and goal-setting etc. continue to lag far behind what they do in stories. It's still a useful process though, since there are some easier story-generating elements that stick out, and we can also orbit the core character mechanics even if we never attain them.
+
+Q: What is up next for Dwarf Fortress?
+
+A: I'm finishing the villains release up over the next some months. Then we're implementing the graphics and QoL stuff for the Steam/itch versions. After that, we have some siege improvements and other work before entering the Big Wait. The latter'll be the largest DF restructuring and addition ever, allowing us to generate creation myths and have entire procedural magic systems, as well as having multiple view windows open. Then there's the property/law/customs/etc. release. After that, the order isn't set, but it'll involve the economy, boats, and other major missing components. We aren't even halfway to 1.0 yet.
+
+Q: What steps does the program go through in building a world?
+
+A: It allocates the memory for the map. Then it chooses what sort of pole it is going to have. The basic map field values (elevation, rainfall, temperature, drainage, volcanism, wildness) are seeded along a grid of variable size, respecting various settings, and then filled in fractally. The poles vary the temperature, and it selects some points for the highest peaks. The first derived field, vegetation, is then set based on elevation, rainfall, temperature, etc. Small oceans are dried out, and it locates edges of mountain sides where it can run test rivers. Many fake rivers flow downward from these points, carving channels in the elevation field if they can't find a path to the sea. Lakes are grown out at several points along the rivers. Once that's done, it generates the initial wildlife populations in each region, and sets some weather variables. History itself can begin at this point. Civilizations and caves are placed. There's a giant zero-player strategy game going on with somewhat loose turn rules and bad AI (but thousands of agents), and history is just a record of that. Procedurally generating stories by recording a log of a simulation is a valid enough approach.
+
+Q: What advantages does the complex body part model (no hit points) offer?
+
+A: It provides more specific relatable story moments, lasting consequences, and provides more consistency throughout the systems. It's possible to overdo it, and we have in some ways. For us, being as anti-numeric as possible is ideal, since numbers usually make for poor stories.
+
+Q: What does the main game loop look like?
+
+A: In dwarf mode: It starts with some announcement checks and considers autosaves. Every hundred ticks, it'll check job assignments and strange moods. Armies are moved on the world map. Every hundred ticks, it handles job applications by dwarves, a kind of invisible auction. Every ten ticks it advances the seasons, which does all kinds of things with the weather and map, and it also does a check for certain plot element advances. Then it hits some things that it does every tick: fluids and other map tile information is advanced. Vermin running around are updated. Other events on the map, like active fires, are handled. If a flag is set, wounded/thirsty/hungry dwarves that can't care for themselves get an update. Then creatures leave the map if they are set to at the edges. Every fifty ticks, all of the taverns, temples, libraries, etc. get their information updated. Stockpiles work this way too. Every thousand ticks, objects marked for deletion are freed. Projectiles are moved. Activities (dances, martial training, storytelling) get updated. Dwarves decide on and advance their immediate actions. Every hundred ticks, items are rotted. Vegetation is advanced. Building states are updated. Minecarts are moved. Temperature is updated. Finally the camera is updated.
+
+Q: How does DF decide what to display in a tile?
+
+A: It's just a character (byte) with another few bytes of color, so it's not expensive to just change your mind and replace a decision before the final print. It just goes bottom to top, elevation-wise (creatures above items, items above the ground), replacing the decision at times. There is a little array of possible units to be printed at each tile, so that it can do a flipping animation that allows you to see every unit over time even when the game is paused.

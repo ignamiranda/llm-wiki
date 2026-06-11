@@ -178,5 +178,22 @@
       "chunk-based-generation"
     ],
     "date": "2026-06-11T02:32:57Z"
+  ,
+  "F28E2E64F6D92A26D4942C9C417F2741ED828A9570D012CF669D1974D0459CA4": {
+    "name": "Procedural Storytelling in Game Design (Anna's Archive metadata)",
+    "date": "2026-06-11T15:00:00Z",
+    "language": "en",
+    "pages_created": [
+      "2019-procedural-storytelling-in-game-design",
+      "procedural-storytelling",
+      "emergent-narrative",
+      "plot-generator",
+      "tanya-x-short",
+      "chris-avellone"
+    ],
+    "pages_updated": [
+      "tarn-adams"
+    ]
   }
+}
 }

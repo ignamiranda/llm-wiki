@@ -1,0 +1,1720 @@
+Procedural Storytelling in Game Design - Anna’s Archive
+      
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+      
+        
+          
+          
+          
+            
+              
+                
+                  
+                    Anna’s Archive needs your help!
+                    Many try to take us down, but we fight back.
+                  
+                  
+                    
+                      
+                    
+                    
+                      
+                      
+                    
+                  
+                    ➡️ If you donate this month, you get one month extra. For memberships of 3+ months. Max 1 extra month per account. Donate
+
+                  
+                
+                
+                  ✕
+                
+              
+            
+
+            
+            
+
+          
+
+          
+        
+        
+          
+            Anna’s Archive
+            
+            
+              
+              
+              
+                
+                  
+                    ar - العربية - Arabic
+                    ast - asturianu - Asturian
+                    az - azərbaycan - Azerbaijani
+                    be - беларуская - Belarusian
+                    bg - български - Bulgarian
+                    bn - বাংলা - Bangla
+                    br - Brasil: português - Portuguese (Brazil)
+                    ca - català - Catalan
+                    ckb - کوردیی ناوەندی - Central Kurdish
+                    cs - čeština - Czech
+                    da - dansk - Danish
+                    de - Deutsch - German
+                    el - Ελληνικά - Greek
+                    en - English - English ☑️
+                    eo - Esperanto - Esperanto
+                    es - español - Spanish
+                    et - eesti - Estonian
+                    fa - فارسی - Persian
+                    fi - suomi - Finnish
+                    fil - Filipino - Filipino
+                    fr - français - French
+                    gl - galego - Galician
+                    gu - ગુજરાતી - Gujarati
+                    ha - Hausa - Hausa
+                    he - עברית - Hebrew
+                    hi - हिन्दी - Hindi
+                    hr - hrvatski - Croatian
+                    hu - magyar - Hungarian
+                    hy - հայերեն - Armenian
+                    id - Indonesia - Indonesian
+                    it - italiano - Italian
+                    ja - 日本語 - Japanese
+                    jv - Jawa - Javanese
+                    ka - ქართული - Georgian
+                    ko - 한국어 - Korean
+                    lt - lietuvių - Lithuanian
+                    ml - മലയാളം - Malayalam
+                    mr - मराठी - Marathi
+                    ms - Melayu - Malay
+                    ne - नेपाली - Nepali
+                    nl - Nederlands - Dutch
+                    no - norsk bokmål - Norwegian Bokmål (Norway)
+                    or - ଓଡ଼ିଆ - Odia
+                    pl - polski - Polish
+                    ps - پښتو - Pashto
+                    pt - Portugal: português - Portuguese (Portugal)
+                    ro - română - Romanian
+                    ru - русский - Russian
+                    sk - slovenčina - Slovak
+                    sl - slovenščina - Slovenian
+                    sq - shqip - Albanian
+                    sr - српски - Serbian
+                    sv - svenska - Swedish
+                    ta - தமிழ் - Tamil
+                    te - తెలుగు - Telugu
+                    th - ไทย - Thai
+                    tr - Türkçe - Turkish
+                    tw - 中文 (繁體) - Chinese (Traditional)
+                    uk - українська - Ukrainian
+                    ur - اردو - Urdu
+                    vec - veneto - Venetian
+                    vi - Tiếng Việt - Vietnamese
+                    yue - 粵語 - Cantonese
+                    zh - 中文 - Chinese
+                
+            
+          
+
+          
+          
+            📚 The largest truly open library in human history.
+            📈 64,416,225 books, 95,689,473 papers — preserved forever.
+            
+          
+
+            
+                
+                  
+                    
+                      AA 301TB direct uploads
+                  
+                
+                
+                  
+                    
+                      IA 304TB scraped by AA
+                  
+                
+                
+                  
+                    
+                      DuXiu 298TB scraped by AA
+                  
+                
+                
+                  
+                    
+                      Hathi   9TB scraped by AA
+                  
+                
+                
+                  
+                    
+                      Libgen.li 214TB collab with AA
+                  
+                
+                
+                  
+                    
+                      Z-Lib  86TB collab with AA
+                  
+                
+                
+                  
+                    
+                      Libgen.rs  88TB mirrored by AA
+                  
+                
+                
+                  
+                    
+                      Sci-Hub  94TB mirrored by AA
+                  
+                
+            
+
+            
+              
+              🛜 Official domains: FAQ and Wikipedia.
+              ⭐️ Our code and data are 100% open source. Learn more…
+            
+
+            
+              
+              ✕ Recent downloads:  
+              
+                
+                
+                
+              
+              
+            
+
+
+
+          
+         
+          
+            
+              
+                
+Home                  
+                
+                
+Home                  
+                
+              
+              
+                
+                  Home
+                
+                
+                  Home
+                
+              
+              
+                            
+              Anna’s Archive
+              Home
+              Search
+              Donate
+              🧬 SciDB
+              FAQ
+               
+              
+                    🌐 en - English - English
+                  ar - العربية - Arabic
+                  ast - asturianu - Asturian
+                  az - azərbaycan - Azerbaijani
+                  be - беларуская - Belarusian
+                  bg - български - Bulgarian
+                  bn - বাংলা - Bangla
+                  br - Brasil: português - Portuguese (Brazil)
+                  ca - català - Catalan
+                  ckb - کوردیی ناوەندی - Central Kurdish
+                  cs - čeština - Czech
+                  da - dansk - Danish
+                  de - Deutsch - German
+                  el - Ελληνικά - Greek
+                  en - English - English ☑️
+                  eo - Esperanto - Esperanto
+                  es - español - Spanish
+                  et - eesti - Estonian
+                  fa - فارسی - Persian
+                  fi - suomi - Finnish
+                  fil - Filipino - Filipino
+                  fr - français - French
+                  gl - galego - Galician
+                  gu - ગુજરાતી - Gujarati
+                  ha - Hausa - Hausa
+                  he - עברית - Hebrew
+                  hi - हिन्दी - Hindi
+                  hr - hrvatski - Croatian
+                  hu - magyar - Hungarian
+                  hy - հայերեն - Armenian
+                  id - Indonesia - Indonesian
+                  it - italiano - Italian
+                  ja - 日本語 - Japanese
+                  jv - Jawa - Javanese
+                  ka - ქართული - Georgian
+                  ko - 한국어 - Korean
+                  lt - lietuvių - Lithuanian
+                  ml - മലയാളം - Malayalam
+                  mr - मराठी - Marathi
+                  ms - Melayu - Malay
+                  ne - नेपाली - Nepali
+                  nl - Nederlands - Dutch
+                  no - norsk bokmål - Norwegian Bokmål (Norway)
+                  or - ଓଡ଼ିଆ - Odia
+                  pl - polski - Polish
+                  ps - پښتو - Pashto
+                  pt - Portugal: português - Portuguese (Portugal)
+                  ro - română - Romanian
+                  ru - русский - Russian
+                  sk - slovenčina - Slovak
+                  sl - slovenščina - Slovenian
+                  sq - shqip - Albanian
+                  sr - српски - Serbian
+                  sv - svenska - Swedish
+                  ta - தமிழ் - Tamil
+                  te - తెలుగు - Telugu
+                  th - ไทย - Thai
+                  tr - Türkçe - Turkish
+                  tw - 中文 (繁體) - Chinese (Traditional)
+                  uk - українська - Ukrainian
+                  ur - اردو - Urdu
+                  vec - veneto - Venetian
+                  vi - Tiếng Việt - Vietnamese
+                  yue - 粵語 - Cantonese
+                  zh - 中文 - Chinese
+              
+
+              Account
+              Log in / Register
+              Recover secret key
+              Account
+              Public profile
+              Downloaded files
+              My donations
+              Referrals
+            
+
+            
+              Explore
+              Activity
+              Codes Explorer
+              ISBN Visualization ↗
+              Community Projects ↗
+
+              Open data
+              Datasets 
+              Torrents 
+              LLM data
+            
+
+            
+              Stay in touch
+              Contact email
+              Anna’s Blog  ↗
+              Reddit ↗
+              Matrix ↗
+
+              Help out
+              Improve metadata
+              Volunteering & Bounties
+              Translate  ↗
+            
+
+            
+              Development
+              Anna’s Software  ↗
+              Security
+              DMCA / copyright claims
+
+              Alternatives
+                annas-archive.gl ↗
+                annas-archive.pk ↗
+                annas-archive.gd ↗
+              SLUM [unaffiliated] ↗
+              SLUM 2 [unaffiliated] ↗
+            
+
+            
+
+              
+              SearchSearch
+              DonateDonate
+            
+              
+                
+              
+            
+              AccountAccount
+            
+            
+          
+        
+      
+      
+
+  
+
+    
+      
+        
+    
+    
+      
+      
+    
+  
+      
+        
+        
+         Report file quality
+    
+    
+
+upload/newsarch_ebooks/2022/05/07/Tanya X. Short_ Tarn Adams - Procedural Storytelling in Game Design.pdf
+    Procedural Storytelling in Game Design 🔍
+
+ Tanya X Short; Tarn Adams; Chris Avellone
+ A K Peters/CRC Press, CRC Press LLC, Boca Raton, FL, 2019  
+    English [en] · PDF · 11.2MB · 2019 · 📘 Book (non-fiction) · 🚀/lgli/lgrs/nexusstc/upload/zlib    · Save
+    
+
+    
+    descriptionThis edited collection of chapters concerns the evolving discipline of procedural storytelling in video games. Games are an interactive medium, and this interplay between author, player and machine provides new and exciting ways to create and tell stories. In each essay, practitioners of this artform demonstrate how traditional storytelling tools such as characterization, world-building, theme, momentum and atmosphere can be adapted to full effect, using specific examples from their games. The reader will learn to construct narrative systems, write procedural dialog, and generate compelling characters with unique personalities and backstories.**Key Features**Introduces the differences between static/traditional game design and procedural game design Demonstrates how to solve or avoid common problems with procedural game design in a variety of concrete ways World's finest guide for how to begin thinking about procedural designAlternative filenamenexusstc/Procedural Storytelling in Game Design/20934da4d2df9ec264d21fc9d24afdab.pdfAlternative filenamelgli/Short_amp;Adams_Procedural Storytelling in Game Design.pdfAlternative filenamelgrsnf/Short_amp;Adams_Procedural Storytelling in Game Design.pdfAlternative filenamezlib/Computers/PC & Video Games/Tanya X. Short; Tarn Adams/Procedural Storytelling in Game Design_5341605.pdfAlternative titleProcedural Stories in Game DesignAlternative publisherCRC Press, Taylor & Francis GroupAlternative publisherAshgate Publishing LimitedAlternative publisherTaylor & Francis LtdAlternative publisherGower Publishing LtdAlternative editionUnited Kingdom and Ireland, United KingdomAlternative editionBoca Raton ; London ; New York, 2019Alternative editionSecond edition, Boca Raton, 2018Alternative edition1, 2019metadata comments0metadata commentslg2462336metadata commentsproducers:Acrobat Distiller 8.1.0 (Windows)metadata comments{"isbns":["1138595314","9781138595316"],"publisher":"CRC Press"}Alternative descriptionCover 1Half Title 2Title Page 4Copyright Page 5Table of Contents 6Foreword 10About the Editors 14Contributors 16SECTION 1: Introduction18CHAPTER 1: Getting Started with Generators20Building Your Artist-in-a-Box 21From Rules to Generative Methods 22Ways that Generators Fail 30Notes 32CHAPTER 2: Keeping Procedural Generation Simple34Two Examples from Spelunky 35Perception versus Reality 36Using Context to Take Your Work from Trivial to Impressive 37The Problem Might Not Be Your Procgen 38Conclusion 39CHAPTER 3:Generated Right in the Feels  40Note 52CHAPTER 4: Adapting Content to Player Choices54Choosing Which Parts to Adapt 55Combining Bits 59Creating the Right Bits 60Papering over the Seams 62Control over Specificity 62ACompletely New Way of Creating Content 63The Big Picture 64Notes 65CHAPTER 5: Ethical Procedural Generation66Talking in Code 67The Big Wide World 69You Are What You Eat 74Talking the Talk 75The Future 79SECTION 2: Structure and Systems80CHAPTER 6: Retrospective: Murder on the Zinderneuf (1983)82CHAPTER 7: Designing for Narrative Momentum92Only Forwards Design 93Opening the Flow 95The Design of Ink 96The Weave Structure 96Content as Conditionals 98Sequences and Loops 98Narrative Momentum in aGraphical Context 100Knowledge as an Acyclic Directed Graph 101Knowledge Webs 103Using the Knowledge Model 104Conclusion 106CHAPTER 8: Curated Narrative in Duskers108Explore, Adapt, Survive 108When All You Have Is aHammer 109Order Matters 110Let the Player Drive 114Narrative as aLure 116Compiling It All Down 118CHAPTER 9: Uncanny Text: Blending Static and Procedural Fiction120Southern Monsters 120Battlecakes 122Playful Text 124The Domovoi 125Memory Blocks 126Matul Remrit 127The Future 128CHAPTER 10: Dramatic Play in The Sims130Design Examples in The Sims 132Dramatic Design Patterns in Other Games 141CHAPTER 11: Memorable Stories from Simple Rules in Curious Expedition144Three Levels of Abstraction 145Same Event, Different Interpretations 148Story Arcs 150CHAPTER 12: Amplifying Themes and Emotions in Systems152The Emotions of Colonialism in Triple Town 153Identifying aTheme 155Using Theme to Amplify Gameplay Emotions 157Triple Town as aNarrative Failure 159Failures of Communication 160Failures of Taste 161Closing Thoughts 163Notes 164CHAPTER 13: Emergent Narrative in Dwarf Fortress166Designing for Emergent Narrative 166The Player’s Perspective and Exposition 171CHAPTER 14: Heavily Authored Dynamic Storytelling in Church in the Darkness176Motivations 178Inspirations 179Core Systems 182Player Choices 188Conclusion: Why Build It? 192SECTION 3: Worlds and Context194CHAPTER 15: Generating Histories196Entities and Events 197Subjectivity in History 198History Generation in Practice: Caves of Qud 199Conclusion 208Notes 209CHAPTER 16: Procedural Descriptions in Voyageur210Setting the Stage 211Improv: The Tool 213Filtering, Reincorporation, and Sources of Truth 217Where World Models Come From 219Conclusions 222CHAPTER 17: Generating in the Real World226How Do Analog Works Use Procedurality? 227Why Bother to Bring the Digital into the Physical? 231An Attempt 232Case Study: Computational Flâneur 235But IJust Want to Keep Making Digital Things! 241CHAPTER 18: Dirty Procedural Narrative in We Happy Few244You Have aSuperpower 246Mental Work Makes Emotional Engagement 247Pull vs. Push 248Dirty Narrative Is Dangerous 255The Holy Grail 256CHAPTER 19: Beyond Fun in Frostpunk258Making Sense of the World 258Developing Frostpunk 260Prototype 1: Society 260Prototype 2: Prophet 263Prototype 3: Player Agency 265Final Stretch 269Notes 272CHAPTER 20: Procedural Storytelling in Dungeons & Dragons274Moves 276Dangers 278Failing Forward 281SECTION 4: Characters286CHAPTER 21: Maximizing the Impact of Generated Personalities288Tip 1: Define the Player’s Interpretation Process 288Tip 2: Personalities Are Already Subtle 291Tip 3: Comedy Is Close at Hand 294Tip 4: Allow after-the-Fact Investigation 295Tip 5: Reactions ≥ Actions 296Tip 6: Change Is Powerful 297Summary 298Notes 299CHAPTER 22: Procedural Characters in State of Decay 2300Blandness 301Contradictions 302Contradiction Winnowing 303Identity Contradictions 304Order of Operations 308ORDER OF OPERATIONS, REDESIGNED 309Summary 310CHAPTER 23: Plot Generators312CHAPTER 24: Generating Personalities in The Shrouded Isle320Character Generation 321Interaction 323Trait Modification 328Analysis and Conclusion 331CHAPTER 25: Dialog334Use Cases 335Context-Sensitive Vocalization 337Automatic Triggers 339Memory 340Repartee 342Complex Responses 343Data-Driven Context 344Usability 344Data Structures and Their Implementation 346Authoring Tools 350Conclusion 352Note 353SECTION 5: Resources354CHAPTER 26: Tarot as Procedural Storytelling356Notes 367CHAPTER 27: Things You Can Do with Twitterbots368CHAPTER 28: Creating Tools for Procedural Storytelling378What Can Authoring Tools for Procedural Storytelling Do? 379Things to Think about while Planning aNew Tool 386As You’re Building 387Notes 392Index394Alternative descriptionThis edited collection of chapters concerns the evolving discipline of procedural storytelling in video games. Games are an interactive medium, and this interplay between author, player and machine provides new and exciting ways to create and tell stories. In each essay, practitioners of this artform demonstrate how traditional storytelling tools such as characterization, world-building, theme, momentum and atmosphere can be adapted to full effect, using specific examples from their games. The reader will learn to construct narrative systems, write procedural dialog, and generate compelling characters with unique personalities and backstories.Key FeaturesIntroduces the differences between static/traditional game design and procedural game design Demonstrates how to solve or avoid common problems with procedural game design in a variety of concrete ways World's finest guide for how to begin thinking about procedural designAlternative description"This edited collection of chapters concerns the evolving discipline of procedural storytelling in video games. Games are an interactive medium, and this interplay between author, player and machine provides new and exciting ways to create and tell stories. In each essay, practitioners of this artform demonstrate how traditional storytelling tools such as characterization, world-building, theme, momentum and atmosphere can be adapted to full effect, using specific examples from their games. The reader will learn to construct narrative systems, write procedural dialog, and generate compelling characters with unique personalities and backstories"--Amazon.comdate open sourced2020-01-18
+
+    
+      
+          ISBN-13978-0-429-48833-7
+          ISBN-13978-0-429-94858-9
+          ISBN-13978-0-429-94859-6
+          ISBN-13978-1-138-59530-9
+          ISBN-13978-1-138-59531-6
+          ISBN-100-429-48833-5
+          ISBN-100-429-94858-1
+          ISBN-100-429-94859-X
+          ISBN-101-138-59530-6
+          ISBN-101-138-59531-4
+          OCLC1057731051
+          OCLC1090011865
+          OCLC1108108319
+          OCLC1164625501
+          AacIdaacid__ebscohost_records__20240823T162619Z__kybMch9Wnw2uDYb4SaKmxL
+          AacIdaacid__gbooks_records__20240920T051416Z__PEnB62AQtGjRttnb7jeEMK
+          AacIdaacid__isbngrp_records__20240920T194930Z__JoWnGkbp3xLqqRHwVgPHtE
+          AacIdaacid__isbngrp_records__20240920T194930Z__TMsVHcfLTBCYfzizYwyucA
+          AacIdaacid__isbngrp_records__20240920T194930Z__g78F5n33cGmZqzA56QZwie
+          AacIdaacid__nexusstc_records__20240516T144103Z__829NHQX2WCV7UASbqWigRV
+          AacIdaacid__upload_records_newsarch_ebooks__20241223T182149Z__1338735__VEDd3Unq9eycwprs4haPVa
+          AacIdaacid__worldcat__20250804T000000Z__2WWZQETtdeEndXRBb5zLP6
+          AacIdaacid__worldcat__20250804T000000Z__5KruxHamHCsW6yoMcPDEby
+          AacIdaacid__worldcat__20250804T000000Z__DLrrq6LLddoTfi6CmLMnpD
+          AacIdaacid__worldcat__20250804T000000Z__Esba5tvPzYTnzRx4DRi5NA
+          AacIdaacid__worldcat__20250804T000000Z__H3knqJYAiidjRzx2eQyZC3
+          AacIdaacid__worldcat__20250804T000000Z__HexnT7Czc5NDoVF5RSBjMM
+          AacIdaacid__worldcat__20250804T000000Z__KXHnSDVNfNtmhMdj2KQnRV
+          AacIdaacid__worldcat__20250804T000000Z__Px4NPmH37tgFnWwPcEwiqJ
+          AacIdaacid__worldcat__20250804T000000Z__S7qFPJz5Q44KSaSzp37u9i
+          AacIdaacid__worldcat__20250804T000000Z__UkS7bM7pf5STJTrPA5jsBF
+          AacIdaacid__worldcat__20250804T000000Z__XnX5YKWcCz8WPx6xi5V6vw
+          AacIdaacid__worldcat__20250804T000000Z__fHRpAcLZSPHxsGckEtm6LS
+          AacIdaacid__worldcat__20250804T000000Z__iv3mdhSxVAgdMX9VDin2Vu
+          AacIdaacid__worldcat__20250804T000000Z__n4CfFQDhCJQp26TEkB6hPM
+          AacIdaacid__zlib3_records__20240809T230233Z__5341605__M3oCVNgjAxYHGQoKSg69nA
+          AA Record IDmd5:20934da4d2df9ec264d21fc9d24afdab
+          Collectionlgli
+          Collectionlgrs
+          Collectionnexusstc
+          Collectionupload
+          Collectionzlib
+          Content Typebook_nonfiction
+          SHA-256d3f71b4f
+          EBSCOhost eBook Index Source Scrape Date2024-08-23
+          File Exiftool Created Date2019-02-27
+          Google Books Source Scrape Date2024-09-20
+          ISBNdb Scrape Date2022-09-01
+          ISBN GRP Source Scrape Date2024-09-20
+          Libgen.li Source Date2020-01-18
+          Libgen.rs Non-Fiction Date2020-01-18
+          Nexus/STC Source issued_at Date2019-01-01
+          Nexus/STC Source Updated Date2024-05-16
+          OCLC Scrape Date2025-01-01
+          OpenLib 'created' Date2021-10-06
+          Upload Collection Record Date2024-12-23
+          Z-Library Source Date2020-01-19
+          DDC794.81536
+          EBSCOhost eBook Index Accession Number2053680
+          EBSCOhost eBook Index Subjectbisac/COMPUTERS / Programming / Games
+          EBSCOhost eBook Index Subjectunclass/Level design (Computer science)
+          EBSCOhost eBook Index Subjectunclass/Video games--Design
+          Filepathlgli/Short_amp;Adams_Procedural Storytelling in Game Design.pdf
+          Filepathlgrsnf/Short_amp;Adams_Procedural Storytelling in Game Design.pdf
+          Filepathnexusstc/Procedural Storytelling in Game Design/20934da4d2df9ec264d21fc9d24afdab.pdf
+          Filepathupload/newsarch_ebooks/2022/05/07/Tanya X. Short_ Tarn Adams - Procedural Storytelling in Game Design.pdf
+          Filepathzlib/Computers/PC & Video Games/Tanya X. Short; Tarn Adams/Procedural Storytelling in Game Design_5341605.pdf
+          Filesize11242625
+          Google BooksgJVIvQEACAAJ
+          IPFS CIDQmbFfsabVCLyUMmrkQhXifKBpwzaJcnfHA3Hv95YKoNMdZ
+          IPFS CIDbafykbzacedsuqdagaxhoinirtsbamkq5ywevsf7bdg2ftqum4jdfboll3remg
+          ISBN GRP ID79e0645fa857bd5da802ee62cd08a6dc
+          ISBN GRP ID7abbebc87382b384bf2dc7ad5327da48
+          ISBN GRP IDf18f17d99c6c3961754cbe6d74666c22
+          Languageen
+          LCCQA76.76.C672 S543 2019eb
+          LCCQA76.76.C672S543
+          Libgen.li File93449025
+          Libgen.li libgen_id2462336
+          Libgen.rs Non-Fiction2462336
+          Libgen.rs Non-Fiction Topiccomputers\\programming: games
+          MD520934da4d2df9ec264d21fc9d24afdab
+          Nexus/STCbxretl2ijly1fngxw9g5x1xie
+          OCLC Editions11
+          OCLC Editions13
+          OCLC Editions (from search_holdings_all_editions_response)13
+          OCLC Editions (from search_holdings_summary_all_editions)11
+          OCLC 'From Filename'2023_04_v3/1862/18623973
+          OCLC 'From Filename'range_query/5494616###
+          OCLC 'From Filename'range_query/5494616###____2
+          OCLC 'From Filename'search_editions_response/1057731051
+          OCLC 'From Filename'search_holdings_summary_all_editions/1057731051/index/48302069
+          OCLC 'From Filename'search_holdings_summary_all_editions/1164625501/index/55180137
+          OCLC 'From Filename't123/1061/1061554421
+          OCLC 'From Filename'w2/v7/1292/129213690
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v3/0761/76138431
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v5/1345/1345773251
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/0003/0003753036
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/0139/0139527230
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/0143/0143857033
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/0637/0637099319
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/0723/0723950677
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/1249/1249010953
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/2418/2418885816
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/2712/2712511585
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/3065/3065825671
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/3576/3576410941
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/4465/4465045104
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/5124/5124516913
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/5420/5420995560
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/5681/5681571234
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/6107/6107406157
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/6158/6158547963
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/7273/7273887297
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/7671/7671524320
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/9276/9276226857
+          OCLC 'From Filename'worldcat_2022_09_titles_1_backup_2022_10_12/v6/9597/9597735895
+          Open LibraryOL25751416W
+          Open LibraryOL34653729M
+          Open Library Source Recordbwb:9781138595316
+          Open Library SubjectComputer games, design
+          Server Pathg4/libgenrs_nonfiction/libgenrs_nonfiction/2462000/20934da4d2df9ec264d21fc9d24afdab
+          SHA-13lp7ygpfkalqotu2mo3ro5ez6jwmhghr
+          SHA-1dadffc19e55017074e9a63b7177499f26cc398f1
+          SHA-2563b5a43067f4cbc72968d6e3ae05a66867ae9ce3fe498d4e94ed5e2897fd82f26
+          Torrentexternal/libgen_rs_non_fic/r_2462000.torrent
+          Year2002
+          Year2018
+          Year2019
+          Z-Library5341605
+          Zlib Category ID196
+          Zlib Category NameComputers/PC & Video Games
+      
+      
+          
+            ISBN-13:
+ copycopied!978-0-429-48833-7 /  copycopied!9780429488337
+URL: https://en.wikipedia.org/wiki/Special:BookSources?isbn=9780429488337Website: https://en.wikipedia.org/wiki/ISBN            AA: Search Anna’s Archive for “isbn13:9780429488337”
+            Codes Explorer: View in Codes Explorer “isbn13:9780429488337”
+          
+          
+            ISBN-13:
+ copycopied!978-0-429-94858-9 /  copycopied!9780429948589
+URL: https://en.wikipedia.org/wiki/Special:BookSources?isbn=9780429948589Website: https://en.wikipedia.org/wiki/ISBN            AA: Search Anna’s Archive for “isbn13:9780429948589”
+            Codes Explorer: View in Codes Explorer “isbn13:9780429948589”
+          
+          
+            ISBN-13:
+ copycopied!978-0-429-94859-6 /  copycopied!9780429948596
+URL: https://en.wikipedia.org/wiki/Special:BookSources?isbn=9780429948596Website: https://en.wikipedia.org/wiki/ISBN            AA: Search Anna’s Archive for “isbn13:9780429948596”
+            Codes Explorer: View in Codes Explorer “isbn13:9780429948596”
+          
+          
+            ISBN-13:
+ copycopied!978-1-138-59530-9 /  copycopied!9781138595309
+URL: https://en.wikipedia.org/wiki/Special:BookSources?isbn=9781138595309Website: https://en.wikipedia.org/wiki/ISBN            AA: Search Anna’s Archive for “isbn13:9781138595309”
+            Codes Explorer: View in Codes Explorer “isbn13:9781138595309”
+          
+          
+            ISBN-13:
+ copycopied!978-1-138-59531-6 /  copycopied!9781138595316
+URL: https://en.wikipedia.org/wiki/Special:BookSources?isbn=9781138595316Website: https://en.wikipedia.org/wiki/ISBN            AA: Search Anna’s Archive for “isbn13:9781138595316”
+            Codes Explorer: View in Codes Explorer “isbn13:9781138595316”
+          
+          
+            ISBN-10:
+ copycopied!0-429-48833-5 /  copycopied!0429488335
+URL: https://en.wikipedia.org/wiki/Special:BookSources?isbn=0429488335Website: https://en.wikipedia.org/wiki/ISBN            AA: Search Anna’s Archive for “isbn10:0429488335”
+            Codes Explorer: View in Codes Explorer “isbn10:0429488335”
+          
+          
+            ISBN-10:
+ copycopied!0-429-94858-1 /  copycopied!0429948581
+URL: https://en.wikipedia.org/wiki/Special:BookSources?isbn=0429948581Website: https://en.wikipedia.org/wiki/ISBN            AA: Search Anna’s Archive for “isbn10:0429948581”
+            Codes Explorer: View in Codes Explorer “isbn10:0429948581”
+          
+          
+            ISBN-10:
+ copycopied!0-429-94859-X /  copycopied!042994859X
+URL: https://en.wikipedia.org/wiki/Special:BookSources?isbn=042994859XWebsite: https://en.wikipedia.org/wiki/ISBN            AA: Search Anna’s Archive for “isbn10:042994859X”
+            Codes Explorer: View in Codes Explorer “isbn10:042994859X”
+          
+          
+            ISBN-10:
+ copycopied!1-138-59530-6 /  copycopied!1138595306
+URL: https://en.wikipedia.org/wiki/Special:BookSources?isbn=1138595306Website: https://en.wikipedia.org/wiki/ISBN            AA: Search Anna’s Archive for “isbn10:1138595306”
+            Codes Explorer: View in Codes Explorer “isbn10:1138595306”
+          
+          
+            ISBN-10:
+ copycopied!1-138-59531-4 /  copycopied!1138595314
+URL: https://en.wikipedia.org/wiki/Special:BookSources?isbn=1138595314Website: https://en.wikipedia.org/wiki/ISBN            AA: Search Anna’s Archive for “isbn10:1138595314”
+            Codes Explorer: View in Codes Explorer “isbn10:1138595314”
+          
+          
+            OCLC:
+ copycopied!1057731051
+OCLC/WorldCat ID.URL: https://www.worldcat.org/oclc/1057731051Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc:1057731051”
+            Codes Explorer: View in Codes Explorer “oclc:1057731051”
+          
+          
+            OCLC:
+ copycopied!1090011865
+OCLC/WorldCat ID.URL: https://www.worldcat.org/oclc/1090011865Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc:1090011865”
+            Codes Explorer: View in Codes Explorer “oclc:1090011865”
+          
+          
+            OCLC:
+ copycopied!1108108319
+OCLC/WorldCat ID.URL: https://www.worldcat.org/oclc/1108108319Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc:1108108319”
+            Codes Explorer: View in Codes Explorer “oclc:1108108319”
+          
+          
+            OCLC:
+ copycopied!1164625501
+OCLC/WorldCat ID.URL: https://www.worldcat.org/oclc/1164625501Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc:1164625501”
+            Codes Explorer: View in Codes Explorer “oclc:1164625501”
+          
+          
+            AacId:
+ copycopied!aacid__ebscohost_records__20240823T162619Z__kybMch9Wnw2uDYb4SaKmxL
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__ebscohost_records__20240823T162619Z__kybMch9Wnw2uDYb4SaKmxL.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__ebscohost_records__20240823T162619Z__kybMch9Wnw2uDYb4SaKmxL”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__ebscohost_records__20240823T162619Z__kybMch9Wnw2uDYb4SaKmxL”
+          
+          
+            AacId:
+ copycopied!aacid__gbooks_records__20240920T051416Z__PEnB62AQtGjRttnb7jeEMK
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__gbooks_records__20240920T051416Z__PEnB62AQtGjRttnb7jeEMK.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__gbooks_records__20240920T051416Z__PEnB62AQtGjRttnb7jeEMK”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__gbooks_records__20240920T051416Z__PEnB62AQtGjRttnb7jeEMK”
+          
+          
+            AacId:
+ copycopied!aacid__isbngrp_records__20240920T194930Z__JoWnGkbp3xLqqRHwVgPHtE
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__isbngrp_records__20240920T194930Z__JoWnGkbp3xLqqRHwVgPHtE.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__isbngrp_records__20240920T194930Z__JoWnGkbp3xLqqRHwVgPHtE”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__isbngrp_records__20240920T194930Z__JoWnGkbp3xLqqRHwVgPHtE”
+          
+          
+            AacId:
+ copycopied!aacid__isbngrp_records__20240920T194930Z__TMsVHcfLTBCYfzizYwyucA
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__isbngrp_records__20240920T194930Z__TMsVHcfLTBCYfzizYwyucA.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__isbngrp_records__20240920T194930Z__TMsVHcfLTBCYfzizYwyucA”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__isbngrp_records__20240920T194930Z__TMsVHcfLTBCYfzizYwyucA”
+          
+          
+            AacId:
+ copycopied!aacid__isbngrp_records__20240920T194930Z__g78F5n33cGmZqzA56QZwie
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__isbngrp_records__20240920T194930Z__g78F5n33cGmZqzA56QZwie.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__isbngrp_records__20240920T194930Z__g78F5n33cGmZqzA56QZwie”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__isbngrp_records__20240920T194930Z__g78F5n33cGmZqzA56QZwie”
+          
+          
+            AacId:
+ copycopied!aacid__nexusstc_records__20240516T144103Z__829NHQX2WCV7UASbqWigRV
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__nexusstc_records__20240516T144103Z__829NHQX2WCV7UASbqWigRV.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__nexusstc_records__20240516T144103Z__829NHQX2WCV7UASbqWigRV”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__nexusstc_records__20240516T144103Z__829NHQX2WCV7UASbqWigRV”
+          
+          
+            AacId:
+ copycopied!aacid__upload_records_newsarch_ebooks__20241223T182149Z__1338735__VEDd3Unq9eycwprs4haPVa
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__upload_records_newsarch_ebooks__20241223T182149Z__1338735__VEDd3Unq9eycwprs4haPVa.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__upload_records_newsarch_ebooks__20241223T182149Z__1338735__VEDd3Unq9eycwprs4haPVa”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__upload_records_newsarch_ebooks__20241223T182149Z__1338735__VEDd3Unq9eycwprs4haPVa”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__2WWZQETtdeEndXRBb5zLP6
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__2WWZQETtdeEndXRBb5zLP6.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__2WWZQETtdeEndXRBb5zLP6”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__2WWZQETtdeEndXRBb5zLP6”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__5KruxHamHCsW6yoMcPDEby
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__5KruxHamHCsW6yoMcPDEby.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__5KruxHamHCsW6yoMcPDEby”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__5KruxHamHCsW6yoMcPDEby”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__DLrrq6LLddoTfi6CmLMnpD
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__DLrrq6LLddoTfi6CmLMnpD.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__DLrrq6LLddoTfi6CmLMnpD”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__DLrrq6LLddoTfi6CmLMnpD”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__Esba5tvPzYTnzRx4DRi5NA
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__Esba5tvPzYTnzRx4DRi5NA.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__Esba5tvPzYTnzRx4DRi5NA”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__Esba5tvPzYTnzRx4DRi5NA”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__H3knqJYAiidjRzx2eQyZC3
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__H3knqJYAiidjRzx2eQyZC3.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__H3knqJYAiidjRzx2eQyZC3”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__H3knqJYAiidjRzx2eQyZC3”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__HexnT7Czc5NDoVF5RSBjMM
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__HexnT7Czc5NDoVF5RSBjMM.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__HexnT7Czc5NDoVF5RSBjMM”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__HexnT7Czc5NDoVF5RSBjMM”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__KXHnSDVNfNtmhMdj2KQnRV
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__KXHnSDVNfNtmhMdj2KQnRV.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__KXHnSDVNfNtmhMdj2KQnRV”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__KXHnSDVNfNtmhMdj2KQnRV”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__Px4NPmH37tgFnWwPcEwiqJ
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__Px4NPmH37tgFnWwPcEwiqJ.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__Px4NPmH37tgFnWwPcEwiqJ”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__Px4NPmH37tgFnWwPcEwiqJ”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__S7qFPJz5Q44KSaSzp37u9i
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__S7qFPJz5Q44KSaSzp37u9i.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__S7qFPJz5Q44KSaSzp37u9i”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__S7qFPJz5Q44KSaSzp37u9i”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__UkS7bM7pf5STJTrPA5jsBF
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__UkS7bM7pf5STJTrPA5jsBF.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__UkS7bM7pf5STJTrPA5jsBF”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__UkS7bM7pf5STJTrPA5jsBF”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__XnX5YKWcCz8WPx6xi5V6vw
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__XnX5YKWcCz8WPx6xi5V6vw.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__XnX5YKWcCz8WPx6xi5V6vw”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__XnX5YKWcCz8WPx6xi5V6vw”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__fHRpAcLZSPHxsGckEtm6LS
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__fHRpAcLZSPHxsGckEtm6LS.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__fHRpAcLZSPHxsGckEtm6LS”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__fHRpAcLZSPHxsGckEtm6LS”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__iv3mdhSxVAgdMX9VDin2Vu
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__iv3mdhSxVAgdMX9VDin2Vu.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__iv3mdhSxVAgdMX9VDin2Vu”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__iv3mdhSxVAgdMX9VDin2Vu”
+          
+          
+            AacId:
+ copycopied!aacid__worldcat__20250804T000000Z__n4CfFQDhCJQp26TEkB6hPM
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__worldcat__20250804T000000Z__n4CfFQDhCJQp26TEkB6hPM.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__worldcat__20250804T000000Z__n4CfFQDhCJQp26TEkB6hPM”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__worldcat__20250804T000000Z__n4CfFQDhCJQp26TEkB6hPM”
+          
+          
+            AacId:
+ copycopied!aacid__zlib3_records__20240809T230233Z__5341605__M3oCVNgjAxYHGQoKSg69nA
+Anna’s Archive Container identifier.URL: /db/aac_record/aacid__zlib3_records__20240809T230233Z__5341605__M3oCVNgjAxYHGQoKSg69nA.json.htmlWebsite: /blog/annas-archive-containers.html            AA: Search Anna’s Archive for “aacid:aacid__zlib3_records__20240809T230233Z__5341605__M3oCVNgjAxYHGQoKSg69nA”
+            Codes Explorer: View in Codes Explorer “aacid:aacid__zlib3_records__20240809T230233Z__5341605__M3oCVNgjAxYHGQoKSg69nA”
+          
+          
+            AA Record ID:
+ copycopied!md5:20934da4d2df9ec264d21fc9d24afdab
+Anna’s Archive record ID.            AA: Search Anna’s Archive for “aarecord_id:md5:20934da4d2df9ec264d21fc9d24afdab”
+            Codes Explorer: View in Codes Explorer “aarecord_id:md5:20934da4d2df9ec264d21fc9d24afdab”
+          
+          
+            Collection:
+ copycopied!lgli
+The collection on Anna’s Archive that provided data for this record.URL: /datasets/lgliWebsite: /datasets            AA: Search Anna’s Archive for “collection:lgli”
+            Codes Explorer: View in Codes Explorer “collection:lgli”
+          
+          
+            Collection:
+ copycopied!lgrs
+The collection on Anna’s Archive that provided data for this record.URL: /datasets/lgrsWebsite: /datasets            AA: Search Anna’s Archive for “collection:lgrs”
+            Codes Explorer: View in Codes Explorer “collection:lgrs”
+          
+          
+            Collection:
+ copycopied!nexusstc
+The collection on Anna’s Archive that provided data for this record.URL: /datasets/nexusstcWebsite: /datasets            AA: Search Anna’s Archive for “collection:nexusstc”
+            Codes Explorer: View in Codes Explorer “collection:nexusstc”
+          
+          
+            Collection:
+ copycopied!upload
+The collection on Anna’s Archive that provided data for this record.URL: /datasets/uploadWebsite: /datasets            AA: Search Anna’s Archive for “collection:upload”
+            Codes Explorer: View in Codes Explorer “collection:upload”
+          
+          
+            Collection:
+ copycopied!zlib
+The collection on Anna’s Archive that provided data for this record.URL: /datasets/zlibWebsite: /datasets            AA: Search Anna’s Archive for “collection:zlib”
+            Codes Explorer: View in Codes Explorer “collection:zlib”
+          
+          
+            Content Type:
+ copycopied!book_nonfiction
+Content type, determined by Anna’s Archive.            AA: Search Anna’s Archive for “content_type:book_nonfiction”
+            Codes Explorer: View in Codes Explorer “content_type:book_nonfiction”
+          
+          
+            SHA-256:
+ copycopied!d3f71b4f
+Website: https://en.wikipedia.org/wiki/CRC32            AA: Search Anna’s Archive for “crc32:d3f71b4f”
+            Codes Explorer: View in Codes Explorer “crc32:d3f71b4f”
+          
+          
+            EBSCOhost eBook Index Source Scrape Date:
+ copycopied!2024-08-23
+Date Anna’s Archive scraped the EBSCOhost metadata.Website: /datasets/edsebk            AA: Search Anna’s Archive for “date_edsebk_meta_scrape:2024-08-23”
+            Codes Explorer: View in Codes Explorer “date_edsebk_meta_scrape:2024-08-23”
+          
+          
+            File Exiftool Created Date:
+ copycopied!2019-02-27
+Date of creation from the file’s own metadata.Website: /datasets/upload            AA: Search Anna’s Archive for “date_file_created:2019-02-27”
+            Codes Explorer: View in Codes Explorer “date_file_created:2019-02-27”
+          
+          
+            Google Books Source Scrape Date:
+ copycopied!2024-09-20
+Date Anna’s Archive scraped the Google Books collection.Website: /datasets/gbooks            AA: Search Anna’s Archive for “date_gbooks_meta_scrape:2024-09-20”
+            Codes Explorer: View in Codes Explorer “date_gbooks_meta_scrape:2024-09-20”
+          
+          
+            ISBNdb Scrape Date:
+ copycopied!2022-09-01
+The date that Anna’s Archive scraped this ISBNdb record.Website: /datasets/isbndb            AA: Search Anna’s Archive for “date_isbndb_scrape:2022-09-01”
+            Codes Explorer: View in Codes Explorer “date_isbndb_scrape:2022-09-01”
+          
+          
+            ISBN GRP Source Scrape Date:
+ copycopied!2024-09-20
+Date Anna’s Archive scraped the ISBN GRP collection.Website: /datasets/isbngrp            AA: Search Anna’s Archive for “date_isbngrp_meta_scrape:2024-09-20”
+            Codes Explorer: View in Codes Explorer “date_isbngrp_meta_scrape:2024-09-20”
+          
+          
+            Libgen.li Source Date:
+ copycopied!2020-01-18
+Date Libgen.li published this file.Website: /datasets/lgli            AA: Search Anna’s Archive for “date_lgli_source:2020-01-18”
+            Codes Explorer: View in Codes Explorer “date_lgli_source:2020-01-18”
+          
+          
+            Libgen.rs Non-Fiction Date:
+ copycopied!2020-01-18
+Date Libgen.rs Non_Fiction published this file.Website: /datasets/lgrs            AA: Search Anna’s Archive for “date_lgrsnf_source:2020-01-18”
+            Codes Explorer: View in Codes Explorer “date_lgrsnf_source:2020-01-18”
+          
+          
+            Nexus/STC Source issued_at Date:
+ copycopied!2019-01-01
+Date Nexus/STC reports in their issued_at field, which is the “issuing time of the item described by record.”Website: /datasets/nexusstc            AA: Search Anna’s Archive for “date_nexusstc_source_issued_at:2019-01-01”
+            Codes Explorer: View in Codes Explorer “date_nexusstc_source_issued_at:2019-01-01”
+          
+          
+            Nexus/STC Source Updated Date:
+ copycopied!2024-05-16
+Date Nexus/STC last updated this record.Website: /datasets/nexusstc            AA: Search Anna’s Archive for “date_nexusstc_source_update:2024-05-16”
+            Codes Explorer: View in Codes Explorer “date_nexusstc_source_update:2024-05-16”
+          
+          
+            OCLC Scrape Date:
+ copycopied!2025-01-01
+The date that Anna’s Archive scraped this OCLC/WorldCat record.Website: /datasets/oclc            AA: Search Anna’s Archive for “date_oclc_scrape:2025-01-01”
+            Codes Explorer: View in Codes Explorer “date_oclc_scrape:2025-01-01”
+          
+          
+            OpenLib 'created' Date:
+ copycopied!2021-10-06
+The 'created' metadata field on the Open Library, indicating when the first version of this record was created.Website: /datasets/ol            AA: Search Anna’s Archive for “date_ol_source:2021-10-06”
+            Codes Explorer: View in Codes Explorer “date_ol_source:2021-10-06”
+          
+          
+            Upload Collection Record Date:
+ copycopied!2024-12-23
+Date Anna’s Archive indexed this file in our 'upload' collection.Website: /datasets/upload            AA: Search Anna’s Archive for “date_upload_record:2024-12-23”
+            Codes Explorer: View in Codes Explorer “date_upload_record:2024-12-23”
+          
+          
+            Z-Library Source Date:
+ copycopied!2020-01-19
+Date Z-Library published this file.Website: /datasets/zlib            AA: Search Anna’s Archive for “date_zlib_source:2020-01-19”
+            Codes Explorer: View in Codes Explorer “date_zlib_source:2020-01-19”
+          
+          
+            DDC:
+ copycopied!794.81536
+Dewey DecimalURL: https://libgen.li/biblioservice.php?value=794.81536&type=ddcWebsite: https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes            AA: Search Anna’s Archive for “ddc:794.81536”
+            Codes Explorer: View in Codes Explorer “ddc:794.81536”
+          
+          
+            EBSCOhost eBook Index Accession Number:
+ copycopied!2053680
+ID in the EBSCOhost eBook Index (edsebk).URL: https://library.macewan.ca/full-record/edsebk/2053680Website: /datasets/edsebk            AA: Search Anna’s Archive for “edsebk:2053680”
+            Codes Explorer: View in Codes Explorer “edsebk:2053680”
+          
+          
+            EBSCOhost eBook Index Subject:
+ copycopied!bisac/COMPUTERS / Programming / Games
+Tag in EBSCOhost eBook Index.Website: /datasets/edsebk            AA: Search Anna’s Archive for “edsebk_subject:bisac/COMPUTERS / Programming / Games”
+            Codes Explorer: View in Codes Explorer “edsebk_subject:bisac/COMPUTERS / Programming / Games”
+          
+          
+            EBSCOhost eBook Index Subject:
+ copycopied!unclass/Level design (Computer science)
+Tag in EBSCOhost eBook Index.Website: /datasets/edsebk            AA: Search Anna’s Archive for “edsebk_subject:unclass/Level design (Computer science)”
+            Codes Explorer: View in Codes Explorer “edsebk_subject:unclass/Level design (Computer science)”
+          
+          
+            EBSCOhost eBook Index Subject:
+ copycopied!unclass/Video games--Design
+Tag in EBSCOhost eBook Index.Website: /datasets/edsebk            AA: Search Anna’s Archive for “edsebk_subject:unclass/Video games--Design”
+            Codes Explorer: View in Codes Explorer “edsebk_subject:unclass/Video games--Design”
+          
+          
+            Filepath:
+ copycopied!lgli/Short_amp;Adams_Procedural Storytelling in Game Design.pdf
+Browse collections using their original file paths (particularly 'upload' is interesting)            AA: Search Anna’s Archive for “filepath:lgli/Short_amp;Adams_Procedural Storytelling in Game Design.pdf”
+            Codes Explorer: View in Codes Explorer “filepath:lgli/Short_amp;Adams_Procedural Storytelling in Game Design.pdf”
+          
+          
+            Filepath:
+ copycopied!lgrsnf/Short_amp;Adams_Procedural Storytelling in Game Design.pdf
+Browse collections using their original file paths (particularly 'upload' is interesting)            AA: Search Anna’s Archive for “filepath:lgrsnf/Short_amp;Adams_Procedural Storytelling in Game Design.pdf”
+            Codes Explorer: View in Codes Explorer “filepath:lgrsnf/Short_amp;Adams_Procedural Storytelling in Game Design.pdf”
+          
+          
+            Filepath:
+ copycopied!nexusstc/Procedural Storytelling in Game Design/20934da4d2df9ec264d21fc9d24afdab.pdf
+Browse collections using their original file paths (particularly 'upload' is interesting)            AA: Search Anna’s Archive for “filepath:nexusstc/Procedural Storytelling in Game Design/20934da4d2df9ec264d21fc9d24afdab.pdf”
+            Codes Explorer: View in Codes Explorer “filepath:nexusstc/Procedural Storytelling in Game Design/20934da4d2df9ec264d21fc9d24afdab.pdf”
+          
+          
+            Filepath:
+ copycopied!upload/newsarch_ebooks/2022/05/07/Tanya X. Short_ Tarn Adams - Procedural Storytelling in Game Design.pdf
+Browse collections using their original file paths (particularly 'upload' is interesting)            AA: Search Anna’s Archive for “filepath:upload/newsarch_ebooks/2022/05/07/Tanya X. Short_ Tarn Adams - Procedural Storytelling in Game Design.pdf”
+            Codes Explorer: View in Codes Explorer “filepath:upload/newsarch_ebooks/2022/05/07/Tanya X. Short_ Tarn Adams - Procedural Storytelling in Game Design.pdf”
+          
+          
+            Filepath:
+ copycopied!zlib/Computers/PC & Video Games/Tanya X. Short; Tarn Adams/Procedural Storytelling in Game Design_5341605.pdf
+Browse collections using their original file paths (particularly 'upload' is interesting)            AA: Search Anna’s Archive for “filepath:zlib/Computers/PC & Video Games/Tanya X. Short; Tarn Adams/Procedural Storytelling in Game Design_5341605.pdf”
+            Codes Explorer: View in Codes Explorer “filepath:zlib/Computers/PC & Video Games/Tanya X. Short; Tarn Adams/Procedural Storytelling in Game Design_5341605.pdf”
+          
+          
+            Filesize:
+ copycopied!11242625
+Filesize in bytes.            AA: Search Anna’s Archive for “filesize_bytes:11242625”
+            Codes Explorer: View in Codes Explorer “filesize_bytes:11242625”
+          
+          
+            Google Books:
+ copycopied!gJVIvQEACAAJ
+URL: https://books.google.com/books?id=gJVIvQEACAAJWebsite: /datasets/gbooks            AA: Search Anna’s Archive for “gbooks:gJVIvQEACAAJ”
+            Codes Explorer: View in Codes Explorer “gbooks:gJVIvQEACAAJ”
+          
+          
+            IPFS CID:
+ copycopied!QmbFfsabVCLyUMmrkQhXifKBpwzaJcnfHA3Hv95YKoNMdZ
+Content Identifier (CID) of the InterPlanetary File System (IPFS).URL: ipfs://QmbFfsabVCLyUMmrkQhXifKBpwzaJcnfHA3Hv95YKoNMdZWebsite: https://ipfs.tech/            AA: Search Anna’s Archive for “ipfs_cid:QmbFfsabVCLyUMmrkQhXifKBpwzaJcnfHA3Hv95YKoNMdZ”
+            Codes Explorer: View in Codes Explorer “ipfs_cid:QmbFfsabVCLyUMmrkQhXifKBpwzaJcnfHA3Hv95YKoNMdZ”
+          
+          
+            IPFS CID:
+ copycopied!bafykbzacedsuqdagaxhoinirtsbamkq5ywevsf7bdg2ftqum4jdfboll3remg
+Content Identifier (CID) of the InterPlanetary File System (IPFS).URL: ipfs://bafykbzacedsuqdagaxhoinirtsbamkq5ywevsf7bdg2ftqum4jdfboll3remgWebsite: https://ipfs.tech/            AA: Search Anna’s Archive for “ipfs_cid:bafykbzacedsuqdagaxhoinirtsbamkq5ywevsf7bdg2ftqum4jdfboll3remg”
+            Codes Explorer: View in Codes Explorer “ipfs_cid:bafykbzacedsuqdagaxhoinirtsbamkq5ywevsf7bdg2ftqum4jdfboll3remg”
+          
+          
+            ISBN GRP ID:
+ copycopied!79e0645fa857bd5da802ee62cd08a6dc
+ISBN GRP ID.URL: /isbngrp/79e0645fa857bd5da802ee62cd08a6dcWebsite: /datasets/isbngrp            AA: Search Anna’s Archive for “isbngrp:79e0645fa857bd5da802ee62cd08a6dc”
+            Codes Explorer: View in Codes Explorer “isbngrp:79e0645fa857bd5da802ee62cd08a6dc”
+          
+          
+            ISBN GRP ID:
+ copycopied!7abbebc87382b384bf2dc7ad5327da48
+ISBN GRP ID.URL: /isbngrp/7abbebc87382b384bf2dc7ad5327da48Website: /datasets/isbngrp            AA: Search Anna’s Archive for “isbngrp:7abbebc87382b384bf2dc7ad5327da48”
+            Codes Explorer: View in Codes Explorer “isbngrp:7abbebc87382b384bf2dc7ad5327da48”
+          
+          
+            ISBN GRP ID:
+ copycopied!f18f17d99c6c3961754cbe6d74666c22
+ISBN GRP ID.URL: /isbngrp/f18f17d99c6c3961754cbe6d74666c22Website: /datasets/isbngrp            AA: Search Anna’s Archive for “isbngrp:f18f17d99c6c3961754cbe6d74666c22”
+            Codes Explorer: View in Codes Explorer “isbngrp:f18f17d99c6c3961754cbe6d74666c22”
+          
+          
+            Language:
+ copycopied!en
+IETF language tag.Website: https://en.wikipedia.org/wiki/IETF_language_tag            AA: Search Anna’s Archive for “lang:en”
+            Codes Explorer: View in Codes Explorer “lang:en”
+          
+          
+            LCC:
+ copycopied!QA76.76.C672 S543 2019eb
+Library of Congress ClassificationURL: https://catalog.loc.gov/vwebv/search?searchCode=CALL%2B&searchArg=QA76.76.C672 S543 2019eb&searchType=1&limitTo=none&fromYear=&toYear=&limitTo=LOCA%3Dall&limitTo=PLAC%3Dall&limitTo=TYPE%3Dall&limitTo=LANG%3Dall&recCount=25Website: https://en.wikipedia.org/wiki/Library_of_Congress_Classification            AA: Search Anna’s Archive for “lcc:QA76.76.C672 S543 2019eb”
+            Codes Explorer: View in Codes Explorer “lcc:QA76.76.C672 S543 2019eb”
+          
+          
+            LCC:
+ copycopied!QA76.76.C672S543
+Library of Congress ClassificationURL: https://catalog.loc.gov/vwebv/search?searchCode=CALL%2B&searchArg=QA76.76.C672S543&searchType=1&limitTo=none&fromYear=&toYear=&limitTo=LOCA%3Dall&limitTo=PLAC%3Dall&limitTo=TYPE%3Dall&limitTo=LANG%3Dall&recCount=25Website: https://en.wikipedia.org/wiki/Library_of_Congress_Classification            AA: Search Anna’s Archive for “lcc:QA76.76.C672S543”
+            Codes Explorer: View in Codes Explorer “lcc:QA76.76.C672S543”
+          
+          
+            Libgen.li File:
+ copycopied!93449025
+Global file ID in Libgen.li. Directly taken from the 'f_id' field in the 'files' table.URL: https://libgen.li/file.php?id=93449025Website: /datasets/lgli            AA: Search Anna’s Archive for “lgli:93449025”
+            Codes Explorer: View in Codes Explorer “lgli:93449025”
+          
+          
+            Libgen.li libgen_id:
+ copycopied!2462336
+Repository ID for the 'libgen' repository in Libgen.li. Directly taken from the 'libgen_id' field in the 'files' table. Corresponds to the 'thousands folder' torrents.Website: /datasets/lgli            AA: Search Anna’s Archive for “lgli_libgen_id:2462336”
+            Codes Explorer: View in Codes Explorer “lgli_libgen_id:2462336”
+          
+          
+            Libgen.rs Non-Fiction:
+ copycopied!2462336
+Repository ID for the non-fiction ('libgen') repository in Libgen.rs. Directly taken from the 'id' field in the 'updated' table. Corresponds to the 'thousands folder' torrents.URL: https://libgen.is/json.php?fields=*&ids=2462336Website: /datasets/lgrs            AA: Search Anna’s Archive for “lgrsnf:2462336”
+            Codes Explorer: View in Codes Explorer “lgrsnf:2462336”
+          
+          
+            Libgen.rs Non-Fiction Topic:
+ copycopied!computers\\programming: games
+Libgen’s own classification system of 'topics' for non-fiction books. Obtained from the 'topic' metadata field, using the 'topics' database table, which seems to have its roots in the Kolxo3 library that Libgen was originally based on. https://web.archive.org/web/20250303231041/https://wiki.mhut.org/content:bibliographic_data says that this field will be deprecated in favor of Dewey Decimal.Website: /datasets/lgrs            AA: Search Anna’s Archive for “lgrsnf_topic:computers\\programming: games”
+            Codes Explorer: View in Codes Explorer “lgrsnf_topic:computers\\programming: games”
+          
+          
+            MD5:
+ copycopied!20934da4d2df9ec264d21fc9d24afdab
+Website: https://en.wikipedia.org/wiki/MD5            AA: Search Anna’s Archive for “md5:20934da4d2df9ec264d21fc9d24afdab”
+            Codes Explorer: View in Codes Explorer “md5:20934da4d2df9ec264d21fc9d24afdab”
+          
+          
+            Nexus/STC:
+ copycopied!bxretl2ijly1fngxw9g5x1xie
+ID of an individual edition of a file in Nexus/STC.URL: https://libstc.cc/#/stc/nid:bxretl2ijly1fngxw9g5x1xieWebsite: /datasets/nexusstc            AA: Search Anna’s Archive for “nexusstc:bxretl2ijly1fngxw9g5x1xie”
+            Codes Explorer: View in Codes Explorer “nexusstc:bxretl2ijly1fngxw9g5x1xie”
+          
+          
+            OCLC Editions:
+ copycopied!11
+Number of editions (unique OCLC IDs) reported by OCLC/WorldCat metadata. 'many' means 20 or more.Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_editions:11”
+            Codes Explorer: View in Codes Explorer “oclc_editions:11”
+          
+          
+            OCLC Editions:
+ copycopied!13
+Number of editions (unique OCLC IDs) reported by OCLC/WorldCat metadata. 'many' means 20 or more.Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_editions:13”
+            Codes Explorer: View in Codes Explorer “oclc_editions:13”
+          
+          
+            OCLC Editions (from search_holdings_all_editions_response):
+ copycopied!13
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_editions_from_shaer:13”
+            Codes Explorer: View in Codes Explorer “oclc_editions_from_shaer:13”
+          
+          
+            OCLC Editions (from search_holdings_summary_all_editions):
+ copycopied!11
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_editions_from_shsae:11”
+            Codes Explorer: View in Codes Explorer “oclc_editions_from_shsae:11”
+          
+          
+            OCLC 'From Filename':
+ copycopied!2023_04_v3/1862/18623973
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:2023_04_v3/1862/18623973”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:2023_04_v3/1862/18623973”
+          
+          
+            OCLC 'From Filename':
+ copycopied!range_query/5494616###
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:range_query/5494616###”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:range_query/5494616###”
+          
+          
+            OCLC 'From Filename':
+ copycopied!range_query/5494616###____2
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:range_query/5494616###____2”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:range_query/5494616###____2”
+          
+          
+            OCLC 'From Filename':
+ copycopied!search_editions_response/1057731051
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:search_editions_response/1057731051”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:search_editions_response/1057731051”
+          
+          
+            OCLC 'From Filename':
+ copycopied!search_holdings_summary_all_editions/1057731051/index/48302069
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:search_holdings_summary_all_editions/1057731051/index/48302069”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:search_holdings_summary_all_editions/1057731051/index/48302069”
+          
+          
+            OCLC 'From Filename':
+ copycopied!search_holdings_summary_all_editions/1164625501/index/55180137
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:search_holdings_summary_all_editions/1164625501/index/55180137”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:search_holdings_summary_all_editions/1164625501/index/55180137”
+          
+          
+            OCLC 'From Filename':
+ copycopied!t123/1061/1061554421
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:t123/1061/1061554421”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:t123/1061/1061554421”
+          
+          
+            OCLC 'From Filename':
+ copycopied!w2/v7/1292/129213690
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:w2/v7/1292/129213690”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:w2/v7/1292/129213690”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v3/0761/76138431
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v3/0761/76138431”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v3/0761/76138431”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v5/1345/1345773251
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v5/1345/1345773251”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v5/1345/1345773251”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/0003/0003753036
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/0003/0003753036”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/0003/0003753036”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/0139/0139527230
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/0139/0139527230”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/0139/0139527230”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/0143/0143857033
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/0143/0143857033”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/0143/0143857033”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/0637/0637099319
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/0637/0637099319”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/0637/0637099319”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/0723/0723950677
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/0723/0723950677”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/0723/0723950677”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/1249/1249010953
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/1249/1249010953”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/1249/1249010953”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/2418/2418885816
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/2418/2418885816”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/2418/2418885816”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/2712/2712511585
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/2712/2712511585”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/2712/2712511585”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/3065/3065825671
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/3065/3065825671”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/3065/3065825671”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/3576/3576410941
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/3576/3576410941”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/3576/3576410941”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/4465/4465045104
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/4465/4465045104”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/4465/4465045104”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/5124/5124516913
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/5124/5124516913”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/5124/5124516913”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/5420/5420995560
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/5420/5420995560”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/5420/5420995560”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/5681/5681571234
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/5681/5681571234”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/5681/5681571234”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/6107/6107406157
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/6107/6107406157”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/6107/6107406157”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/6158/6158547963
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/6158/6158547963”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/6158/6158547963”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/7273/7273887297
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/7273/7273887297”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/7273/7273887297”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/7671/7671524320
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/7671/7671524320”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/7671/7671524320”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/9276/9276226857
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/9276/9276226857”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/9276/9276226857”
+          
+          
+            OCLC 'From Filename':
+ copycopied!worldcat_2022_09_titles_1_backup_2022_10_12/v6/9597/9597735895
+Website: /datasets/oclc            AA: Search Anna’s Archive for “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/9597/9597735895”
+            Codes Explorer: View in Codes Explorer “oclc_from_filename:worldcat_2022_09_titles_1_backup_2022_10_12/v6/9597/9597735895”
+          
+          
+            Open Library:
+ copycopied!OL25751416W
+URL: https://openlibrary.org/books/OL25751416W            AA: Search Anna’s Archive for “ol:OL25751416W”
+            Codes Explorer: View in Codes Explorer “ol:OL25751416W”
+          
+          
+            Open Library:
+ copycopied!OL34653729M
+URL: https://openlibrary.org/books/OL34653729M            AA: Search Anna’s Archive for “ol:OL34653729M”
+            Codes Explorer: View in Codes Explorer “ol:OL34653729M”
+          
+          
+            Open Library Source Record:
+ copycopied!bwb:9781138595316
+The code for a source record that Open Library imported from.URL: https://openlibrary.org/show-records/bwb:9781138595316Website: /datasets/ol            AA: Search Anna’s Archive for “openlib_source_record:bwb:9781138595316”
+            Codes Explorer: View in Codes Explorer “openlib_source_record:bwb:9781138595316”
+          
+          
+            Open Library Subject:
+ copycopied!Computer games, design
+Tag in Open Library.Website: /datasets/ol            AA: Search Anna’s Archive for “openlib_subject:Computer games, design”
+            Codes Explorer: View in Codes Explorer “openlib_subject:Computer games, design”
+          
+          
+            Server Path:
+ copycopied!g4/libgenrs_nonfiction/libgenrs_nonfiction/2462000/20934da4d2df9ec264d21fc9d24afdab
+Path on Anna’s Archive partner servers.            AA: Search Anna’s Archive for “server_path:g4/libgenrs_nonfiction/libgenrs_nonfiction/2462000/20934da4d2df9ec264d21fc9d24afdab”
+            Codes Explorer: View in Codes Explorer “server_path:g4/libgenrs_nonfiction/libgenrs_nonfiction/2462000/20934da4d2df9ec264d21fc9d24afdab”
+          
+          
+            SHA-1:
+ copycopied!3lp7ygpfkalqotu2mo3ro5ez6jwmhghr
+Website: https://en.wikipedia.org/wiki/SHA-1            AA: Search Anna’s Archive for “sha1:3lp7ygpfkalqotu2mo3ro5ez6jwmhghr”
+            Codes Explorer: View in Codes Explorer “sha1:3lp7ygpfkalqotu2mo3ro5ez6jwmhghr”
+          
+          
+            SHA-1:
+ copycopied!dadffc19e55017074e9a63b7177499f26cc398f1
+Website: https://en.wikipedia.org/wiki/SHA-1            AA: Search Anna’s Archive for “sha1:dadffc19e55017074e9a63b7177499f26cc398f1”
+            Codes Explorer: View in Codes Explorer “sha1:dadffc19e55017074e9a63b7177499f26cc398f1”
+          
+          
+            SHA-256:
+ copycopied!3b5a43067f4cbc72968d6e3ae05a66867ae9ce3fe498d4e94ed5e2897fd82f26
+Website: https://en.wikipedia.org/wiki/SHA-2            AA: Search Anna’s Archive for “sha256:3b5a43067f4cbc72968d6e3ae05a66867ae9ce3fe498d4e94ed5e2897fd82f26”
+            Codes Explorer: View in Codes Explorer “sha256:3b5a43067f4cbc72968d6e3ae05a66867ae9ce3fe498d4e94ed5e2897fd82f26”
+          
+          
+            Torrent:
+ copycopied!external/libgen_rs_non_fic/r_2462000.torrent
+Bulk torrent for long-term preservation.URL: /dyn/small_file/torrents/external/libgen_rs_non_fic/r_2462000.torrentWebsite: /torrents            AA: Search Anna’s Archive for “torrent:external/libgen_rs_non_fic/r_2462000.torrent”
+            Codes Explorer: View in Codes Explorer “torrent:external/libgen_rs_non_fic/r_2462000.torrent”
+          
+          
+            Year:
+ copycopied!2002
+Publication year.            AA: Search Anna’s Archive for “year:2002”
+            Codes Explorer: View in Codes Explorer “year:2002”
+          
+          
+            Year:
+ copycopied!2018
+Publication year.            AA: Search Anna’s Archive for “year:2018”
+            Codes Explorer: View in Codes Explorer “year:2018”
+          
+          
+            Year:
+ copycopied!2019
+Publication year.            AA: Search Anna’s Archive for “year:2019”
+            Codes Explorer: View in Codes Explorer “year:2019”
+          
+          
+            Z-Library:
+ copycopied!5341605
+ID in Z-Library.URL: https://z-lib.gd/Website: /datasets/zlib            AA: Search Anna’s Archive for “zlib:5341605”
+            Codes Explorer: View in Codes Explorer “zlib:5341605”
+          
+          
+            Zlib Category ID:
+ copycopied!196
+Category ID on the Z-Library website.URL: https://z-lib.gd/category/196Website: https://z-lib.gs/categories            AA: Search Anna’s Archive for “zlib_category_id:196”
+            Codes Explorer: View in Codes Explorer “zlib_category_id:196”
+          
+          
+            Zlib Category Name:
+ copycopied!Computers/PC & Video Games
+Name for the zlib_category_id (category ID on the Z-Library website).Website: https://z-lib.gs/categories            AA: Search Anna’s Archive for “zlib_category_name:Computers/PC & Video Games”
+            Codes Explorer: View in Codes Explorer “zlib_category_name:Computers/PC & Video Games”
+          
+      
+    
+    
+    Read more…
+  
+
+  
+    
+    Your ad here.
+  
+  
+
+
+
+
+  
+    
+      Downloads 
+        Comments –
+        Lists –
+        Stats –
+      Technical details
+    
+  
+
+    
+
+  
+
+      
+        🚀 Fast downloads
+        
+          Become a member to support the long-term preservation of books, papers, and more. To show our gratitude for your support, you get fast downloads. ❤️
+If you donate this month, you get one month extra. For memberships of 3+ months. Max 1 extra month per account.        
+        You have XXXXXX left today. Thanks for being a member! ❤️
+        You’ve run out of fast downloads for today.
+        You downloaded this file recently. Links remain valid for a while.
+
+        
+              Fast Partner Server #1 (recommended)
+                (open in viewer) (no redirect) (short filename)
+              
+              Fast Partner Server #2 (recommended)
+                (open in viewer) (no redirect) (short filename)
+              
+              Fast Partner Server #3 (recommended)
+                (open in viewer) (no redirect) (short filename)
+              
+              Fast Partner Server #4 (recommended)
+                (open in viewer) (no redirect) (short filename)
+              
+              Fast Partner Server #5 (recommended)
+                (open in viewer) (no redirect) (short filename)
+              
+              Fast Partner Server #6 (recommended)
+                (open in viewer) (no redirect) (short filename)
+              
+              Fast Partner Server #7
+                (open in viewer) (no redirect) (short filename)
+              
+              Fast Partner Server #8
+                (open in viewer) (no redirect) (short filename)
+              
+              Fast Partner Server #9
+                (open in viewer) (no redirect) (short filename)
+              
+              Fast Partner Server #10
+                (open in viewer) (no redirect) (short filename)
+              
+              Fast Partner Server #11
+                (open in viewer) (no redirect) (short filename)
+              
+          
+        
+      
+
+      
+        🐢 Slow downloads
+        From trusted partners. More information in the FAQ. (might require browser verification — unlimited downloads!)
+        
+              Slow Partner Server #1 (slightly faster but with waitlist)
+              Slow Partner Server #2 (slightly faster but with waitlist)
+              Slow Partner Server #3 (slightly faster but with waitlist)
+              Slow Partner Server #4 (slightly faster but with waitlist)
+              Slow Partner Server #5 (no waitlist, but can be very slow)
+              Slow Partner Server #6 (no waitlist, but can be very slow)
+              Slow Partner Server #7 (no waitlist, but can be very slow)
+              Slow Partner Server #8 (no waitlist, but can be very slow)
+            After downloading: Open in our viewer
+        
+      
+
+        All download options have the same file, and should be safe to use. That said, always be cautious when downloading files from the internet, especially from sites external to Anna’s Archive. For example, be sure to keep your devices updated.
+
+        show external downloads
+        External downloads
+
+      
+
+    
+          Libgen.rs Non-Fiction 
+          Nexus/STC (Nexus/STC files can be unreliable to download)
+          IPFS 
+          Z-Library 
+          Z-Library on Tor (requires the Tor Browser)
+          Libgen.li (click “GET” at the top) their ads are known to contain malicious software, so use an ad blocker or don’t click ads
+          libgen.pw 
+          randombook.org 
+          Z-Library 
+          Z-Library on Tor (requires the Tor Browser)
+          Bulk torrent downloads (experts only) collection “libgen_rs_non_fic” → torrent “r_2462000.torrent” → file “20934da4d2df9ec264d21fc9d24afdab”
+    
+
+      
+        
+          
+            For large files, we recommend using a download manager to prevent interruptions.
+            Recommended download managers: Motrix
+          
+          
+            You will need an ebook or PDF reader to open the file, depending on the file format.
+            Recommended ebook readers: Anna’s Archive online viewer, ReadEra, and Calibre
+          
+          
+            Use online tools to convert between formats.
+            Recommended conversion tools: CloudConvert and PrintFriendly
+          
+          
+            You can send both PDF and EPUB files to your Kindle or Kobo eReader.
+            Recommended tools: Amazon‘s “Send to Kindle” and djazz‘s “Send to Kobo/Kindle”
+          
+          
+            Support authors and libraries
+            ✍️ If you like this and can afford it, consider buying the original, or supporting the authors directly.
+            📚 If this is available at your local library, consider borrowing it for free there.
+          
+        
+      
+
+      
+  
+
+    
+      
+      📂 File quality
+
+      
+        Help out the community by reporting the quality of this file! 🙌
+      
+
+      
+         Report file issue (0)
+
+          Great file quality (0) Add comment (0)
+      
+
+      Please log in.
+
+      
+        
+          What is wrong with this file?
+          
+            
+              Incorrect metadata (e.g. title, description, cover image)
+              Downloading problems (e.g. can’t connect, error message, very slow)
+              File can’t be opened (e.g. corrupted file, DRM)
+              Poor quality (e.g. formatting issues, poor scan quality, missing pages)
+              Spam / file should be removed (e.g. advertising, abusive content)
+              Copyright claim
+              Other
+          
+
+          
+            
+              Please use the DMCA / Copyright claim form.
+            
+          
+
+          
+            Describe the issue (required)
+            
+
+            
+              
+                MD5 of a better version of this file (if applicable). Fill this in if there is another file that closely matches this file (same edition, same file extension if you can find one), which people should use instead of this file. If you know of a better version of this file outside of Anna’s Archive, then please upload it.
+              
+              
+                You can get the md5 from the URL, e.g.
+                https://annas-archive.gl/md5/20934da4d2df9ec264d21fc9d24afdab
+              
+              
+            
+
+            
+              Submit report
+              
+            
+
+            
+              Learn how to improve the metadata for this file yourself.
+            
+          
+        
+        ✅ Thank you for submitting your report. It will be shown on this page, as well as reviewed manually by Anna (until we have a proper moderation system).
+        ❌ Something went wrong. Please reload the page and try again.
+      
+
+      
+        
+          
+            If this file has great quality, you can discuss anything about it here! If not, please use the “Report file issue” button.
+          
+          
+          
+            Leave comment
+            
+          
+        
+        ✅ You left a comment. It might take a minute for it to show up.
+        ❌ Something went wrong. Please reload the page and try again.
+      
+
+      
+    
+
+    
+
+      
+        
+        
+      
+    
+
+    
+      
+        
+          Total downloads: 
+          
+        
+        
+      
+    
+
+  
+      
+        A “file MD5” is a hash that gets computed from the file contents, and is reasonably unique based on that content. All shadow libraries that we have indexed on here primarily use MD5s to identify files.
+      
+
+      
+        A file might appear in multiple shadow libraries. For information about the various datasets that we have compiled, see the Datasets page.
+      
+
+    
+      For information about this particular file, check out its JSON file.
+      
+      Live/debug JSON version.
+      Live/debug page.
+    
+  
+
+      
+        
+                      
+              Anna’s Archive
+              Home
+              Search
+              Donate
+              🧬 SciDB
+              FAQ
+               
+              
+                    🌐 en - English - English
+                  ar - العربية - Arabic
+                  ast - asturianu - Asturian
+                  az - azərbaycan - Azerbaijani
+                  be - беларуская - Belarusian
+                  bg - български - Bulgarian
+                  bn - বাংলা - Bangla
+                  br - Brasil: português - Portuguese (Brazil)
+                  ca - català - Catalan
+                  ckb - کوردیی ناوەندی - Central Kurdish
+                  cs - čeština - Czech
+                  da - dansk - Danish
+                  de - Deutsch - German
+                  el - Ελληνικά - Greek
+                  en - English - English ☑️
+                  eo - Esperanto - Esperanto
+                  es - español - Spanish
+                  et - eesti - Estonian
+                  fa - فارسی - Persian
+                  fi - suomi - Finnish
+                  fil - Filipino - Filipino
+                  fr - français - French
+                  gl - galego - Galician
+                  gu - ગુજરાતી - Gujarati
+                  ha - Hausa - Hausa
+                  he - עברית - Hebrew
+                  hi - हिन्दी - Hindi
+                  hr - hrvatski - Croatian
+                  hu - magyar - Hungarian
+                  hy - հայերեն - Armenian
+                  id - Indonesia - Indonesian
+                  it - italiano - Italian
+                  ja - 日本語 - Japanese
+                  jv - Jawa - Javanese
+                  ka - ქართული - Georgian
+                  ko - 한국어 - Korean
+                  lt - lietuvių - Lithuanian
+                  ml - മലയാളം - Malayalam
+                  mr - मराठी - Marathi
+                  ms - Melayu - Malay
+                  ne - नेपाली - Nepali
+                  nl - Nederlands - Dutch
+                  no - norsk bokmål - Norwegian Bokmål (Norway)
+                  or - ଓଡ଼ିଆ - Odia
+                  pl - polski - Polish
+                  ps - پښتو - Pashto
+                  pt - Portugal: português - Portuguese (Portugal)
+                  ro - română - Romanian
+                  ru - русский - Russian
+                  sk - slovenčina - Slovak
+                  sl - slovenščina - Slovenian
+                  sq - shqip - Albanian
+                  sr - српски - Serbian
+                  sv - svenska - Swedish
+                  ta - தமிழ் - Tamil
+                  te - తెలుగు - Telugu
+                  th - ไทย - Thai
+                  tr - Türkçe - Turkish
+                  tw - 中文 (繁體) - Chinese (Traditional)
+                  uk - українська - Ukrainian
+                  ur - اردو - Urdu
+                  vec - veneto - Venetian
+                  vi - Tiếng Việt - Vietnamese
+                  yue - 粵語 - Cantonese
+                  zh - 中文 - Chinese
+              
+
+              Account
+              Log in / Register
+              Recover secret key
+              Account
+              Public profile
+              Downloaded files
+              My donations
+              Referrals
+            
+
+            
+              Explore
+              Activity
+              Codes Explorer
+              ISBN Visualization ↗
+              Community Projects ↗
+
+              Open data
+              Datasets 
+              Torrents 
+              LLM data
+            
+
+            
+              Stay in touch
+              Contact email
+              Anna’s Blog  ↗
+              Reddit ↗
+              Matrix ↗
+
+              Help out
+              Improve metadata
+              Volunteering & Bounties
+              Translate  ↗
+            
+
+            
+              Development
+              Anna’s Software  ↗
+              Security
+              DMCA / copyright claims
+
+              Alternatives
+                annas-archive.gl ↗
+                annas-archive.pk ↗
+                annas-archive.gd ↗
+              SLUM [unaffiliated] ↗
+              SLUM 2 [unaffiliated] ↗

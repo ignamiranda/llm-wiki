@@ -1,0 +1,1565 @@
+---
+title: "Polygonal Map Generation for Games"
+type: article
+language: en
+created: 2010-09-01
+modified: 2026-06-11
+tags: [procedural-generation, voronoi, map-generation, game-development]
+summary: "Amit Patel's guide to generating game maps using Voronoi polygons instead of square or hexagonal grids, covering the full pipeline from polygon generation to rendering."
+source_url: "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/"
+source_hash: "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9"
+status: archived
+---
+---
+title: "A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, rpg, mmorpg, npc, planning, prolog, structural-analysis]
+summary: "Doran & Parberry (2011) analyze ~3000 quests from four MMORPGs to derive a common BNF grammar for quest structure, then build a Prolog-based procedural quest generator."
+source_url: "https://ianparberry.com/techreports/LARC-2011-02.pdf"
+source_hash: "36142B04C75B15030ADDE49CDF5B03C6D0C44C27035DC8C1B7533898E51E5F3D"
+---
+---
+title: "Noise-Based Terrain Maps"
+type: article
+language: en
+created: 2015-07-07
+modified: 2026-06-11
+tags: [procedural-generation, terrain, noise, game-development]
+summary: "Amit Patel's tutorial on using Perlin/Simplex noise functions to generate 2D terrain maps for games, covering elevation, biomes, climate, islands, and infinite terrain."
+source_url: "https://www.redblobgames.com/maps/terrain-from-noise/"
+source_hash: "eac346bab4c5bf9bfa85bda9d13ab2cf0d72a3aa0960ada42ec9c947da4fca4d"
+---
+---
+title: "Let CONAN tell you a story: Procedural quest generation"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, automated-planning, multi-agent-planning, narrative-generation, ai]
+source_url: "https://arxiv.org/abs/1808.06217"
+source_hash: "conan-1808.06217"
+summary: "Breault, Ouellet & Davies (2018) propose CONAN — a planning-based procedural quest generator that takes world descriptions as sets of facts and generates quests according to world state and character preferences, evaluated against the Doran & Parberry structural quest taxonomy."
+---
+---
+title: "Toward Automated Quest Generation in Text-Adventure Games"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, interactive-fiction, text-adventure, markov-model, neural-network, nlp]
+source_url: "https://arxiv.org/abs/1909.06283"
+summary: "Ammanabrolu et al. (2019) present two approaches to procedurally generating quests in text-adventure games — a Markov model and an LSTM-based neural generative model — trained on recipe data to produce cooking quest action sequences."
+---
+---
+title: "Procedural Generation of Quests for Games Using Genetic Algorithms and Automated Planning — Lima (2019)"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, genetic-algorithms, automated-planning, phd-thesis, interactive-storytelling]
+source_url: "https://www.inf.puc-rio.br/wordpress/wp-content/uploads/2019/11/196293.pdf"
+summary: "Lima's 2019 PhD thesis at PUC-Rio presents the foundational method combining genetic algorithms with automated planning (STRIPS/HSP2) for procedural quest generation, including the Domain Database formalism, semantic integrity constraints, tree-structured genetic algorithm with state-compatibility crossover, and story arc fitness function."
+---
+---
+title: "Procedural Quest Generation — Yu et al. 2020 (Sturtevant Group)"
+type: article
+language: en
+created: 2020-01-01
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, rpg, planning, search, university-of-alberta, ai-games]
+source_url: "https://webdocs.cs.ualberta.ca/~nathanst/papers/yu2020quest.pdf"
+status: draft
+confidence: low
+summary: "A paper on procedural quest generation from Nathan Sturtevant's group at the University of Alberta, likely applying search-based planning to generate game quests."
+---
+---
+title: "Personalized Quest and Dialogue Generation in Role-Playing Games: A Knowledge Graph- and Language Model-based Approach"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, rpg, knowledge-graph, gpt2, neo4j, nlp, personalization, chi-2023]
+summary: "Knapp, Ashby & Fulda (CHI 2023) present a hybrid approach to personalized quest generation combining a Neo4j knowledge graph with a GPT-2 language model fine-tuned on World of Warcraft quest data."
+source_url: "https://doi.org/10.1145/3544548.3581441"
+---
+---
+title: "From World-Gen to Quest-Line: A Dependency-Driven Prompt Pipeline for Coherent RPG Generation"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, rpg, llm, prompt-pipeline, narrative-generation, world-building]
+summary: "Borawski et al. (2026) propose a dependency-aware multi-stage LLM prompt pipeline for RPG content generation, decomposing the process into world building, NPC/PC creation, quest planning, and quest expansion — each stage conditioning on structured JSON from prior stages."
+---
+---
+title: "Anthropic Skills Repository"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, claude, anthropic, ai-agents, skill-development, plugin-marketplace]
+source_url: "https://github.com/anthropics/skills/"
+source_hash: "299371c3dd28ad6d7066e8b9cf1bb799b408636eae8b710a30935b87b5f130c2"
+summary: "Anthropic's public repository of Agent Skills — self-contained skill folders with SKILL.md files demonstrating how to equip Claude with reusable capabilities for specialized tasks."
+---
+---
+title: "Procedural Generation of Branching Quests for Games — Lima, Feijó & Furtado (2022)"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, genetic-algorithms, automated-planning, branching-narratives, interactive-storytelling]
+source_url: "https://www.sciencedirect.com/science/article/pii/S1875952122000155"
+source_hash: "4D0ADE1E8FF12A0EEEB2983012C0718C5995414C3F7F548A84B02148867860B0"
+summary: "Lima, Feijó & Furtado (2022) present a novel method combining automated planning with a genetic algorithm guided by story arcs to generate coherent branching quests for dynamic game worlds, evaluated via a Turing Test showing players cannot distinguish AI-generated quests from human-designed ones."
+---
+---
+title: "Procedural Quests — Joanna Bryson"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, rpg, ai-ethics, structured-generation]
+source_url: "https://joanna-bryson.squarespace.com/s/procedural-quests.pdf"
+status: draft
+confidence: low
+summary: "Joanna Bryson's work on procedural quest generation, likely presenting a structured approach to generating game quest content."
+---
+---
+title: "Delaunay+Voronoi on a Sphere"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, voronoi, delaunay, sphere, planet-generation, computational-geometry]
+summary: "Amit Patel's technical guide to computing Delaunay triangulation and Voronoi regions on a sphere using stereographic projection, Fibonacci sphere points, and centroid alternatives."
+source_url: "https://www.redblobgames.com/x/1842-delaunay-voronoi-sphere/"
+source_hash: "c8ce135df46612d6c6f73d8acf98448faef1cfd45ef094bdb11a60354975b8d6"
+---
+---
+title: "Hexagon Tiling of a Sphere"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, sphere, hexagon-tiling, game-development, map-projection]
+summary: "Amit Patel's exploration of the challenges and possible solutions for wrapping hexagon tile maps on a sphere, including the twelve-pentagon problem and coordinate system workarounds."
+source_url: "https://www.redblobgames.com/x/1640-hexagon-tiling-of-sphere/"
+source_hash: "678d0b244c271f50d37546c49146a109b47db06c5fec28bedb7ff2888e5d50be"
+---
+---
+title: "Mapgen2 — Procedural Island Map Generator"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, map-generation, voronoi, islands, game-development, red-blob-games]
+summary: "Amit Patel's Mapgen2 island map generator, designed for Realm of the Mad God, using Voronoi polygons with coast-distance elevation and simple biomes."
+source_url: "https://www.redblobgames.com/maps/mapgen2/"
+source_hash: "2236149c7515e6e102d388c88e866cd7683feb9771b76c28e8d3da42241eebd1"
+---
+---
+title: "Mapgen3 — Abandoned Experiment"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, map-generation, red-blob-games, postmortem]
+summary: "Amit Patel's abandoned Mapgen3 experiment — an attempt to simultaneously switch languages, data structures, and algorithms that failed due to changing too many variables at once."
+source_url: "https://www.redblobgames.com/maps/mapgen3/"
+source_hash: "e253310e6a6504bec542bbcddf47123579a42c3f96d9d44037d38c630c845b70"
+---
+---
+title: "Matt Pocock's Agent Skills Repository"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, ai-coding, software-engineering, best-practices, claude-code]
+summary: "Matt Pocock's open-source collection of composable agent skills that package software engineering best practices into reusable workflows for AI coding agents like Claude Code and Codex."
+source_url: "https://github.com/mattpocock/skills/"
+source_hash: "3e6cd8e8655a4e7ae1a16a608b0b038c47e99714974ee09d5f52f9ac13aef14c"
+---
+---
+title: "Procedural Face Generator"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, computer-graphics, faces, parameterization, red-blob-games]
+summary: "Amit Patel's experimental procedural face generator using a five-dimensional hypercube parameter space for cartoon face expressions, inspired by Scott McCloud's Making Comics."
+source_url: "https://www.redblobgames.com/x/1845-face-generator/"
+source_hash: "3e66b66a16b7b85bb882e69c687b50f41c3c9e018a4dbb1d1a1c876448912aba"
+---
+---
+title: "Guide to SDF+MSDF Fonts"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [font-rendering, signed-distance-fields, msdf, gpu-rendering, game-development]
+summary: "Amit Patel's comprehensive guide to Signed Distance Field (SDF) and Multi-channel Signed Distance Field (MSDF) font rendering for games and maps, with shader implementation details."
+source_url: "https://www.redblobgames.com/articles/sdf-fonts/"
+source_hash: "e8b94ab0ca4acd1310d6be6a2138d2609164c98fbcda12540f304e98bd0b0ce0"
+---
+---
+title: "Shokunin — 62 Engineering Skills for AI Coding Agents"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, ai-engineering, opencode, claude-code, chromadb, mcp-server, skill-development, persistent-memory]
+summary: "Shokunin (职人) is an open-source ecosystem of 62 CI-validated AI agent skills across 10 engineering domains with ChromaDB persistent memory and MCP servers, supporting OpenCode, Claude Code, Cursor, Windsurf, and other AI coding runtimes."
+source_url: "https://github.com/EliasOulkadi/shokunin"
+source_hash: "825987ab17c33f7ca00876cba960502fca5407a7f14a2fcaebaad0d6588007e1"
+---
+---
+title: "Square Tile Maps on a Sphere"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, sphere, cube-mapping, map-projection, game-development, computational-geometry]
+summary: "Amit Patel's exploration of using a cube's six square faces as the basis for square tile maps on a sphere, covering gnomonic projection, area distortion, and coordinate systems for moving between cube faces."
+source_url: "https://www.redblobgames.com/x/1938-square-tiling-of-sphere/"
+source_hash: "a8eed21aea3604bf3bb4c8df84ee00f7c458b92fa9c9c2faa208e3017e24dacd"
+---
+---
+title: "terrain3d — Godot 3.5 Procedural 3D Terrain"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, terrain, godot, lod, gdnative, cpp, infinite-worlds]
+source_url: https://github.com/matmas/terrain3d
+source_hash: c2f7dbfcb5b7d104bf47578551bd730b6f68bfa4b73b545d54162c4c2d51df8f
+summary: "A Godot 3.5 project implementing procedurally generated 3D terrain using GDNative and C++, with LOD terrain tiles stitched together at mesh boundaries."
+---
+---
+title: "Wave Function Collapse / 波函数坍缩算法"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, constraint-satisfaction, texture-synthesis, algorithm]
+summary: "An overview of the Wave Function Collapse algorithm — a constraint-based texture synthesis method that generates locally similar outputs from example bitmaps, popularized by Maxim Gumin's reference implementation."
+source_url: "https://github.com/mxgmn/WaveFunctionCollapse"
+source_hash: "f3136128c2e9c51b7e695f8991730c2bde81f30f31bdf5d8fff36bd3fa7f5d3b"
+---
+---
+title: "WFC Implementations Survey / WFC 实现概览"
+type: article
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [wfc, wave-function-collapse, procedural-generation, survey, implementations]
+summary: "A survey of 12 open-source Wave Function Collapse implementations spanning C#, C++, Rust, Python, Go, GDScript, and TypeScript, across Unity, Godot, and Bevy engines."
+source_url: ""
+source_hash: "89411389,CB9E6EB8,A4BBE0A7,BB1D49C3,EDA076B4,9DF7F1E7,8D4E29C3,103AE5ED,8509C4C5,F1D5AE97,D0E84825,68F7911D"
+---
+---
+title: "Agent Skills"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, ai-agents, claude, anthropic, skill-development]
+aliases: [skills, agent-skills-standard, claude-skills]
+source_url: "https://github.com/anthropics/skills/"
+source_hash: "299371c3dd28ad6d7066e8b9cf1bb799b408636eae8b710a30935b87b5f130c2"
+summary: "A framework for equipping AI agents with reusable, specialized capabilities defined in structured SKILL.md files that agents load dynamically to improve performance on specific tasks."
+---
+---
+title: "Amit Patel"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, game-development, red-blob-games, voronoi]
+aliases: [amitp, amit-j-patel, redblobgames]
+summary: "Creator of Red Blob Games, author of Polygonal Map Generation for Games and influential tutorials on procedural map generation, pathfinding, and game algorithms."
+---
+---
+title: "Antonio L. Furtado"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, interactive-storytelling, computer-science, academia, brazil]
+aliases: [Antonio Furtado, A.L. Furtado]
+summary: "Researcher at Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Department of Informatics, contributing to procedural quest generation and automated planning for interactive storytelling."
+---
+---
+title: "AutoLevel"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [wfc, wave-function-collapse, unity, procedural-generation, level-design, unity-editor]
+aliases: []
+summary: "A free Unity editor-integrated WFC-based procedural level generator with weight, volume, and boundary constraints."
+source_url: "https://github.com/Al-Asl/AutoLevel"
+source_hash: "103AE5ED509E03036F6DA2D52FDAE501153EE55716633D3AC49D1A12E722182F"
+---
+---
+title: "Biome Maps"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, noise, biomes, terrain]
+aliases: [elevation-moisture-biomes, biome-lookup]
+summary: "A technique for assigning biomes using two independent noise maps — one for elevation and one for moisture — combined through a 2D lookup table."
+---
+---
+title: "Blue Noise Placement"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, noise, placement, blue-noise]
+aliases: [noise-object-placement, peak-detection-noise]
+summary: "A technique using high-frequency noise to place irregularly spaced objects like trees and rocks by detecting local maxima."
+---
+---
+title: "Boris the Brave"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, game-development]
+aliases: [Boris van Schooten, BorisTheBrave]
+summary: "Creator of the DeBroglie WFC library, the chiseling method for generating connected structures, and adaptor of modifying-in-blocks for lazy infinite generation."
+---
+---
+title: "Branching Quest Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, branching-narratives, genetic-algorithms, automated-planning, interactive-storytelling]
+aliases: [nonlinear-quest-generation, branching-quests]
+summary: "Procedural generation of quests with branching storylines where player choices lead to different narrative paths, combining automated planning with genetic algorithms guided by story arcs."
+---
+---
+title: "Bruno Feijó"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, interactive-storytelling, computer-science, academia, brazil]
+aliases: [Bruno Feijó, B. Feijó]
+summary: "Researcher at Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Department of Informatics, specializing in procedural quest generation and interactive storytelling."
+---
+---
+title: "Chiseling Method"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, connectivity, algorithm]
+summary: "A method by Boris the Brave for generating connected structures with WFC by carving out (chiseling) the output from a solid block rather than building it up from tiles."
+---
+---
+title: "Chris Green"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [font-rendering, signed-distance-fields, valve, computer-graphics]
+aliases: []
+summary: "Valve engineer who authored the seminal 2007 SIGGRAPH paper on using signed distance fields for real-time font rendering, widely adopted in game engines."
+---
+---
+title: "ChromaDB AI Memory / ChromaDB AI记忆"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [chromadb, persistent-memory, vector-database, ai-agents, mcp, recall, retrieval]
+aliases: [chromadb-memory, chromadb-agent-memory]
+summary: "A persistent memory system for AI coding agents backed by ChromaDB, implementing multi-strategy recall with vector search, BM25, temporal decay, and reciprocal rank fusion."
+---
+---
+title: "Chunk-Based Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, chunks, world-generation]
+aliases: [chunk-based world generation]
+summary: "A world generation approach where the world is divided into rectangular tiles (chunks) that are generated independently on the fly."
+---
+---
+title: "Claude Skills Plugin"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, claude, plugin-marketplace, claude-code, skill-distribution]
+aliases: [skills-plugin, claude-code-plugin, skills-marketplace]
+source_url: "https://github.com/anthropics/skills/"
+source_hash: "299371c3dd28ad6d7066e8b9cf1bb799b408636eae8b710a30935b87b5f130c2"
+summary: "A plugin marketplace system in Claude Code for registering, discovering, and installing Agent Skills from GitHub repositories via /plugin commands."
+---
+---
+title: "Codebase Architecture Improvement"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, architecture, refactoring, technical-debt, code-quality]
+aliases: ["improve-codebase-architecture", "architecture-improvement-skill"]
+summary: "A systematic agent skill for identifying and resolving architectural deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and documented decisions in ADRs."
+---
+---
+title: "CONAN (Creation Of Novel Adventure Narrative)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, automated-planning, multi-agent-planning, narrative-generation]
+aliases: [CONAN engine, conan-procedural-quest-generation, Creation Of Novel Adventure Narrative]
+summary: "A planning-based procedural quest generator that takes world descriptions as sets of facts and generates quests according to world state and character preferences."
+---
+---
+title: "Constrained Synthesis (WFC)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, constraints, mixed-initiative]
+summary: "WFC's ability to incorporate user-specified constraints, enabling autocomplete-style mixed-initiative design where the algorithm fills in parts of a partially constructed output."
+---
+---
+title: "AC-4 Constraint Propagation (WFC)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, constraint-satisfaction, algorithm]
+summary: "The constraint propagation algorithm used in WFC's propagation phase, based on the AC-4 arc consistency algorithm by Mohr and Henderson (1986)."
+---
+---
+title: "Contextual Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, determinism, chunk-boundaries]
+aliases: [contextual procedural generation]
+summary: "Procedural generation where operations produce seamless results across chunk boundaries while remaining deterministic."
+---
+---
+title: "ConvChain"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, texture-synthesis, algorithm]
+summary: "A related algorithm by Maxim Gumin that satisfies the strong version of condition C2 (exact pattern distribution matching) but does not guarantee C1 (only using input patterns)."
+---
+---
+title: "Cube-to-Sphere Projection"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, sphere, cube-mapping, map-projection, computational-geometry]
+aliases: [cube map projection, gnomonic cube projection]
+summary: "A method for mapping a cube's surface onto a sphere by normalizing position vectors, used as a geometric foundation for square tile maps on spherical worlds."
+---
+---
+title: "DeBroglie"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [wfc, wave-function-collapse, csharp, unity, procedural-generation, backtracking]
+aliases: []
+summary: "A C# library implementing the Wave Function Collapse algorithm with backtracking support, non-local constraints, and 2D/3D/hex grid support."
+source_url: "https://github.com/BorisTheBrave/DeBroglie"
+source_hash: "89411389E256BFE9934D184C24D17642D32349D1F7C473BA5F387D5019AEF8BC"
+---
+---
+title: "Decrews Procedural Quest Generator"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, csharp, unity, structural-analysis, scriptable-objects]
+aliases: [decrews-quest-generator, decrews-pqg]
+summary: "A C#/Unity implementation of Doran & Parberry's quest generation algorithm using Scriptable Objects for NPCs, locations, enemies, and items."
+---
+---
+title: "Dependency-Driven Prompt Pipeline"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, llm, prompt-pipeline, narrative-generation, quest-generation]
+aliases: [dependency-aware-prompt-pipeline, structured-prompt-pipeline]
+summary: "A multi-stage LLM prompting approach where each stage produces structured intermediate representations that serve as conditioned input to subsequent stages, reducing narrative drift and hallucinations."
+---
+---
+title: "Deterministic Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, determinism, reproducibility]
+aliases: [deterministic procedural generation]
+summary: "The property that generating the same chunk always produces the same result, regardless of the order in which chunks are generated."
+---
+---
+title: "Domain Database (Quest Generation)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, automated-planning, game-design, domain-modeling]
+aliases: [quest-domain-database, quest-db, game-world-description]
+summary: "A formal description of the game world used in genetic-algorithm-based quest generation, comprising objects, ground literals, semantic integrity constraints, planning operators, and tension mappings."
+---
+---
+title: "Dominik Borawski"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, llm, rpg, academia]
+aliases: []
+summary: "Researcher and co-author of the dependency-driven prompt pipeline for coherent RPG generation (2026)."
+---
+---
+title: "Downhill River Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, rivers, hydrology, voronoi]
+aliases: [steepest-descent-rivers]
+summary: "A river generation technique where rivers start at random mountain corners and follow the steepest downhill slope through the Voronoi corner graph until reaching the ocean."
+source_url: "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/"
+source_hash: "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9"
+---
+---
+title: "DRAGN Lab"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [research-lab, nlp, knowledge-graph, procedural-generation, byu, academia]
+aliases: [Data Retrieval and Analysis Group for NLP, DRAGN Lab BYU]
+summary: "The Data Retrieval and Analysis Group for NLP (DRAGN Lab) at Brigham Young University, directed by Dr. Nancy Fulda, researching NLP, knowledge graphs, and procedural content generation."
+---
+---
+title: "DRAGN Town Quests"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, rpg, knowledge-graph, gpt2, neo4j, python]
+aliases: [DRAGN-Town-Quests, dragn-town]
+summary: "A hybrid quest generation system developed by BYU's DRAGN Lab combining a Neo4j knowledge graph with a fine-tuned GPT-2 language model, published at CHI 2023."
+---
+---
+title: "Dual Graph Map Representation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, graph-theory, voronoi, map-representation]
+aliases: [dual-graph-map]
+summary: "A map representation that stores both the Voronoi diagram (polygon shapes) and its dual Delaunay triangulation (polygon adjacency) together, enabling efficient switching between shape rendering and adjacency/pathfinding."
+source_url: "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/"
+source_hash: "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9"
+---
+---
+title: "Edirlei Soares de Lima"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, interactive-storytelling, computer-science, academia]
+aliases: [Edirlei Lima, E.S. de Lima]
+summary: "Researcher in procedural quest generation, automated planning, and interactive storytelling at Universidade Europeia and UNIDCOM/IADE, Lisbon. Author of the foundational PhD thesis on GA + automated planning for quest generation (PUC-Rio, 2019)."
+---
+---
+title: "Effect Distance and Padding"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, padding, context, chunk-boundaries]
+aliases: [padding, effect distance]
+summary: "The mechanism by which chunks receive context from neighboring areas through padded data requests to lower layers."
+---
+---
+title: "Elevation from Coast Distance"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, elevation, terrain, voronoi]
+aliases: [coast-distance-elevation]
+summary: "A terrain elevation model where elevation is defined as the distance from the coastline, producing monotonic elevation that increases inland with no local minima."
+source_url: "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/"
+source_hash: "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9"
+---
+---
+title: "Elevation Redistribution"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, noise, terrain, elevation]
+aliases: [height-redistribution, elevation-shaping]
+summary: "Techniques for reshaping noise-based elevation values using mathematical functions to create specific terrain characteristics like flat valleys or terraced hills."
+---
+---
+title: "Elias Oulkadi"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, ai-engineering, opencode, chromadb, mcp-server, skill-development]
+aliases: [Oulkadi]
+summary: "Creator of the Shokunin ecosystem — 62 CI-validated AI agent engineering skills with ChromaDB persistent memory and MCP servers."
+---
+---
+title: "Minimal Entropy Heuristic (WFC)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, heuristics, entropy]
+summary: "The observation heuristic used in WFC where the NxN region with the lowest Shannon entropy is selected for collapse, producing organic-looking results by mimicking human drawing behavior."
+---
+---
+title: "fast-wfc"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [wfc, wave-function-collapse, cpp, performance, procedural-generation]
+aliases: []
+summary: "A C++17 implementation of Wave Function Collapse focused on performance, achieving ~10x speedup over the original implementation."
+source_url: "https://github.com/math-fehr/fast-wfc"
+source_hash: "A4BBE0A73026A8F1384D2A16276AE1F613A4BDB8661659A314C76A090F636C38"
+---
+---
+title: "Fibonacci Sphere"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, sphere, point-distribution, algorithms, computational-geometry]
+aliases: [spherical phyllotaxis, Fibonacci lattice sphere]
+summary: "An algorithm for distributing points approximately evenly on a sphere's surface using the Fibonacci sequence, with a spiral pattern that avoids clustering at poles."
+---
+---
+title: "Fractional Brownian Motion (FBM)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, noise, fractals, terrain]
+aliases: [fbm, noise-octaves, fractal-noise]
+summary: "A technique that sums noise at multiple octaves with decreasing amplitudes to produce fractal-like detail in terrain generation."
+---
+---
+title: "Functional Approach to Procedural Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, functional, sandbox]
+aliases: [functional procedural generation, sandbox generation]
+summary: "A procedural generation approach where content is generated as a spatially local function without knowledge of surroundings, common in sandbox games like Minecraft."
+---
+---
+title: "Game Tree (Narrative)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, branching-narratives, game-design, narrative-structure]
+aliases: [narrative-game-tree, quest-tree]
+summary: "A tree structure representing a game's narrative where each node is a branching quest, and each quest's outcomes determine which quests can follow, enabling coherent sequences of branching narratives."
+---
+---
+title: "ghx_proc_gen"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [wfc, wave-function-collapse, rust, bevy, procedural-generation, model-synthesis]
+aliases: []
+summary: "A Rust library for 2D & 3D procedural generation with Model Synthesis/WFC using AC-4 constraint propagation, available for the Bevy engine."
+source_url: "https://github.com/Henauxg/ghx_proc_gen"
+source_hash: "8D4E29C3DDAE0A3A8C4E7B076E321CB85695BE092CE4F451261F78F78906CF22"
+---
+---
+title: "GPT-2 Quest Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, gpt2, nlp, language-model, fine-tuning, rpg]
+aliases: [gpt2-quest-gen, lm-quest-generation]
+summary: "The use of a fine-tuned GPT-2 language model to generate quest dialogue, descriptions, and narrative text, typically conditioned on structured knowledge from a knowledge graph."
+---
+---
+title: "Graph Wave Function Collapse (GWFC)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [wfc, wave-function-collapse, graph-algorithms, procedural-generation, python]
+aliases: [graph-wfc, gwfc]
+summary: "An extension of Wave Function Collapse from grid structures to arbitrary graphs, using subgraph isomorphism (VF2) to extract and apply patterns."
+source_url: "https://github.com/lamelizard/GraphWaveFunctionCollapse"
+source_hash: "D0E84825CDD9E71BE132985B5D98579A7403E59B7B41D4A5D8D2FB91BD798203"
+---
+---
+title: "Gregory Knapp"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, rpg, knowledge-graph, nlp, academia]
+aliases: [Greg Knapp]
+summary: "Researcher at Brigham Young University's DRAGN Lab, first author of the CHI 2023 paper on personalized quest generation using knowledge graphs and GPT-2."
+---
+---
+title: "Grill-Me Methodology"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, alignment, communication, requirements]
+aliases: ["grill-me", "grill-with-docs"]
+summary: "An alignment technique where the AI agent interviews the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree before starting work."
+---
+---
+title: "Ian Parberry"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, computer-science, academia, game-development]
+aliases: [Ian Parberry]
+summary: "Professor of Computer Science at the University of North Texas, director of the Laboratory for Recreational Computing (LARC), researcher in procedural content generation and game development."
+---
+---
+title: "Infinite Terrain"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, terrain, infinite-worlds, noise]
+aliases: [endless-terrain, camera-offset-noise]
+summary: "A locally-computed terrain generation technique where any position in an unbounded world can be generated on demand by offsetting noise coordinates by the camera position."
+---
+---
+title: "Internal Layer Levels"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, layering, architecture, layerprocgen]
+aliases: [layer levels]
+summary: "A concept where a single layer class implements multiple layers at once, each at a different level of detail or abstraction."
+---
+---
+title: "Island Shaping"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, noise, terrain, islands]
+aliases: [island-noise, terrain-constraint]
+summary: "A technique for constraining noise-generated terrain to island shapes by combining noise elevation with a distance-based shaping function."
+---
+---
+title: "Jim Davies"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, ai, narrative-generation, computer-science, academia]
+aliases: [James Davies, J. Davies]
+summary: "Co-author of the CONAN procedural quest generation paper, researcher in AI and narrative generation at Carleton University."
+---
+---
+title: "Joanna Bryson"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [ai-ethics, procedural-generation, quest-generation, academia, computer-science]
+aliases: [Joanna J. Bryson, Joanna Bryson]
+summary: "Professor of AI Ethics and Technology Policy at the Hertie School, Berlin. Known for AI ethics and robot ethics, with earlier work on procedural quest generation and intelligent agent behavior."
+fields: [computer-science, artificial-intelligence, ai-ethics, technology-policy]
+affiliations: [Hertie School, University of Bath, Princeton University]
+confidence: low
+---
+---
+title: "Jonathan Doran"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, computer-science, academia]
+aliases: [Jonathon Doran, Jon Doran]
+summary: "Researcher in procedural quest generation at the University of North Texas, co-author of the structural analysis of MMORPG quests and prototype quest generator."
+---
+---
+title: "Knowledge Graph Quest Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, knowledge-graph, neo4j, rpg, nlp]
+aliases: [kg-quest-generation, graph-based-quest-gen]
+summary: "A procedural quest generation approach that uses a knowledge graph (typically Neo4j) to encode semantic relationships between quest elements for coherent quest structuring and personalization."
+---
+---
+title: "Layer-Based Procedural Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, architecture, layering]
+aliases: [multi-layer generation]
+summary: "A methodology for procedural content generation where generation processes are divided into multiple layers with strict separation between input and output of each layer."
+---
+---
+title: "Layer Dependencies"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, dependencies, architecture, layerprocgen]
+aliases: [inter-layer dependencies]
+summary: "The mechanism in layer-based generation by which chunks in one layer request and receive data from other layers."
+---
+---
+title: "LayerProcGen"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, unity, csharp, framework, infinite-worlds]
+summary: "A C# framework for layer-based infinite procedural generation that is deterministic, contextual, and multi-threaded, designed for Unity but usable in any C# engine."
+source_url: "https://github.com/runevision/LayerProcGen/"
+source_hash: "abf6a277a0b01f8aeb4a60a3c0dff4dfb99ad4af974001d1fcdaa397f3b00de5"
+---
+---
+title: "Lloyd Relaxation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, algorithm, voronoi]
+aliases: [lloyds-algorithm]
+summary: "An iterative algorithm that redistributes points to produce more evenly spaced Voronoi polygon centers, reducing the clumpiness of random point distributions."
+source_url: "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/"
+source_hash: "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9"
+---
+---
+title: "Małgorzata Giedrowicz"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, llm, rpg, academia]
+aliases: [m-giedrowicz]
+summary: "Researcher and co-author of the dependency-driven prompt pipeline for coherent RPG generation (2026)."
+---
+---
+title: "Mark O. Riedl"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [ai, artificial-intelligence, narrative-intelligence, interactive-fiction, story-generation, game-ai]
+aliases: [Mark Riedl, M. O. Riedl]
+summary: "Professor at Georgia Tech, Director of the Entertainment Intelligence Lab; researcher in AI-driven narrative generation, interactive storytelling, and game AI."
+---
+---
+title: "MarkovJuniorWeb"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [wfc, markov-junior, typescript, webassembly, procedural-generation, probabilistic-programming]
+aliases: []
+summary: "A browser-based TypeScript port of MarkovJunior with isometric rendering, .vox export, and experimental WebAssembly JIT compilation."
+source_url: "https://github.com/Yuu6883/MarkovJuniorWeb"
+source_hash: "9DF7F1E79608DD8F6BB3D9871B26A356F2DC95F3A2A062010E6CC2BD79ADA73D"
+---
+---
+title: "Markov Quest Model"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, markov-model, sequence-generation, text-adventure, nlp]
+aliases: [markov-chain-quest-gen, transition-probability-quest-model]
+summary: "A quest generation approach using Markov chains to model transition probabilities between actions, learning local coherence from a corpus of action sequences."
+---
+---
+title: "MarkovJunior"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, 3d, algorithm]
+summary: "A 3D simple tiled model implementation by Maxim Gumin that extends WFC to three dimensions with extensive tilesets and examples."
+---
+---
+title: "Marta Szulc"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, llm, rpg, academia]
+aliases: []
+summary: "Researcher and co-author of the dependency-driven prompt pipeline for coherent RPG generation (2026)."
+---
+---
+title: "Matt Pocock"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [typescript, software-engineering, ai-coding, education]
+aliases: ["Matt Pocock"]
+summary: "TypeScript educator, creator of Total TypeScript, and author of the influential agent skills repository for AI coding agents."
+---
+---
+title: "Maxim Gumin"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, texture-synthesis, algorithm]
+aliases: [mxgmn, ExUtumno]
+summary: "Creator of the Wave Function Collapse reference implementation and related algorithms including ConvChain and MarkovJunior."
+---
+---
+title: "Model Synthesis"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, constraint-satisfaction, algorithm]
+summary: "Paul Merrell's 2009 algorithm for generating larger models from examples by deriving adjacency constraints between tiles and using AC-3 constraint propagation."
+---
+---
+title: "Modifying in Blocks"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, lazy-generation, infinite-worlds]
+summary: "Paul Merrell's technique for generating unbounded tile configurations by incrementally modifying the model in blocks, adapted by Boris the Brave and Marian Kleineberg for lazy infinite WFC generation."
+---
+---
+title: "Multi-channel Distance Field (MSDF)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [font-rendering, signed-distance-fields, msdf, gpu-rendering]
+aliases: [MSDF]
+summary: "An improvement over single-channel SDF font rendering that uses three distance fields (RGB channels) to preserve sharp corners, addressing the rounded-corner limitation of single-channel SDF."
+source_url: "https://www.redblobgames.com/articles/sdf-fonts/"
+---
+---
+title: "Multi-Stage RPG Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, rpg, world-building, quest-generation, llm, narrative-generation]
+aliases: [pipeline-rpg-generation, staged-rpg-content]
+summary: "An architectural pattern for procedural RPG content generation that decomposes the process into sequential stages — typically world building, character creation, quest planning, and quest expansion — each producing structured data consumed by later stages."
+---
+---
+title: "Nancy Fulda"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, nlp, knowledge-graph, academia, byu]
+aliases: [Dr. Nancy Fulda, Nancy Fulda PhD]
+summary: "Professor at Brigham Young University, supervisor of the DRAGN Lab, and co-author of the CHI 2023 paper on personalized quest generation."
+---
+---
+title: "Nathan Sturtevant"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, pathfinding, ai-games, academia, computer-science]
+aliases: [Nathan R. Sturtevant, Nathan Sturtevant]
+summary: "Professor of Computing Science at the University of Alberta, known for pathfinding algorithms (HPA*, JPS), GVG-AI, and procedural content generation for games."
+fields: [computer-science, artificial-intelligence, games-research]
+affiliations: [University of Alberta]
+confidence: low
+---
+---
+title: "Neural Quest Model"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, neural-network, lstm, sequence-generation, text-adventure, deep-learning]
+aliases: [lstm-quest-gen, neural-quest-generator]
+summary: "A quest generation approach using LSTM-based encoder-decoder neural networks to learn the conditional probability of each action given the history of previous actions, capturing longer-range dependencies than Markov models."
+---
+---
+title: "Noise-Based Terrain Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, terrain, noise, game-development]
+aliases: [noise-terrain, gradient-noise-terrain]
+summary: "A methodology for generating 2D terrain maps using Perlin/Simplex noise as the primary building block, transformed through octave stacking, redistribution, and biome lookup."
+---
+---
+title: "Noisy Edges"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, rendering, voronoi]
+aliases: []
+summary: "A rendering technique that replaces straight polygon borders with noisy, organic-looking lines constrained to quadrilateral regions defined by the dual graph, hiding the underlying polygon structure."
+source_url: "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/"
+source_hash: "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9"
+---
+---
+title: "NPC Motivations"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [rpg, npc, quest-generation, procedural-generation, motivation]
+aliases: [non-player-character-motivations]
+summary: "A 9-category taxonomy of NPC motivations (Knowledge, Comfort, Reputation, Serenity, Protection, Conquest, Wealth, Ability, Equipment) derived from structural analysis of ~3000 MMORPG quests by Doran & Parberry."
+---
+---
+title: "Observation-Propagation Cycle (WFC)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, algorithm]
+summary: "The core loop of the Wave Function Collapse algorithm that alternates between collapsing uncertain regions into definite states and propagating the resulting constraint information through the output."
+---
+---
+title: "Offline Quest Generator"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, genetic-algorithms, system-architecture]
+aliases: [oqq, offline-quest-gen]
+summary: "A preprocessing subsystem that runs the quest generation genetic algorithm offline, producing the full set of branching quests for a game before runtime, which are then executed by the Game Manager during gameplay."
+---
+---
+title: "Oskar Stålberg"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, game-development, townscaper]
+aliases: [OskSta]
+summary: "Creator of Townscaper and Bad North, known for pioneering WFC on irregular grids, combining WFC with marching cubes, and developing custom observation heuristics."
+---
+---
+title: "Overlapping Model (WFC)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, texture-synthesis, wfc]
+summary: "A WFC mode where NxN pixel patterns are extracted from the input bitmap and used as the basis for superposition states, enabling synthesis directly from example images."
+---
+---
+title: "Owned Within Bounds"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, patterns, chunk-ownership]
+aliases: [ownership principle]
+summary: "A pattern for disambiguating which chunk owns data that overlaps multiple chunk boundaries in procedural generation."
+---
+---
+title: "Personalized Quest Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, personalization, rpg, player-modeling, nlp]
+aliases: [player-adaptive-quest-gen, personalized-quests]
+summary: "A procedural quest generation approach that adapts quest objectives, dialogue, difficulty, and rewards to individual player characteristics and preferences, typically using player state encoded in a knowledge graph."
+---
+---
+title: "Piotr Mironowicz"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, llm, rpg, academia]
+aliases: []
+summary: "Researcher and co-author of the dependency-driven prompt pipeline for coherent RPG generation (2026)."
+---
+---
+title: "Planning Approach to Procedural Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, planning, top-down, design]
+aliases: [top-down procedural generation, planning approach]
+summary: "A procedural generation approach where content is generated top-down with intent — planning connections, purpose, and meaning behind placed items."
+---
+---
+title: "Prithviraj Ammanabrolu"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [ai, artificial-intelligence, narrative-intelligence, interactive-fiction, nlp, quest-generation]
+aliases: [P. Ammanabrolu, Prithvi Ammanabrolu]
+summary: "AI researcher focused on narrative intelligence, interactive fiction, and game AI; first author on quest generation in text-adventure games."
+---
+---
+title: "Procedural Face Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, computer-graphics, faces, parameterization]
+aliases: []
+summary: "The algorithmic generation of cartoon faces from a parameter space, typically using a hypercube of control parameters for mouth shape, eyebrow position, and asymmetry."
+---
+---
+title: "Procedural Quest Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, rpg, planning, npc]
+aliases: [automated-quest-generation, quest-gen]
+summary: "The algorithmic generation of quests for role-playing games, using structural analysis, grammar-based expansion, planning, genetic algorithms, knowledge graphs, or language models."
+---
+---
+title: "Procedural Quest Generator (Rust)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, rust, templates, validation]
+aliases: [m0nirul-quest-generator, rust-procedural-quest]
+summary: "A Rust library for generating dynamic quests using a template system with variable replacement and validation."
+---
+---
+title: "Prolog Quest Generator (Doran & Parberry)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, prolog, java, backtracking, npc]
+aliases: [doran-parberry-quest-generator, LARC-2011-02-generator]
+summary: "A prototype procedural quest generator written in Prolog with a Java applet front-end, using BNF grammar expansion and automatic backtracking to produce complex RPG quests."
+---
+---
+title: "Genetic Algorithm for Quest Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, genetic-algorithms, automated-planning, evolutionary-computation]
+aliases: [ga-quest-generation, quest-ga]
+summary: "A genetic algorithm specialized for procedural quest generation, using tree-structured individuals representing branching quests, state-compatibility crossover, and story-arc-based fitness evaluation."
+---
+---
+title: "Quest-Giver"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, npc, game-design, narrative]
+aliases: [quest-giver-npc, dispatcher-role]
+summary: "The NPC character that offers a quest to players, provides information, and rewards completion — corresponding to Propp's dispatcher character role in narrative theory."
+---
+---
+title: "Quest Motif"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, genetic-algorithms, narrative, constraints]
+aliases: [goal-motif, quest-theme]
+summary: "A semantic integrity constraint type that groups related predicates under a motif name, ensuring coherent goal generation across different branches of a branching quest by selecting goals sharing the same theme."
+---
+---
+title: "Quest Structural Analysis"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, rpg, structural-analysis, bnf, grammar]
+aliases: [quest-grammar, quest-decomposition]
+summary: "A methodology for analyzing RPG quests by decomposing them into a formal BNF grammar with NPC motivations, strategies, and atomic actions, derived from corpus analysis of ~3000 quests."
+---
+---
+title: "questgen (the-tale/questgen)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, python, directed-graphs, predicates]
+aliases: [the-tale-questgen, questgen-python]
+summary: "A Python library for automatic non-linear quest generation using directed graph representation with predicates, events, and constraints."
+---
+---
+title: "Questify (JS)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, javascript, structural-analysis, npc]
+aliases: [deanljohnson-questify, questify-js]
+summary: "A JavaScript procedural quest generator implementing Doran & Parberry's structural analysis approach with motivations, strategies, and atomic actions."
+---
+---
+title: "QuestWeaver (C++)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, cpp, weighted-graphs, templates, serialization]
+aliases: [cultrarius-questweaver, questweaver-cpp]
+summary: "A C++ quest/story generation system using weighted graph search with template files and serialization, separating quest logic from data."
+---
+---
+title: "Ridged Noise"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, noise, terrain, ridges]
+aliases: [ridged-multifractal, absolute-value-noise]
+summary: "A noise variant that uses the absolute value of noise to create sharp ridge features, often used for mountain ranges."
+---
+---
+title: "Robert Chudy"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, llm, rpg, academia]
+aliases: []
+summary: "Researcher and co-author of the dependency-driven prompt pipeline for coherent RPG generation (2026)."
+---
+---
+title: "Rolling Grid"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, data-structure, chunks, layerprocgen]
+aliases: []
+summary: "A moving-grid data structure used by LayerProcGen layers to store and manage chunks as the generation focus moves through the world."
+---
+---
+title: "Rune Skovbo Johansen"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, game-development, unity]
+aliases: [runevision]
+summary: "Creator of the LayerProcGen framework and indie game developer behind The Cluster and The Big Forest."
+---
+---
+title: "Sebastien Ouellet"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, ai, narrative-generation, computer-science]
+aliases: [Sébastien Ouellet, S. Ouellet]
+summary: "Co-author of the CONAN procedural quest generation paper, researcher in AI and narrative generation."
+---
+---
+title: "Semantic Integrity Constraints"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, genetic-algorithms, constraints, automated-planning]
+aliases: [integrity-constraints-quest-gen]
+summary: "A set of six constraint types (t, opp, u, r, qualif, motif) used in genetic-algorithm-based quest generation to ensure generated branches respect the logical structure of the game world and produce coherent quests."
+---
+---
+title: "Shared Language via CONTEXT.md"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, communication, documentation, domain-language]
+aliases: ["context-md", "shared-language-doc", "ubiquitous-language-doc"]
+summary: "A shared language document (CONTEXT.md) that establishes domain-specific terminology for AI coding agents, reducing verbosity and improving code naming consistency."
+---
+---
+title: "Shokunin / 職人"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, ai-engineering, opencode, chromadb, mcp-server, skill-development, persistent-memory, ci-cd]
+aliases: [shokunin-ecosystem]
+summary: "An open-source ecosystem of 62 CI-validated AI agent engineering skills with ChromaDB persistent memory and MCP servers, supporting multiple AI coding runtimes."
+---
+---
+title: "Signed Distance Field Fonts"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [font-rendering, signed-distance-fields, gpu-rendering, game-development]
+aliases: [SDF fonts]
+summary: "A font rendering technique that uses a signed distance field texture as an intermediate format between vector and bitmap fonts, enabling resolution-independent rendering with GPU-accelerated special effects."
+source_url: "https://www.redblobgames.com/articles/sdf-fonts/"
+---
+---
+title: "Simple Tiled Model (WFC)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, tiles, constraint-satisfaction, wfc]
+summary: "A WFC mode where tile adjacency constraints replace pixel pattern matching, enabling tile-based level generation with explicitly defined tile sets and symmetry classifications."
+---
+---
+title: "SKILL.md File Format"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, skill-development, file-format, yaml, markdown]
+aliases: [skill-format, skillyml, skill-frontmatter]
+source_url: "https://github.com/anthropics/skills/"
+source_hash: "299371c3dd28ad6d7066e8b9cf1bb799b408636eae8b710a30935b87b5f130c2"
+summary: "The SKILL.md file format defines agent skills using YAML frontmatter (name, description) followed by markdown instructions, examples, and guidelines."
+---
+---
+title: "Spherical Voronoi Diagrams"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, voronoi, sphere, computational-geometry, planet-generation]
+aliases: [Voronoi on a sphere]
+summary: "Voronoi diagrams computed on a spherical surface, typically used for procedural planet generation. Can be computed via stereographic projection onto a plane for use with standard 2D Delaunay libraries."
+---
+---
+title: "Story Arc Fitness Function"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, genetic-algorithms, fitness-function, story-arcs]
+aliases: [arc-fitness, story-arc-evaluation]
+summary: "A fitness function for genetic-algorithm-based quest generation that evaluates branching quest quality by comparing all possible plot variants' story arcs to a desired target arc using mean squared error after scaling."
+---
+---
+title: "Structured LLM Quest Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, llm, prompt-pipeline, narrative-generation, rpg]
+aliases: [llm-quest-generation, schema-driven-quest-generation]
+summary: "A methodology for procedurally generating RPG quests using LLMs with structured intermediate representations, where quest content is produced through schema-constrained multi-stage prompting."
+---
+---
+title: "TDD for AI Coding Agents"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [agent-skills, testing, tdd, red-green-refactor, feedback-loops]
+aliases: ["tdd-agent-skill", "ai-tdd"]
+summary: "A red-green-refactor test-driven development loop adapted for AI coding agents, providing consistent feedback through automated tests before and after implementation."
+---
+---
+title: "Tension-Based Story Arc"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, narrative, storytelling, story-arcs]
+aliases: [tension-arc, story-arc-tension]
+summary: "A representation of narrative story arcs as sequences of tension changes — rise (+), fall (-), or maintain (=) — used as a target template in genetic-algorithm-based quest generation to evaluate plot quality."
+---
+---
+title: "Terrain LOD Stitching"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, terrain, lod, mesh, level-of-detail]
+aliases: [lod-stitching, terrain-stitching, mesh-stitching]
+summary: "A technique for stitching mesh boundaries between neighboring terrain tiles at different LOD levels to prevent visible seams and cracks in the terrain surface."
+---
+---
+title: "Text-Adventure Quest Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, interactive-fiction, text-adventure, narrative-generation, nlp]
+aliases: [interactive-fiction-quest-gen, text-adventure-quest-gen]
+summary: "The procedural generation of quests specifically within text-adventure games (interactive fiction), where quests are sequences of textual actions that must be semantically coherent and executable within the game state."
+---
+---
+title: "Tile Symmetry System (WFC)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, tiles, symmetry]
+summary: "A system classifying tiles by their symmetry type under the dihedral group D4, used to shorten adjacency enumeration in the simple tiled model."
+---
+---
+title: "Top Layer Dependencies"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, dependencies, architecture, layerprocgen]
+aliases: [top level dependencies, root dependencies]
+summary: "Entry points for procedural generation — specifications that certain layer chunks are required within given world-space bounds."
+---
+---
+title: "Townscaper"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, wfc, game-development, town-building, mixed-initiative]
+aliases: []
+summary: "An indie town-building toy by Oskar Stålberg that uses Wave Function Collapse on irregular grids with marching cubes for organic 3D geometry."
+---
+---
+title: "Tracery Quest Generator (lemilonkh/questgen)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, javascript, tracery, grammar, rpg]
+aliases: [lemilonkh-questgen, tracery-quest-gen]
+summary: "A JavaScript procedural quest generator using Tracery grammar to produce random quest descriptions for RPGs from grammar.json templates."
+---
+---
+title: "University of Alberta Quest Research Group"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, university-of-alberta, research-group, ai-games]
+aliases: [U of A Quest Research, Sturtevant Quest Group]
+summary: "The research group at the University of Alberta, led by Nathan Sturtevant, focused on applying AI techniques — particularly search and planning — to procedural quest generation."
+confidence: low
+related_concepts: [procedural-quest-generation, search-based-pcg]
+---
+---
+title: "Viktor Chlumsky"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [font-rendering, signed-distance-fields, msdf, computer-graphics]
+aliases: []
+summary: "Author of the msdfgen library and the 2016 paper on multi-channel distance fields (MSDF), providing the first complete open-source implementation of sharp-corner distance field font rendering."
+---
+---
+title: "Vincent Breault"
+type: person
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, quest-generation, ai, narrative-generation, computer-science]
+aliases: [V. Breault]
+summary: "Lead author of the CONAN procedural quest generation paper, researcher in AI and narrative generation at the Science of Imagination lab."
+---
+---
+title: "Voronoi Diagrams for Map Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, voronoi, map-generation, geometry]
+aliases: [voronoi-map]
+summary: "Using Voronoi diagrams as the underlying geometric structure for procedural map generation, providing irregular polygon shapes instead of uniform tile grids."
+source_url: "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/"
+source_hash: "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9"
+---
+---
+title: "Voronoi Island Generation"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, islands, voronoi, geography]
+aliases: [voronoi-coastline]
+summary: "The process of defining coastlines and islands on a Voronoi polygon map by assigning land and water to corners, then propagating to polygons."
+source_url: "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/"
+source_hash: "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9"
+---
+---
+title: "Wave Function Collapse (WFC)"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, constraint-satisfaction, texture-synthesis, algorithm]
+source_hash: "f3136128c2e9c51b7e695f8991730c2bde81f30f31bdf5d8fff36bd3fa7f5d3b"
+summary: "A constraint-based texture synthesis algorithm that generates outputs locally similar to an input bitmap by iteratively collapsing superposition states and propagating adjacency constraints."
+---
+---
+title: "Whittaker Diagram Biomes"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, biomes, geography, climate]
+aliases: [whittaker-biomes]
+summary: "A biome classification system that assigns biome types based on two axes: elevation (as a proxy for temperature) and moisture level, adapted for procedural map generation."
+source_url: "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/"
+source_hash: "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9"
+---
+---
+title: "Wraparound Noise"
+type: concept
+language: en
+created: 2026-06-11
+modified: 2026-06-11
+tags: [procedural-generation, noise, wraparound, tiling, maps]
+aliases: [seamless-noise, tileable-noise, toroidal-noise]
+summary: "Techniques for creating tileable noise maps using cylindrical (3D) or toroidal (4D) noise coordinate projections."
+---

@@ -1,0 +1,37 @@
+700,000 lines of code, 20 years, and one developer: How Dwarf Fortress is built
+
+Dwarf Fortress is one of those oddball passion projects that's broken into Internet consciousness. It's a free game where you play either an adventurer or a fortress full of dwarves in a randomly generated fantasy world. The simulation runs deep, with new games creating multiple civilizations with histories, mythologies, and artifacts. I reached out to him to see how he's managed a single, growing codebase over 15+ years, the perils of pathing, and debugging dead cats. Our conversation below has been edited for clarity.
+
+The entire game is product of one developer, Tarn Adams, aka Toady One, who has been working on Dwarf Fortress since 2002. For the first four years it was a part time project, but since 2006 it's been full time. He writes all the code himself, although his brother helps out with design and creates stories based on the game. Up until now, he's relied on donations to keep him going, but he's currently working on a version with pixel graphics and a revamped UI that will be available for purchase on Steam.
+
+Q: What programming languages and other technologies do you use?
+
+A: DF is some combination of C and C++, not in some kind of standard obeying way, but sort of a mess that's accreted over time. I've been using Microsoft Visual Studio since MSVC 6, though now I'm on some version of Visual Studio Community. I use OpenGL and SDL to handle the engine matters. We went with those because it was easier to port them to OSX and Linux, though I still wasn't able to do that myself of course. I'm not sure if I'd use something like Unity or Unreal now if I had the choice since I don't know how to use either of them. But handling your own engine is also a real pain, especially now that I'm doing something beyond text graphics. I use FMOD for sound. All of this has been constant over the course of the project, except that SDL got introduced a few years in so we could do the ports. On the mechanical side of the game, I don't use a lot of outside libraries, but I've occasional picked up some random number gen stuff—I put in a Mersenne Twister a long while ago, and most recently I adopted SplitMix64, which was featured in a talk at the last Roguelike Celebration.
+
+Q: What are the challenges in developing a single project for so long?
+
+A: It's easy to forget stuff! Searching for ';', which is a loose method but close enough, we're up to 711,000 lines, so it's just not possible to keep it all in my head now. I try to name my variables and objects consistently and memorably, and I leave enough comments around to remind myself of what's going on when I arrive at a spot of code. Sometimes it takes several searches to find the exact thread I'm trying to tug on when I go and revisit some piece of the game I haven't touched for a decade, which happens quite a bit. I'd say most changes are focused only on certain parts of the game, so there is kind of an active molten core that I have a much better working knowledge of. There are a few really crusty bits that I haven't looked at since before the first release in 2006.
+
+Q: What's the biggest refactor/change that you had to make?
+
+A: Adding the Z coordinate to make the game mechanically 3D was the most mind-numbing thing I've probably ever done. Just weeks and weeks and weeks of taking logic and function calls that relied on X and Y and seeing how a Z fits in there. Making the item system polymorphic was ultimately a mistake, but that was a big one.
+
+Q: Why was this a mistake?
+
+A: When you declare a class that's a kind of item, it locks you into that structure much more tightly than if you just have member elements. It's nice to be able to use virtual functions and that kind of thing, but the tradeoffs are just too much. I started using a tool item in the hierarchy, which started to get various functionality, and can now support anything from a stepladder to a beehive to a mortar, and it just feels more flexible, and I wish every crafted item in the game were under that umbrella. We do a lot of procedural generation, and if we wanted to, say, generate an item that acts partially like one thing and partially like another, it's just way harder to do that when you are locked down in a class hierarchy. If different components can just be turned off and on, it's easier, and allows you to do more. I think some game developers refer to this as an entity component system.
+
+Q: Did you run into any issues moving from 32 bit to 64 bit?
+
+A: Not at all! I'm struggling to think of a single issue. Fortunately for us, we already had our byte sizes under control pretty well, since it comes up saving and loading the worlds; the format needed to be nailed down back when we set that up, especially because we've had to deal with endian stuff between OSes and all that. And we don't do any gnarly pointer operations or other stuff that might have gotten us in trouble.
+
+Q: How do you keep pathfinding efficient?
+
+A: We use A*, which is fast of course, but it's not good enough by itself. We can't take advantage of innovations like jump point search since our map changes so much. Our approach has been to just keep track of connected components reachable by walking. These are pretty easy to update even when the map changes quickly, though it does involve some flood-filling. For instance, if water cuts the fortress in half, it needs to flood out from one side and update a whole half of the fortress to a new index, but once that's done, it's good. Then that allows us to cut almost all failed A* calls from the game—our agents just need to query component numbers, and if the component numbers are the same, they know the call will succeed. It's fast to maintain, but the downside is that the component indices are maintained for walking only. This means that flying creatures don't have global pathfinding intelligence that's any different from a walker.
+
+Q: How do you manage so many actors asynchronously?
+
+A: If we're talking about asynchronous as in multithreading, then no, we don't do any of that, aside from the graphical display itself. There's a lot of promise here, even with microthreading, which the community has helped me out with, but I haven't had time to dive into.
+
+Q: What's your favorite bug and what caused it?
+
+A: It's probably boring for me to say, but I just can't beat the drunken cat bug. That was the one where the cats were showing up dead all over the tavern floor, and it turned out they were ingesting spilled alcohol when they cleaned their paws. One number was off in the ingest-while-cleaning code, and it sent them through all the symptoms of alcohol poisoning.
