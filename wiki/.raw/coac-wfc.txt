@@ -1,0 +1,1 @@
+Wave function collapse python implementation. Supports 1D, 2D, 3D samples. Uses py-vox-io to load Magica Voxel files. Includes examples for MIDI files and voxel models. Licensed under MIT. 62 stars, 7 forks. Python 100%.

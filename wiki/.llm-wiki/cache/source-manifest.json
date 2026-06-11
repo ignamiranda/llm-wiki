@@ -1,0 +1,182 @@
+{
+  "2236149c7515e6e102d388c88e866cd7683feb9771b76c28e8d3da42241eebd1": {
+    "date": "2026-06-11T02:24:41Z",
+    "language": "en",
+    "name": "Mapgen2 Procedural Island Map Generator"
+  },
+  "678d0b244c271f50d37546c49146a109b47db06c5fec28bedb7ff2888e5d50be": {
+    "date": "2026-06-11T02:24:41Z",
+    "language": "en",
+    "name": "Hexagon Tiling of a Sphere"
+  },
+  "3e66b66a16b7b85bb882e69c687b50f41c3c9e018a4dbb1d1a1c876448912aba": {
+    "date": "2026-06-11T02:24:41Z",
+    "language": "en",
+    "name": "Procedural Face Generator"
+  },
+  "c8ce135df46612d6c6f73d8acf98448faef1cfd45ef094bdb11a60354975b8d6": {
+    "date": "2026-06-11T02:24:41Z",
+    "language": "en",
+    "name": "Delaunay+Voronoi on a Sphere"
+  },
+  "e253310e6a6504bec542bbcddf47123579a42c3f96d9d44037d38c630c845b70": {
+    "date": "2026-06-11T02:24:41Z",
+    "language": "en",
+    "name": "Mapgen3 Abandoned Experiment"
+  },
+  "a8eed21aea3604bf3bb4c8df84ee00f7c458b92fa9c9c2faa208e3017e24dacd": {
+    "date": "2026-06-11T02:24:41Z",
+    "language": "en",
+    "name": "Square Tile Maps on a Sphere"
+  },
+  "e8b94ab0ca4acd1310d6be6a2138d2609164c98fbcda12540f304e98bd0b0ce0": {
+    "date": "2026-06-11T02:24:41Z",
+    "language": "en",
+    "name": "Guide to SDF+MSDF Fonts"
+  },
+  "F1D5AE9771439782900028A364E3FDAB25624FE0A42DF483260B771519EA7BA1": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "shawnridgeway/wfc",
+    "language": "en",
+    "pages_created": [
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "D0E84825CDD9E71BE132985B5D98579A7403E59B7B41D4A5D8D2FB91BD798203": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "lamelizard/GraphWaveFunctionCollapse",
+    "language": "en",
+    "pages_created": [
+      "graph-wave-function-collapse",
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "A4BBE0A73026A8F1384D2A16276AE1F613A4BDB8661659A314C76A090F636C38": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "math-fehr/fast-wfc",
+    "language": "en",
+    "pages_created": [
+      "fast-wfc",
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "68F7911DF763B724BCCDA20398747FF4F72FE3BCFBEAB8E84B1E2FDCC26AC5CC": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "Coac/wave-function-collapse",
+    "language": "en",
+    "pages_created": [
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "8D4E29C3DDAE0A3A8C4E7B076E321CB85695BE092CE4F451261F78F78906CF22": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "Henauxg/ghx_proc_gen",
+    "language": "en",
+    "pages_created": [
+      "ghx-proc-gen",
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "BB1D49C39FA120CAA3FFBAF947A3B962E10927CE21018374FE06452EE95AE252": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "krychu/wfc",
+    "language": "en",
+    "pages_created": [
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "103AE5ED509E03036F6DA2D52FDAE501153EE55716633D3AC49D1A12E722182F": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "Al-Asl/AutoLevel",
+    "language": "en",
+    "pages_created": [
+      "autolevel",
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "8509C4C5645ACA60A9DDFA23FF010B991C98127B4CC782970D91E69B9E10A73A": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "ikarth/wfc_python",
+    "language": "en",
+    "pages_created": [
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "89411389E256BFE9934D184C24D17642D32349D1F7C473BA5F387D5019AEF8BC": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "BorisTheBrave/DeBroglie",
+    "language": "en",
+    "pages_created": [
+      "debroglie",
+      "boris-the-brave",
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "EDA076B49DF261CCA0FC7377ADD7430B1AE0D525D6B578FCF19DFBE0261E81A2": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "keijiro/WfcMaze",
+    "language": "en",
+    "pages_created": [
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "9DF7F1E79608DD8F6BB3D9871B26A356F2DC95F3A2A062010E6CC2BD79ADA73D": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "Yuu6883/MarkovJuniorWeb",
+    "language": "en",
+    "pages_created": [
+      "markov-junior-web",
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "CB9E6EB83E524FCEAC4B0E2FC82DBDA18A8C583A6CA623061123F8F5B0E9E903": {
+    "date": "2026-06-11T10:00:00Z",
+    "name": "AlexeyBond/godot-constraint-solving",
+    "language": "en",
+    "pages_created": [
+      "2026-06-11-wfc-implementations-survey"
+    ]
+  },
+  "f3136128c2e9c51b7e695f8991730c2bde81f30f31bdf5d8fff36bd3fa7f5d3b": {
+    "name": "mxgmn/WaveFunctionCollapse README",
+    "date": "2026-06-11T06:30:12Z",
+    "pages_created": [
+      "2026-06-11-wave-function-collapse",
+      "wave-function-collapse",
+      "overlapping-model-wfc",
+      "simple-tiled-model",
+      "entropy-heuristic-wfc",
+      "observation-propagation-cycle",
+      "constraint-propagation-ac4",
+      "model-synthesis",
+      "tile-symmetry-system-wfc",
+      "convchain",
+      "markovjunior",
+      "constrained-synthesis-wfc",
+      "modifying-in-blocks",
+      "chiseling-method",
+      "maxim-gumin",
+      "oskar-stalberg",
+      "boris-the-brave"
+    ],
+    "pages_updated": [
+      "layer-based-procedural-generation",
+      "infinite-terrain",
+      "chunk-based-generation"
+    ],
+    "language": "en"
+  },
+  "c2f7dbfcb5b7d104bf47578551bd730b6f68bfa4b73b545d54162c4c2d51df8f": {
+    "pages_created": [
+      "2026-06-11-terrain3d",
+      "terrain-lod-stitching"
+    ],
+    "name": "terrain3d (GitHub repo)",
+    "language": "en",
+    "pages_updated": [
+      "infinite-terrain",
+      "chunk-based-generation"
+    ],
+    "date": "2026-06-11T02:32:57Z"
+  }
+}

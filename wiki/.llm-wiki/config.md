@@ -1,0 +1,2 @@
+# Wiki Config
+language: en

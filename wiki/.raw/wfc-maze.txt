@@ -1,0 +1,1 @@
+An attempt at implementing a WFC (Wave Function Collapse) procedural model generator with Unity. Creates mazes using WFC. 342 stars, 31 forks. C# 100%.

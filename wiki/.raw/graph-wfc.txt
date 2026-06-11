@@ -1,0 +1,1 @@
+A python 3.x package to color a graph based on patterns extracted from an colored example graph, it's based on WaveFunctionCollapse. Extends WFC to arbitrary graphs rather than grids. Uses subgraph isomorphism (VF2) to extract and apply patterns. Includes a thesis on the algorithm (in German). Uses networkx. Licensed under MIT. 64 stars, 7 forks. Python 97.7%.

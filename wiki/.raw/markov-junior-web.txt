@@ -1,0 +1,1 @@
+Typescript version of MarkovJunior, runs on the web with a fancy renderer. Everything has been implemented including isometric rendering, exporting the output as a .vox file, and node tree visualization. Every model from the original repository can be loaded. Includes MarkovJunior -> AssemblyScript -> Wasm JIT compiler experiments. 199 stars, 16 forks. TypeScript 87.1%.

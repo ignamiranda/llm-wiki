@@ -1,0 +1,42 @@
+{
+  "eac346bab4c5bf9bfa85bda9d13ab2cf0d72a3aa0960ada42ec9c947da4fca4d": {
+    "url": "https://www.redblobgames.com/maps/terrain-from-noise/",
+    "date": "2026-06-11T02:18:07Z",
+    "pages_created": [
+      "2015-07-07-noise-terrain-maps",
+      "noise-based-terrain-generation",
+      "fractional-brownian-motion",
+      "elevation-redistribution",
+      "biome-maps",
+      "ridged-noise",
+      "blue-noise-placement",
+      "wraparound-noise",
+      "island-shaping",
+      "infinite-terrain",
+      "amit-patel"
+    ],
+    "language": "en",
+    "pages_updated": [],
+    "name": "Making maps with noise functions"
+  },
+  "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9": {
+    "pages_created": [
+      "2010-09-01-polygonal-map-generation",
+      "voronoi-diagram-mapgen",
+      "lloyd-relaxation",
+      "dual-graph-representation",
+      "downhill-river-generation",
+      "noisy-edges",
+      "whittaker-diagram-biomes",
+      "voronoi-island-generation",
+      "elevation-from-coast-distance"
+    ],
+    "name": "Polygonal Map Generation for Games",
+    "date": "2026-06-11T06:18:52Z",
+    "pages_updated": [
+      "amit-patel"
+    ],
+    "url": "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/",
+    "language": "en"
+  }
+}

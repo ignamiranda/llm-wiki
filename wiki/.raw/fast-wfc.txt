@@ -1,0 +1,1 @@
+An implementation of Wave Function Collapse with a focus on performance. It was called fast-wfc because at the time it introduced optimizations improving the execution time by an order of magnitude. Written in C++17, uses CMake. Includes Rust bindings. Licensed under MIT. 435 stars, 42 forks. C++ 96.3%.

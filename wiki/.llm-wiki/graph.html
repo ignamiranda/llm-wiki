@@ -1,0 +1,2242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wiki Knowledge Graph</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#1a1a2e;color:#e0e0e0;font-family:'Segoe UI',system-ui,sans-serif;overflow:hidden}
+#graph{width:100vw;height:100vh}
+.tooltip{position:absolute;padding:10px 14px;background:rgba(20,20,40,0.92);border:1px solid #444;border-radius:8px;pointer-events:none;font-size:13px;line-height:1.5;max-width:300px;z-index:100;box-shadow:0 4px 20px rgba(0,0,0,0.5)}
+.tooltip .title{font-weight:600;font-size:15px;margin-bottom:4px}
+.tooltip .detail{color:#aaa;font-size:12px}
+.tooltip .tag{display:inline-block;background:#333;border-radius:4px;padding:1px 8px;margin:2px 2px 0 0;font-size:11px}
+.legend{position:absolute;bottom:24px;right:24px;background:rgba(20,20,40,0.85);border:1px solid #333;border-radius:8px;padding:14px 18px;font-size:13px;backdrop-filter:blur(4px)}
+.legend-item{display:flex;align-items:center;gap:8px;margin:4px 0}
+.legend-dot{width:12px;height:12px;border-radius:50%;display:inline-block}
+.legend-label{color:#ccc}
+.legend-label span{color:#888;font-size:11px}
+.stats-bar{position:absolute;top:16px;left:50%;transform:translateX(-50%);background:rgba(20,20,40,0.8);border:1px solid #333;border-radius:8px;padding:8px 20px;font-size:13px;backdrop-filter:blur(4px);display:flex;gap:20px}
+.stats-bar .stat{display:flex;align-items:center;gap:6px}
+.stats-bar .stat-value{font-weight:600;color:#fff}
+.stats-bar .stat-label{color:#888}
+.link{stroke-opacity:0.3}
+.node{cursor:pointer;stroke:#fff;stroke-width:1.2px}
+.node:hover{stroke-width:2.5px}
+text.label{font-size:10px;fill:#aaa;pointer-events:none;text-anchor:middle}
+</style>
+</head>
+<body>
+<div id="graph"></div>
+<div class="stats-bar" id="statsBar"></div>
+<div class="legend" id="legend"></div>
+<div class="tooltip" id="tooltip" style="display:none"></div>
+<script src="d3.v7.min.js"></script>
+<script>const GRAPH = {
+  "nodes": [
+    {
+      "isOrphan": false,
+      "title": "graph-wave-function-collapse",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "graph-wave-function-collapse"
+    },
+    {
+      "isOrphan": false,
+      "title": "fractional-brownian-motion",
+      "incomingLinks": 6,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "fractional-brownian-motion"
+    },
+    {
+      "isOrphan": false,
+      "title": "convchain",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "convchain"
+    },
+    {
+      "isOrphan": false,
+      "title": "markovjunior",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "markovjunior"
+    },
+    {
+      "isOrphan": false,
+      "title": "rolling-grid",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "rolling-grid"
+    },
+    {
+      "isOrphan": false,
+      "title": "2026-06-11-mapgen3",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "2026-06-11-mapgen3"
+    },
+    {
+      "isOrphan": false,
+      "title": "planning-approach-procgen",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "planning-approach-procgen"
+    },
+    {
+      "isOrphan": false,
+      "title": "layer-based-procedural-generation",
+      "incomingLinks": 18,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 9,
+      "isHub": true,
+      "language": "en",
+      "id": "layer-based-procedural-generation"
+    },
+    {
+      "isOrphan": false,
+      "title": "contextual-generation",
+      "incomingLinks": 7,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "contextual-generation"
+    },
+    {
+      "isOrphan": false,
+      "title": "model-synthesis",
+      "incomingLinks": 4,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "model-synthesis"
+    },
+    {
+      "isOrphan": false,
+      "title": "2026-06-11-wave-function-collapse",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 11,
+      "isHub": true,
+      "language": "en",
+      "id": "2026-06-11-wave-function-collapse"
+    },
+    {
+      "isOrphan": false,
+      "title": "multi-channel-distance-field",
+      "incomingLinks": 4,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "multi-channel-distance-field"
+    },
+    {
+      "isOrphan": false,
+      "title": "noise-based-terrain-generation",
+      "incomingLinks": 18,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 14,
+      "isHub": true,
+      "language": "en",
+      "id": "noise-based-terrain-generation"
+    },
+    {
+      "isOrphan": false,
+      "title": "spherical-voronoi",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "spherical-voronoi"
+    },
+    {
+      "isOrphan": false,
+      "title": "2026-06-11-terrain3d",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "2026-06-11-terrain3d"
+    },
+    {
+      "isOrphan": false,
+      "title": "signed-distance-field-fonts",
+      "incomingLinks": 4,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "signed-distance-field-fonts"
+    },
+    {
+      "isOrphan": false,
+      "title": "2026-06-11-hexagon-tiling-sphere",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "2026-06-11-hexagon-tiling-sphere"
+    },
+    {
+      "isOrphan": false,
+      "title": "2026-06-11-sdf-msdf-fonts",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "2026-06-11-sdf-msdf-fonts"
+    },
+    {
+      "isOrphan": false,
+      "title": "autolevel",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "autolevel"
+    },
+    {
+      "isOrphan": false,
+      "title": "markov-junior-web",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "markov-junior-web"
+    },
+    {
+      "isOrphan": false,
+      "title": "wave-function-collapse",
+      "incomingLinks": 18,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 10,
+      "isHub": true,
+      "language": "en",
+      "id": "wave-function-collapse"
+    },
+    {
+      "isOrphan": false,
+      "title": "2010-09-01-polygonal-map-generation",
+      "incomingLinks": 10,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 10,
+      "isHub": true,
+      "language": "en",
+      "id": "2010-09-01-polygonal-map-generation"
+    },
+    {
+      "isOrphan": false,
+      "title": "deterministic-generation",
+      "incomingLinks": 8,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 6,
+      "isHub": true,
+      "language": "en",
+      "id": "deterministic-generation"
+    },
+    {
+      "isOrphan": false,
+      "title": "voronoi-diagram-mapgen",
+      "incomingLinks": 11,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "voronoi-diagram-mapgen"
+    },
+    {
+      "isOrphan": false,
+      "title": "overlapping-model-wfc",
+      "incomingLinks": 5,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "overlapping-model-wfc"
+    },
+    {
+      "isOrphan": false,
+      "title": "cube-sphere-projection",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "cube-sphere-projection"
+    },
+    {
+      "isOrphan": false,
+      "title": "effect-distance-and-padding",
+      "incomingLinks": 5,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "effect-distance-and-padding"
+    },
+    {
+      "isOrphan": false,
+      "title": "2015-07-07-noise-terrain-maps",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 13,
+      "isHub": true,
+      "language": "en",
+      "id": "2015-07-07-noise-terrain-maps"
+    },
+    {
+      "isOrphan": false,
+      "title": "modifying-in-blocks",
+      "incomingLinks": 4,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "modifying-in-blocks"
+    },
+    {
+      "isOrphan": false,
+      "title": "layerprocgen",
+      "incomingLinks": 10,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 12,
+      "isHub": true,
+      "language": "en",
+      "id": "layerprocgen"
+    },
+    {
+      "isOrphan": false,
+      "title": "observation-propagation-cycle",
+      "incomingLinks": 6,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "observation-propagation-cycle"
+    },
+    {
+      "isOrphan": false,
+      "title": "2026-06-11-procedural-face-generator",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "2026-06-11-procedural-face-generator"
+    },
+    {
+      "isOrphan": false,
+      "title": "maxim-gumin",
+      "incomingLinks": 4,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "maxim-gumin"
+    },
+    {
+      "isOrphan": false,
+      "title": "simple-tiled-model",
+      "incomingLinks": 7,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "simple-tiled-model"
+    },
+    {
+      "isOrphan": false,
+      "title": "debroglie",
+      "incomingLinks": 7,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "debroglie"
+    },
+    {
+      "isOrphan": false,
+      "title": "fast-wfc",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "fast-wfc"
+    },
+    {
+      "isOrphan": false,
+      "title": "fibonacci-sphere",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "fibonacci-sphere"
+    },
+    {
+      "isOrphan": false,
+      "title": "internal-layer-levels",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "internal-layer-levels"
+    },
+    {
+      "isOrphan": false,
+      "title": "procedural-face-generation",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 1,
+      "isHub": false,
+      "language": "en",
+      "id": "procedural-face-generation"
+    },
+    {
+      "isOrphan": false,
+      "title": "functional-approach-procgen",
+      "incomingLinks": 5,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 6,
+      "isHub": true,
+      "language": "en",
+      "id": "functional-approach-procgen"
+    },
+    {
+      "isOrphan": false,
+      "title": "elevation-from-coast-distance",
+      "incomingLinks": 5,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "elevation-from-coast-distance"
+    },
+    {
+      "isOrphan": false,
+      "title": "tile-symmetry-system-wfc",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "tile-symmetry-system-wfc"
+    },
+    {
+      "isOrphan": false,
+      "title": "ridged-noise",
+      "incomingLinks": 4,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "ridged-noise"
+    },
+    {
+      "isOrphan": false,
+      "title": "dual-graph-representation",
+      "incomingLinks": 6,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "dual-graph-representation"
+    },
+    {
+      "isOrphan": false,
+      "title": "chiseling-method",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "chiseling-method"
+    },
+    {
+      "isOrphan": false,
+      "title": "owned-within-bounds",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "owned-within-bounds"
+    },
+    {
+      "isOrphan": false,
+      "title": "entropy-heuristic-wfc",
+      "incomingLinks": 8,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "entropy-heuristic-wfc"
+    },
+    {
+      "isOrphan": false,
+      "title": "lloyd-relaxation",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "lloyd-relaxation"
+    },
+    {
+      "isOrphan": false,
+      "title": "infinite-terrain",
+      "incomingLinks": 9,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 8,
+      "isHub": true,
+      "language": "en",
+      "id": "infinite-terrain"
+    },
+    {
+      "isOrphan": false,
+      "title": "noisy-edges",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "noisy-edges"
+    },
+    {
+      "isOrphan": false,
+      "title": "constraint-propagation-ac4",
+      "incomingLinks": 4,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "constraint-propagation-ac4"
+    },
+    {
+      "isOrphan": false,
+      "title": "viktor-chlumsky",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "viktor-chlumsky"
+    },
+    {
+      "isOrphan": false,
+      "title": "chris-green",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "chris-green"
+    },
+    {
+      "isOrphan": false,
+      "title": "boris-the-brave",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "boris-the-brave"
+    },
+    {
+      "isOrphan": false,
+      "title": "top-layer-dependencies",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "top-layer-dependencies"
+    },
+    {
+      "isOrphan": false,
+      "title": "blue-noise-placement",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "blue-noise-placement"
+    },
+    {
+      "isOrphan": false,
+      "title": "elevation-redistribution",
+      "incomingLinks": 6,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "elevation-redistribution"
+    },
+    {
+      "isOrphan": false,
+      "title": "whittaker-diagram-biomes",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "whittaker-diagram-biomes"
+    },
+    {
+      "isOrphan": false,
+      "title": "ghx-proc-gen",
+      "incomingLinks": 2,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "ghx-proc-gen"
+    },
+    {
+      "isOrphan": false,
+      "title": "constrained-synthesis-wfc",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "constrained-synthesis-wfc"
+    },
+    {
+      "isOrphan": false,
+      "title": "amit-patel",
+      "incomingLinks": 11,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 7,
+      "isHub": true,
+      "language": "en",
+      "id": "amit-patel"
+    },
+    {
+      "isOrphan": false,
+      "title": "downhill-river-generation",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "downhill-river-generation"
+    },
+    {
+      "isOrphan": false,
+      "title": "oskar-stalberg",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "oskar-stalberg"
+    },
+    {
+      "isOrphan": false,
+      "title": "biome-maps",
+      "incomingLinks": 5,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "biome-maps"
+    },
+    {
+      "isOrphan": false,
+      "title": "rune-skovbo-johansen",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "rune-skovbo-johansen"
+    },
+    {
+      "isOrphan": false,
+      "title": "2026-06-11-wfc-implementations-survey",
+      "incomingLinks": 7,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 8,
+      "isHub": true,
+      "language": "en",
+      "id": "2026-06-11-wfc-implementations-survey"
+    },
+    {
+      "isOrphan": false,
+      "title": "2026-06-11-delaunay-voronoi-sphere",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "2026-06-11-delaunay-voronoi-sphere"
+    },
+    {
+      "isOrphan": false,
+      "title": "terrain-lod-stitching",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "terrain-lod-stitching"
+    },
+    {
+      "isOrphan": false,
+      "title": "chunk-based-generation",
+      "incomingLinks": 13,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 10,
+      "isHub": true,
+      "language": "en",
+      "id": "chunk-based-generation"
+    },
+    {
+      "isOrphan": false,
+      "title": "2026-06-11-mapgen2",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 5,
+      "isHub": false,
+      "language": "en",
+      "id": "2026-06-11-mapgen2"
+    },
+    {
+      "isOrphan": false,
+      "title": "layer-dependencies",
+      "incomingLinks": 6,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 6,
+      "isHub": true,
+      "language": "en",
+      "id": "layer-dependencies"
+    },
+    {
+      "isOrphan": false,
+      "title": "2026-06-11-square-tiling-sphere",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "2026-06-11-square-tiling-sphere"
+    },
+    {
+      "isOrphan": false,
+      "title": "wraparound-noise",
+      "incomingLinks": 3,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 2,
+      "isHub": false,
+      "language": "en",
+      "id": "wraparound-noise"
+    },
+    {
+      "isOrphan": false,
+      "title": "island-shaping",
+      "incomingLinks": 4,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 3,
+      "isHub": false,
+      "language": "en",
+      "id": "island-shaping"
+    },
+    {
+      "isOrphan": false,
+      "title": "voronoi-island-generation",
+      "incomingLinks": 1,
+      "type": "concept",
+      "tags": [],
+      "outgoingLinks": 4,
+      "isHub": false,
+      "language": "en",
+      "id": "voronoi-island-generation"
+    }
+  ],
+  "edges": [
+    {
+      "source": "2010-09-01-polygonal-map-generation",
+      "target": "voronoi-diagram-mapgen"
+    },
+    {
+      "source": "2010-09-01-polygonal-map-generation",
+      "target": "lloyd-relaxation"
+    },
+    {
+      "source": "2010-09-01-polygonal-map-generation",
+      "target": "dual-graph-representation"
+    },
+    {
+      "source": "2010-09-01-polygonal-map-generation",
+      "target": "downhill-river-generation"
+    },
+    {
+      "source": "2010-09-01-polygonal-map-generation",
+      "target": "noisy-edges"
+    },
+    {
+      "source": "2010-09-01-polygonal-map-generation",
+      "target": "whittaker-diagram-biomes"
+    },
+    {
+      "source": "2010-09-01-polygonal-map-generation",
+      "target": "elevation-from-coast-distance"
+    },
+    {
+      "source": "2010-09-01-polygonal-map-generation",
+      "target": "amit-patel"
+    },
+    {
+      "source": "2010-09-01-polygonal-map-generation",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "2010-09-01-polygonal-map-generation",
+      "target": "2015-07-07-noise-terrain-maps"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "functional-approach-procgen"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "deterministic-generation"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "fractional-brownian-motion"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "elevation-redistribution"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "biome-maps"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "ridged-noise"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "blue-noise-placement"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "island-shaping"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "wraparound-noise"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "infinite-terrain"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "amit-patel"
+    },
+    {
+      "source": "2015-07-07-noise-terrain-maps",
+      "target": "rune-skovbo-johansen"
+    },
+    {
+      "source": "2026-06-11-delaunay-voronoi-sphere",
+      "target": "spherical-voronoi"
+    },
+    {
+      "source": "2026-06-11-delaunay-voronoi-sphere",
+      "target": "fibonacci-sphere"
+    },
+    {
+      "source": "2026-06-11-delaunay-voronoi-sphere",
+      "target": "voronoi-diagram-mapgen"
+    },
+    {
+      "source": "2026-06-11-delaunay-voronoi-sphere",
+      "target": "dual-graph-representation"
+    },
+    {
+      "source": "2026-06-11-delaunay-voronoi-sphere",
+      "target": "amit-patel"
+    },
+    {
+      "source": "2026-06-11-hexagon-tiling-sphere",
+      "target": "2026-06-11-square-tiling-sphere"
+    },
+    {
+      "source": "2026-06-11-hexagon-tiling-sphere",
+      "target": "2026-06-11-delaunay-voronoi-sphere"
+    },
+    {
+      "source": "2026-06-11-hexagon-tiling-sphere",
+      "target": "amit-patel"
+    },
+    {
+      "source": "2026-06-11-mapgen2",
+      "target": "2010-09-01-polygonal-map-generation"
+    },
+    {
+      "source": "2026-06-11-mapgen2",
+      "target": "amit-patel"
+    },
+    {
+      "source": "2026-06-11-mapgen2",
+      "target": "voronoi-diagram-mapgen"
+    },
+    {
+      "source": "2026-06-11-mapgen2",
+      "target": "elevation-from-coast-distance"
+    },
+    {
+      "source": "2026-06-11-mapgen2",
+      "target": "2026-06-11-mapgen3"
+    },
+    {
+      "source": "2026-06-11-mapgen3",
+      "target": "2026-06-11-mapgen2"
+    },
+    {
+      "source": "2026-06-11-mapgen3",
+      "target": "2026-06-11-square-tiling-sphere"
+    },
+    {
+      "source": "2026-06-11-mapgen3",
+      "target": "amit-patel"
+    },
+    {
+      "source": "2026-06-11-procedural-face-generator",
+      "target": "procedural-face-generation"
+    },
+    {
+      "source": "2026-06-11-procedural-face-generator",
+      "target": "amit-patel"
+    },
+    {
+      "source": "2026-06-11-sdf-msdf-fonts",
+      "target": "signed-distance-field-fonts"
+    },
+    {
+      "source": "2026-06-11-sdf-msdf-fonts",
+      "target": "multi-channel-distance-field"
+    },
+    {
+      "source": "2026-06-11-sdf-msdf-fonts",
+      "target": "chris-green"
+    },
+    {
+      "source": "2026-06-11-sdf-msdf-fonts",
+      "target": "viktor-chlumsky"
+    },
+    {
+      "source": "2026-06-11-sdf-msdf-fonts",
+      "target": "amit-patel"
+    },
+    {
+      "source": "2026-06-11-square-tiling-sphere",
+      "target": "2026-06-11-hexagon-tiling-sphere"
+    },
+    {
+      "source": "2026-06-11-square-tiling-sphere",
+      "target": "2026-06-11-delaunay-voronoi-sphere"
+    },
+    {
+      "source": "2026-06-11-square-tiling-sphere",
+      "target": "cube-sphere-projection"
+    },
+    {
+      "source": "2026-06-11-square-tiling-sphere",
+      "target": "amit-patel"
+    },
+    {
+      "source": "2026-06-11-terrain3d",
+      "target": "terrain-lod-stitching"
+    },
+    {
+      "source": "2026-06-11-terrain3d",
+      "target": "infinite-terrain"
+    },
+    {
+      "source": "2026-06-11-terrain3d",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "2026-06-11-terrain3d",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "2026-06-11-terrain3d",
+      "target": "layerprocgen"
+    },
+    {
+      "source": "2026-06-11-wave-function-collapse",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "2026-06-11-wave-function-collapse",
+      "target": "overlapping-model-wfc"
+    },
+    {
+      "source": "2026-06-11-wave-function-collapse",
+      "target": "simple-tiled-model"
+    },
+    {
+      "source": "2026-06-11-wave-function-collapse",
+      "target": "entropy-heuristic-wfc"
+    },
+    {
+      "source": "2026-06-11-wave-function-collapse",
+      "target": "observation-propagation-cycle"
+    },
+    {
+      "source": "2026-06-11-wave-function-collapse",
+      "target": "constraint-propagation-ac4"
+    },
+    {
+      "source": "2026-06-11-wave-function-collapse",
+      "target": "model-synthesis"
+    },
+    {
+      "source": "2026-06-11-wave-function-collapse",
+      "target": "maxim-gumin"
+    },
+    {
+      "source": "2026-06-11-wave-function-collapse",
+      "target": "oskar-stalberg"
+    },
+    {
+      "source": "2026-06-11-wave-function-collapse",
+      "target": "boris-the-brave"
+    },
+    {
+      "source": "2026-06-11-wave-function-collapse",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "2026-06-11-wfc-implementations-survey",
+      "target": "debroglie"
+    },
+    {
+      "source": "2026-06-11-wfc-implementations-survey",
+      "target": "fast-wfc"
+    },
+    {
+      "source": "2026-06-11-wfc-implementations-survey",
+      "target": "ghx-proc-gen"
+    },
+    {
+      "source": "2026-06-11-wfc-implementations-survey",
+      "target": "graph-wave-function-collapse"
+    },
+    {
+      "source": "2026-06-11-wfc-implementations-survey",
+      "target": "autolevel"
+    },
+    {
+      "source": "2026-06-11-wfc-implementations-survey",
+      "target": "markov-junior-web"
+    },
+    {
+      "source": "2026-06-11-wfc-implementations-survey",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "2026-06-11-wfc-implementations-survey",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "amit-patel",
+      "target": "2010-09-01-polygonal-map-generation"
+    },
+    {
+      "source": "amit-patel",
+      "target": "2015-07-07-noise-terrain-maps"
+    },
+    {
+      "source": "amit-patel",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "amit-patel",
+      "target": "biome-maps"
+    },
+    {
+      "source": "amit-patel",
+      "target": "voronoi-diagram-mapgen"
+    },
+    {
+      "source": "amit-patel",
+      "target": "downhill-river-generation"
+    },
+    {
+      "source": "amit-patel",
+      "target": "rune-skovbo-johansen"
+    },
+    {
+      "source": "autolevel",
+      "target": "debroglie"
+    },
+    {
+      "source": "autolevel",
+      "target": "2026-06-11-wfc-implementations-survey"
+    },
+    {
+      "source": "autolevel",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "biome-maps",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "biome-maps",
+      "target": "fractional-brownian-motion"
+    },
+    {
+      "source": "biome-maps",
+      "target": "elevation-redistribution"
+    },
+    {
+      "source": "biome-maps",
+      "target": "ridged-noise"
+    },
+    {
+      "source": "blue-noise-placement",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "blue-noise-placement",
+      "target": "biome-maps"
+    },
+    {
+      "source": "boris-the-brave",
+      "target": "chiseling-method"
+    },
+    {
+      "source": "boris-the-brave",
+      "target": "modifying-in-blocks"
+    },
+    {
+      "source": "boris-the-brave",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "chiseling-method",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "chiseling-method",
+      "target": "boris-the-brave"
+    },
+    {
+      "source": "chiseling-method",
+      "target": "constrained-synthesis-wfc"
+    },
+    {
+      "source": "chris-green",
+      "target": "signed-distance-field-fonts"
+    },
+    {
+      "source": "chris-green",
+      "target": "multi-channel-distance-field"
+    },
+    {
+      "source": "chunk-based-generation",
+      "target": "layerprocgen"
+    },
+    {
+      "source": "chunk-based-generation",
+      "target": "rolling-grid"
+    },
+    {
+      "source": "chunk-based-generation",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "chunk-based-generation",
+      "target": "owned-within-bounds"
+    },
+    {
+      "source": "chunk-based-generation",
+      "target": "effect-distance-and-padding"
+    },
+    {
+      "source": "chunk-based-generation",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "chunk-based-generation",
+      "target": "infinite-terrain"
+    },
+    {
+      "source": "chunk-based-generation",
+      "target": "modifying-in-blocks"
+    },
+    {
+      "source": "chunk-based-generation",
+      "target": "terrain-lod-stitching"
+    },
+    {
+      "source": "chunk-based-generation",
+      "target": "2026-06-11-terrain3d"
+    },
+    {
+      "source": "constrained-synthesis-wfc",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "constrained-synthesis-wfc",
+      "target": "observation-propagation-cycle"
+    },
+    {
+      "source": "constrained-synthesis-wfc",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "constraint-propagation-ac4",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "constraint-propagation-ac4",
+      "target": "observation-propagation-cycle"
+    },
+    {
+      "source": "constraint-propagation-ac4",
+      "target": "model-synthesis"
+    },
+    {
+      "source": "contextual-generation",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "contextual-generation",
+      "target": "layerprocgen"
+    },
+    {
+      "source": "contextual-generation",
+      "target": "deterministic-generation"
+    },
+    {
+      "source": "contextual-generation",
+      "target": "effect-distance-and-padding"
+    },
+    {
+      "source": "contextual-generation",
+      "target": "owned-within-bounds"
+    },
+    {
+      "source": "convchain",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "convchain",
+      "target": "maxim-gumin"
+    },
+    {
+      "source": "cube-sphere-projection",
+      "target": "2026-06-11-square-tiling-sphere"
+    },
+    {
+      "source": "cube-sphere-projection",
+      "target": "2026-06-11-hexagon-tiling-sphere"
+    },
+    {
+      "source": "debroglie",
+      "target": "fast-wfc"
+    },
+    {
+      "source": "debroglie",
+      "target": "ghx-proc-gen"
+    },
+    {
+      "source": "debroglie",
+      "target": "graph-wave-function-collapse"
+    },
+    {
+      "source": "debroglie",
+      "target": "2026-06-11-wfc-implementations-survey"
+    },
+    {
+      "source": "deterministic-generation",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "deterministic-generation",
+      "target": "contextual-generation"
+    },
+    {
+      "source": "deterministic-generation",
+      "target": "layer-dependencies"
+    },
+    {
+      "source": "deterministic-generation",
+      "target": "layerprocgen"
+    },
+    {
+      "source": "deterministic-generation",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "deterministic-generation",
+      "target": "infinite-terrain"
+    },
+    {
+      "source": "downhill-river-generation",
+      "target": "elevation-from-coast-distance"
+    },
+    {
+      "source": "downhill-river-generation",
+      "target": "voronoi-diagram-mapgen"
+    },
+    {
+      "source": "downhill-river-generation",
+      "target": "2010-09-01-polygonal-map-generation"
+    },
+    {
+      "source": "dual-graph-representation",
+      "target": "voronoi-diagram-mapgen"
+    },
+    {
+      "source": "dual-graph-representation",
+      "target": "noisy-edges"
+    },
+    {
+      "source": "dual-graph-representation",
+      "target": "2010-09-01-polygonal-map-generation"
+    },
+    {
+      "source": "effect-distance-and-padding",
+      "target": "contextual-generation"
+    },
+    {
+      "source": "effect-distance-and-padding",
+      "target": "layer-dependencies"
+    },
+    {
+      "source": "effect-distance-and-padding",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "elevation-from-coast-distance",
+      "target": "voronoi-island-generation"
+    },
+    {
+      "source": "elevation-from-coast-distance",
+      "target": "downhill-river-generation"
+    },
+    {
+      "source": "elevation-from-coast-distance",
+      "target": "whittaker-diagram-biomes"
+    },
+    {
+      "source": "elevation-from-coast-distance",
+      "target": "2010-09-01-polygonal-map-generation"
+    },
+    {
+      "source": "elevation-redistribution",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "elevation-redistribution",
+      "target": "fractional-brownian-motion"
+    },
+    {
+      "source": "elevation-redistribution",
+      "target": "biome-maps"
+    },
+    {
+      "source": "elevation-redistribution",
+      "target": "island-shaping"
+    },
+    {
+      "source": "entropy-heuristic-wfc",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "entropy-heuristic-wfc",
+      "target": "observation-propagation-cycle"
+    },
+    {
+      "source": "entropy-heuristic-wfc",
+      "target": "overlapping-model-wfc"
+    },
+    {
+      "source": "fast-wfc",
+      "target": "debroglie"
+    },
+    {
+      "source": "fast-wfc",
+      "target": "2026-06-11-wfc-implementations-survey"
+    },
+    {
+      "source": "fibonacci-sphere",
+      "target": "spherical-voronoi"
+    },
+    {
+      "source": "fibonacci-sphere",
+      "target": "2026-06-11-delaunay-voronoi-sphere"
+    },
+    {
+      "source": "fractional-brownian-motion",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "fractional-brownian-motion",
+      "target": "elevation-redistribution"
+    },
+    {
+      "source": "fractional-brownian-motion",
+      "target": "ridged-noise"
+    },
+    {
+      "source": "fractional-brownian-motion",
+      "target": "wraparound-noise"
+    },
+    {
+      "source": "functional-approach-procgen",
+      "target": "deterministic-generation"
+    },
+    {
+      "source": "functional-approach-procgen",
+      "target": "contextual-generation"
+    },
+    {
+      "source": "functional-approach-procgen",
+      "target": "planning-approach-procgen"
+    },
+    {
+      "source": "functional-approach-procgen",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "functional-approach-procgen",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "functional-approach-procgen",
+      "target": "infinite-terrain"
+    },
+    {
+      "source": "ghx-proc-gen",
+      "target": "debroglie"
+    },
+    {
+      "source": "ghx-proc-gen",
+      "target": "fast-wfc"
+    },
+    {
+      "source": "ghx-proc-gen",
+      "target": "2026-06-11-wfc-implementations-survey"
+    },
+    {
+      "source": "ghx-proc-gen",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "graph-wave-function-collapse",
+      "target": "debroglie"
+    },
+    {
+      "source": "graph-wave-function-collapse",
+      "target": "2026-06-11-wfc-implementations-survey"
+    },
+    {
+      "source": "graph-wave-function-collapse",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "infinite-terrain",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "infinite-terrain",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "infinite-terrain",
+      "target": "functional-approach-procgen"
+    },
+    {
+      "source": "infinite-terrain",
+      "target": "deterministic-generation"
+    },
+    {
+      "source": "infinite-terrain",
+      "target": "island-shaping"
+    },
+    {
+      "source": "infinite-terrain",
+      "target": "modifying-in-blocks"
+    },
+    {
+      "source": "infinite-terrain",
+      "target": "terrain-lod-stitching"
+    },
+    {
+      "source": "infinite-terrain",
+      "target": "2026-06-11-terrain3d"
+    },
+    {
+      "source": "internal-layer-levels",
+      "target": "layer-dependencies"
+    },
+    {
+      "source": "internal-layer-levels",
+      "target": "layerprocgen"
+    },
+    {
+      "source": "internal-layer-levels",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "internal-layer-levels",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "island-shaping",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "island-shaping",
+      "target": "elevation-redistribution"
+    },
+    {
+      "source": "island-shaping",
+      "target": "infinite-terrain"
+    },
+    {
+      "source": "layer-based-procedural-generation",
+      "target": "layerprocgen"
+    },
+    {
+      "source": "layer-based-procedural-generation",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "layer-based-procedural-generation",
+      "target": "debroglie"
+    },
+    {
+      "source": "layer-based-procedural-generation",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "layer-based-procedural-generation",
+      "target": "contextual-generation"
+    },
+    {
+      "source": "layer-based-procedural-generation",
+      "target": "deterministic-generation"
+    },
+    {
+      "source": "layer-based-procedural-generation",
+      "target": "layer-dependencies"
+    },
+    {
+      "source": "layer-based-procedural-generation",
+      "target": "internal-layer-levels"
+    },
+    {
+      "source": "layer-based-procedural-generation",
+      "target": "planning-approach-procgen"
+    },
+    {
+      "source": "layer-dependencies",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "layer-dependencies",
+      "target": "deterministic-generation"
+    },
+    {
+      "source": "layer-dependencies",
+      "target": "top-layer-dependencies"
+    },
+    {
+      "source": "layer-dependencies",
+      "target": "effect-distance-and-padding"
+    },
+    {
+      "source": "layer-dependencies",
+      "target": "internal-layer-levels"
+    },
+    {
+      "source": "layer-dependencies",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "rolling-grid"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "owned-within-bounds"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "effect-distance-and-padding"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "functional-approach-procgen"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "planning-approach-procgen"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "rune-skovbo-johansen"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "contextual-generation"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "deterministic-generation"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "layer-dependencies"
+    },
+    {
+      "source": "layerprocgen",
+      "target": "top-layer-dependencies"
+    },
+    {
+      "source": "lloyd-relaxation",
+      "target": "voronoi-diagram-mapgen"
+    },
+    {
+      "source": "lloyd-relaxation",
+      "target": "2010-09-01-polygonal-map-generation"
+    },
+    {
+      "source": "markov-junior-web",
+      "target": "2026-06-11-wfc-implementations-survey"
+    },
+    {
+      "source": "markov-junior-web",
+      "target": "debroglie"
+    },
+    {
+      "source": "markovjunior",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "markovjunior",
+      "target": "simple-tiled-model"
+    },
+    {
+      "source": "markovjunior",
+      "target": "maxim-gumin"
+    },
+    {
+      "source": "maxim-gumin",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "maxim-gumin",
+      "target": "2026-06-11-wave-function-collapse"
+    },
+    {
+      "source": "maxim-gumin",
+      "target": "convchain"
+    },
+    {
+      "source": "maxim-gumin",
+      "target": "markovjunior"
+    },
+    {
+      "source": "maxim-gumin",
+      "target": "entropy-heuristic-wfc"
+    },
+    {
+      "source": "model-synthesis",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "model-synthesis",
+      "target": "constraint-propagation-ac4"
+    },
+    {
+      "source": "model-synthesis",
+      "target": "entropy-heuristic-wfc"
+    },
+    {
+      "source": "model-synthesis",
+      "target": "tile-symmetry-system-wfc"
+    },
+    {
+      "source": "model-synthesis",
+      "target": "modifying-in-blocks"
+    },
+    {
+      "source": "modifying-in-blocks",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "modifying-in-blocks",
+      "target": "model-synthesis"
+    },
+    {
+      "source": "modifying-in-blocks",
+      "target": "boris-the-brave"
+    },
+    {
+      "source": "modifying-in-blocks",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "modifying-in-blocks",
+      "target": "infinite-terrain"
+    },
+    {
+      "source": "multi-channel-distance-field",
+      "target": "signed-distance-field-fonts"
+    },
+    {
+      "source": "multi-channel-distance-field",
+      "target": "viktor-chlumsky"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "fractional-brownian-motion"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "elevation-redistribution"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "biome-maps"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "ridged-noise"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "blue-noise-placement"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "island-shaping"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "wraparound-noise"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "infinite-terrain"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "functional-approach-procgen"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "deterministic-generation"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "amit-patel"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "noise-based-terrain-generation",
+      "target": "2026-06-11-wfc-implementations-survey"
+    },
+    {
+      "source": "noisy-edges",
+      "target": "dual-graph-representation"
+    },
+    {
+      "source": "noisy-edges",
+      "target": "voronoi-diagram-mapgen"
+    },
+    {
+      "source": "noisy-edges",
+      "target": "2010-09-01-polygonal-map-generation"
+    },
+    {
+      "source": "observation-propagation-cycle",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "observation-propagation-cycle",
+      "target": "entropy-heuristic-wfc"
+    },
+    {
+      "source": "observation-propagation-cycle",
+      "target": "constraint-propagation-ac4"
+    },
+    {
+      "source": "observation-propagation-cycle",
+      "target": "overlapping-model-wfc"
+    },
+    {
+      "source": "observation-propagation-cycle",
+      "target": "simple-tiled-model"
+    },
+    {
+      "source": "oskar-stalberg",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "oskar-stalberg",
+      "target": "2026-06-11-wave-function-collapse"
+    },
+    {
+      "source": "oskar-stalberg",
+      "target": "entropy-heuristic-wfc"
+    },
+    {
+      "source": "oskar-stalberg",
+      "target": "simple-tiled-model"
+    },
+    {
+      "source": "overlapping-model-wfc",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "overlapping-model-wfc",
+      "target": "simple-tiled-model"
+    },
+    {
+      "source": "overlapping-model-wfc",
+      "target": "entropy-heuristic-wfc"
+    },
+    {
+      "source": "overlapping-model-wfc",
+      "target": "observation-propagation-cycle"
+    },
+    {
+      "source": "owned-within-bounds",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "owned-within-bounds",
+      "target": "layerprocgen"
+    },
+    {
+      "source": "owned-within-bounds",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "owned-within-bounds",
+      "target": "contextual-generation"
+    },
+    {
+      "source": "planning-approach-procgen",
+      "target": "functional-approach-procgen"
+    },
+    {
+      "source": "planning-approach-procgen",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "planning-approach-procgen",
+      "target": "layerprocgen"
+    },
+    {
+      "source": "procedural-face-generation",
+      "target": "2026-06-11-procedural-face-generator"
+    },
+    {
+      "source": "ridged-noise",
+      "target": "fractional-brownian-motion"
+    },
+    {
+      "source": "ridged-noise",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "ridged-noise",
+      "target": "elevation-redistribution"
+    },
+    {
+      "source": "rolling-grid",
+      "target": "layerprocgen"
+    },
+    {
+      "source": "rolling-grid",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "rolling-grid",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "rune-skovbo-johansen",
+      "target": "layerprocgen"
+    },
+    {
+      "source": "rune-skovbo-johansen",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "rune-skovbo-johansen",
+      "target": "contextual-generation"
+    },
+    {
+      "source": "rune-skovbo-johansen",
+      "target": "amit-patel"
+    },
+    {
+      "source": "signed-distance-field-fonts",
+      "target": "multi-channel-distance-field"
+    },
+    {
+      "source": "signed-distance-field-fonts",
+      "target": "2026-06-11-sdf-msdf-fonts"
+    },
+    {
+      "source": "signed-distance-field-fonts",
+      "target": "chris-green"
+    },
+    {
+      "source": "signed-distance-field-fonts",
+      "target": "viktor-chlumsky"
+    },
+    {
+      "source": "simple-tiled-model",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "simple-tiled-model",
+      "target": "overlapping-model-wfc"
+    },
+    {
+      "source": "simple-tiled-model",
+      "target": "tile-symmetry-system-wfc"
+    },
+    {
+      "source": "simple-tiled-model",
+      "target": "markovjunior"
+    },
+    {
+      "source": "simple-tiled-model",
+      "target": "entropy-heuristic-wfc"
+    },
+    {
+      "source": "spherical-voronoi",
+      "target": "voronoi-diagram-mapgen"
+    },
+    {
+      "source": "spherical-voronoi",
+      "target": "fibonacci-sphere"
+    },
+    {
+      "source": "spherical-voronoi",
+      "target": "dual-graph-representation"
+    },
+    {
+      "source": "terrain-lod-stitching",
+      "target": "2026-06-11-terrain3d"
+    },
+    {
+      "source": "terrain-lod-stitching",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "terrain-lod-stitching",
+      "target": "infinite-terrain"
+    },
+    {
+      "source": "terrain-lod-stitching",
+      "target": "noise-based-terrain-generation"
+    },
+    {
+      "source": "terrain-lod-stitching",
+      "target": "effect-distance-and-padding"
+    },
+    {
+      "source": "tile-symmetry-system-wfc",
+      "target": "simple-tiled-model"
+    },
+    {
+      "source": "tile-symmetry-system-wfc",
+      "target": "wave-function-collapse"
+    },
+    {
+      "source": "top-layer-dependencies",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "top-layer-dependencies",
+      "target": "layer-dependencies"
+    },
+    {
+      "source": "viktor-chlumsky",
+      "target": "multi-channel-distance-field"
+    },
+    {
+      "source": "viktor-chlumsky",
+      "target": "signed-distance-field-fonts"
+    },
+    {
+      "source": "voronoi-diagram-mapgen",
+      "target": "lloyd-relaxation"
+    },
+    {
+      "source": "voronoi-diagram-mapgen",
+      "target": "dual-graph-representation"
+    },
+    {
+      "source": "voronoi-diagram-mapgen",
+      "target": "2010-09-01-polygonal-map-generation"
+    },
+    {
+      "source": "voronoi-diagram-mapgen",
+      "target": "layer-based-procedural-generation"
+    },
+    {
+      "source": "voronoi-diagram-mapgen",
+      "target": "chunk-based-generation"
+    },
+    {
+      "source": "voronoi-island-generation",
+      "target": "voronoi-diagram-mapgen"
+    },
+    {
+      "source": "voronoi-island-generation",
+      "target": "elevation-from-coast-distance"
+    },
+    {
+      "source": "voronoi-island-generation",
+      "target": "dual-graph-representation"
+    },
+    {
+      "source": "voronoi-island-generation",
+      "target": "2010-09-01-polygonal-map-generation"
+    },
+    {
+      "source": "wave-function-collapse",
+      "target": "2026-06-11-wave-function-collapse"
+    },
+    {
+      "source": "wave-function-collapse",
+      "target": "overlapping-model-wfc"
+    },
+    {
+      "source": "wave-function-collapse",
+      "target": "simple-tiled-model"
+    },
+    {
+      "source": "wave-function-collapse",
+      "target": "entropy-heuristic-wfc"
+    },
+    {
+      "source": "wave-function-collapse",
+      "target": "observation-propagation-cycle"
+    },
+    {
+      "source": "wave-function-collapse",
+      "target": "constraint-propagation-ac4"
+    },
+    {
+      "source": "wave-function-collapse",
+      "target": "model-synthesis"
+    },
+    {
+      "source": "wave-function-collapse",
+      "target": "convchain"
+    },
+    {
+      "source": "wave-function-collapse",
+      "target": "markovjunior"
+    },
+    {
+      "source": "wave-function-collapse",
+      "target": "maxim-gumin"
+    },
+    {
+      "source": "whittaker-diagram-biomes",
+      "target": "elevation-from-coast-distance"
+    },
+    {
+      "source": "whittaker-diagram-biomes",
+      "target": "voronoi-diagram-mapgen"
+    },
+    {
+      "source": "whittaker-diagram-biomes",
+      "target": "2010-09-01-polygonal-map-generation"
+    },
+    {
+      "source": "wraparound-noise",
+      "target": "fractional-brownian-motion"
+    },
+    {
+      "source": "wraparound-noise",
+      "target": "noise-based-terrain-generation"
+    }
+  ]
+};
+const TC={concept:"#5b9bd5",article:"#ed7d31",person:"#70ad47",synthesis:"#ffc000"};
+const w=window.innerWidth,h=window.innerHeight;
+document.getElementById("statsBar").innerHTML=
+  `<div class="stat"><span class="stat-value">${GRAPH.nodes.length}</span><span class="stat-label">Nodes</span></div>`+
+  `<div class="stat"><span class="stat-value">${GRAPH.edges.length}</span><span class="stat-label">Edges</span></div>`+
+  `<div class="stat"><span class="stat-value">${GRAPH.nodes.filter(n=>n.isOrphan).length}</span><span class="stat-label">Orphans</span></div>`+
+  `<div class="stat"><span class="stat-value">${GRAPH.nodes.filter(n=>n.isHub).length}</span><span class="stat-label">Hubs</span></div>`;
+
+const tl={concept:"Concept",article:"Article",person:"Person",synthesis:"Synthesis"};
+let lh="";for(const t of Object.keys(TC)){const c=GRAPH.nodes.filter(n=>n.type===t).length;lh+=`<div class="legend-item"><span class="legend-dot" style="background:${TC[t]}"></span><span class="legend-label">${tl[t]} <span>(${c})</span></span></div>`;}
+document.getElementById("legend").innerHTML=lh;
+
+const nm={};GRAPH.nodes.forEach(n=>{nm[n.id]=n;});
+const svg=d3.select("#graph").append("svg").attr("width",w).attr("height",h);
+const g=svg.append("g");
+svg.call(d3.zoom().extent([[0,0],[w,h]]).scaleExtent([0.1,8]).on("zoom",e=>{g.attr("transform",e.transform);}));
+const sim=d3.forceSimulation(GRAPH.nodes)
+  .force("link",d3.forceLink(GRAPH.edges).id(d=>d.id).distance(60))
+  .force("charge",d3.forceManyBody().strength(-200))
+  .force("center",d3.forceCenter(w/2,h/2))
+  .force("collision",d3.forceCollide().radius(d=>8+Math.min(d.incomingLinks,15)));
+const link=g.append("g").selectAll("line").data(GRAPH.edges).join("line").attr("class","link").attr("stroke","#555").attr("stroke-width",0.8);
+const node=g.append("g").selectAll("g").data(GRAPH.nodes).join("g").attr("class","node")
+  .call(d3.drag().on("start",(e,d)=>{if(!e.active)sim.alphaTarget(0.3).restart();d.fx=d.x;d.fy=d.y;})
+    .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y;})
+    .on("end",(e,d)=>{if(!e.active)sim.alphaTarget(0);d.fx=null;d.fy=null;}));
+node.append("circle").attr("r",d=>5+Math.min(d.incomingLinks,15)).attr("fill",d=>TC[d.type]||"#888");
+node.append("text").attr("class","label").attr("dy",d=>5+Math.min(d.incomingLinks,15)+12).text(d=>d.title.length>25?d.title.substring(0,24)+"…":d.title);
+const tip=document.getElementById("tooltip");
+node.on("mouseover",(e,d)=>{const t=d.tags?.length?d.tags.map(t=>`<span class="tag">${t}</span>`).join(""):"";tip.style.display="block";tip.innerHTML=`<div class="title">${d.title}</div><div class="detail">Type: ${d.type} | Lang: ${d.language}</div><div class="detail">In: ${d.incomingLinks} | Out: ${d.outgoingLinks}</div>${t?`<div class="detail">Tags: ${t}</div>`:""}`;})
+  .on("mousemove",e=>{tip.style.left=(e.pageX+14)+"px";tip.style.top=(e.pageY-10)+"px";})
+  .on("mouseout",()=>{tip.style.display="none";});
+sim.on("tick",()=>{link.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y).attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);node.attr("transform",d=>`translate(${d.x},${d.y})`);});
+</script>
+</body>
+</html>
