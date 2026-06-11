@@ -38,5 +38,46 @@
     ],
     "url": "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/",
     "language": "en"
+  },
+  "4D0ADE1E8FF12A0EEEB2983012C0718C5995414C3F7F548A84B02148867860B0": {
+    "url": "https://www.sciencedirect.com/science/article/pii/S1875952122000155",
+    "date": "2026-06-11T07:15:00Z",
+    "language": "en",
+    "name": "Procedural generation of branching quests for games — Lima, Feijó & Furtado (2022)",
+    "pages_created": [
+      "2026-06-11-branching-quests-genetic-planning",
+      "branching-quest-generation",
+      "game-tree-narrative",
+      "quest-genetic-algorithm",
+      "semantic-integrity-constraints",
+      "tension-story-arc",
+      "story-arc-fitness",
+      "domain-database-quest-gen",
+      "quest-giver",
+      "quest-motif",
+      "off-line-quest-generator",
+      "edirlei-soares-de-lima",
+      "bruno-feijo",
+      "antonio-l-furtado"
+    ],
+    "pages_updated": [
+      "procedural-quest-generation"
+    ]
+  },
+  "3e6cd8e8655a4e7ae1a16a608b0b038c47e99714974ee09d5f52f9ac13aef14c": {
+    "name": "mattpocock/skills — Agent Skills Repository",
+    "pages_updated": [],
+    "date": "2026-06-11T03:13:42Z",
+    "pages_created": [
+      "2026-06-11-mattpocock-skills (article)",
+      "matt-pocock (person)",
+      "agent-skills (concept)",
+      "grill-me-methodology (concept)",
+      "shared-language-context-md (concept)",
+      "tdd-agent-skill (concept)",
+      "codebase-improvement-skill (concept)"
+    ],
+    "source_url": "https://github.com/mattpocock/skills/",
+    "language": "en"
   }
 }
