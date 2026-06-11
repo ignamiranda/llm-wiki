@@ -1,0 +1,31 @@
+Many people have dreamed of summiting the highest mountains, but there exists a strange sort of person that dreams of generating them instead. That was a quote from an excellent video on Josh's Channel, which goes over two different erosion techniques that don't require simulation. In my video here, I'll talk about a very exciting third technique.
+
+In the real world, rainfall on mountains tends to converge into water streams and rivers, which carve gullies in the mountain sides. These gullies may form branching patterns, as smaller water streams merge into larger ones. And the gullies often butt up against each other, leaving sharp ridges dividing them.
+
+But when generating virtual landscapes, the simulation of countless water drops is slow. It's not very suitable for generation in chunks either, which means it's not practical to use when generating landscapes that are too large to generate all at once. This means techniques are sought after, which can produce the appearance of erosion without having to deal with simulating the process of it.
+
+The first technique covered in Josh's video is the Gradient Trick by Inigo Quilez. It essentially lowers the terrain height and the amount of detail at steeper slopes. This does improve looks compared to plain layered noise, but it doesn't produce gullies. On the plus side, every point can be evaluated in isolation, which means it's fast, GPU-friendly, and trivial to generate in chunks.
+
+The second technique Josh covered is called Diffusion Limited Aggregation and it's specifically about creating branching ridges. The results look great, but the technique is somewhat complicated, not GPU-compatible, and it requires some workarounds to be able to generate it in chunks.
+
+What Josh probably didn't know was that a new erosion technique was developed a few years prior, which completely knocks it out of the park compared to the others. It's essentially a special kind of noise which produces gorgeous branching gullies and ridges, while having the same advantages as the Gradient Trick. Every point can be evaluated in isolation, which means it's fast, GPU-friendly, and trivial to generate in chunks.
+
+Furthermore, rather than defining the landscape entirely, it can be applied on top of any height function, essentially applying erosion on top. How on Earth does that work, where did this technique come from, and how can we make it even better? Well, let's dive in!
+
+I'm Rune Skovbo Johansen, and this is runevision. This video has three parts: Discovery, Refinement, and Evolution.
+
+So where did this new erosion technique come from? From an academic paper? From a AAA game company that presented it at GDC? No, it came from a Shadertoy.
+
+There's a website called Shadertoy - incidentally co-created by the same Inigo Quilez mentioned earlier - where people create and share standalone shaders. A shader is a program that runs on the GPU, which can be used to determine what a virtual surface should look like, or for various other effects, or even entire scenes.
+
+In 2018 a user called Clay John posted a Shadertoy called Eroded Terrain Noise. He wrote: "This shader is the result of a long time dreaming of a noise function that looked like eroded terrain, complete with branching structure, that could be run in a single pass pixel shader. I wanted to avoid anything simulated because then you cannot easily make infinite terrains."
+
+That dream sounds familiar, but Clay John actually made it work. His Shadertoy is the original version of this technique. Hats off to him.
+
+Later, in 2023, a user called Fewes, aka Felix Westin, posted a Shadertoy which built on top of the one by Clay John. Fewes' version slightly tweaked how the erosion effect worked, and presented it in a vastly more polished way.
+
+Finally, I've implemented my own version of the technique here in 2025. It addresses various shortcomings of the original technique, has more intuitive and powerful parameters, and overall works in quite a different way.
+
+The basic idea: We start with a height function where we know not just the height at each point, but also the gradient, meaning the direction and steepness of the slope. We use the gradient to add stripes that run along this direction. The stripes produce alternating gullies and ridges, that could plausibly have been created by water eroding the terrain. The sides of these gullies and ridges come with their own gradients, which are added to the original to produce new combined gradients. We can then repeat the whole thing again at a smaller scale: Add smaller stripes which run along the new slopes. These form new gullies and ridges which naturally branch out at an angle from the first ones. By convention, each repetition is called an octave.
+
+[The full transcript covers discovery of the technique via Shadertoy, gradient-based stripe generation, cell-based pivot points with blending, the frequency approach vs the fade approach for handling peaks/valleys, analytical derivative corrections, stacked fading, normalized gullies, straight gullies, Phacelle Noise, ridge maps for water drainage visualization, and edge rounding for creases and ridges.]
