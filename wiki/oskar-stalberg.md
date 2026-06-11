@@ -30,6 +30,8 @@ Oskar Stålberg is an independent game developer best known for creating Townsca
 - [[entropy-heuristic-wfc]] — his custom variant avoids local minima
 - [[simple-tiled-model]] — irregular grid adaptation
 - [[townscaper]] — his WFC-based town building game
+- [[marching-tetrahedra]] — used with WFC for organic 3D geometry
+- [[transvoxel-algorithm]] — related approach for level-of-detail in voxel terrain
 
 ## Links
 

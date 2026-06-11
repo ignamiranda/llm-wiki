@@ -35,6 +35,7 @@ Wave Function Collapse (WFC) is an algorithm for procedural generation that synt
 ## Related Concepts
 
 - [[2026-06-11-wave-function-collapse]] — overview article on the algorithm
+- [[2026-06-11-wfc-map-gen-caves-of-qud]] — Caves of Qud's WFC texture mode implementation (first commercial use)
 - [[overlapping-model-wfc]] — pixel-pattern-based mode
 - [[simple-tiled-model]] — tile-adjacency-based mode
 - [[entropy-heuristic-wfc]] — the observation selection strategy

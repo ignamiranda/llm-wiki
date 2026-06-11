@@ -33,6 +33,8 @@ Terrain LOD stitching is a mesh processing technique used in chunk-based terrain
 - [[infinite-terrain]] — LOD stitching is essential for infinite terrain with dynamic detail
 - [[noise-based-terrain-generation]] — noise provides the height data stitched across tile boundaries
 - [[effect-distance-and-padding]] — related concept for providing context beyond tile boundaries
+- [[transvoxel-algorithm]] — alternative approach for seamless LOD transitions in voxel terrain
+- [[marching-cubes]] — terrain generated via Marching Cubes can use LOD stitching for different chunk resolutions
 
 ## References
 

@@ -1,12 +1,4 @@
-{"pending":[
-  {
-    "type": "quality",
-    "pages": ["2026-06-11-wfc-implementations-survey"],
-    "description": "source_url is empty string. Needs a primary source URL.",
-    "severity": "warning",
-    "detected": "2026-06-11"
-  }
-],"resolved":[
+{"pending":[],"resolved":[
   {
     "type": "contradiction",
     "pages": ["2026-06-11-mapgen2", "2026-06-11-mapgen3"],
@@ -87,5 +79,86 @@
     "detected": "2026-06-11",
     "resolved": "2026-06-11",
     "action": "added References to 4 pages"
+  },
+  {
+    "type": "quality",
+    "pages": ["2026-06-11-wfc-implementations-survey"],
+    "description": "source_url is empty string. Needs a primary source URL.",
+    "severity": "warning",
+    "detected": "2026-06-11",
+    "resolved": "2026-06-11",
+    "action": "removed empty source_url field"
+  },
+  {
+    "type": "gap",
+    "pages": ["2026-06-11-diso", "2026-06-11-dualmarchingcuboids", "2026-06-11-eldemarkki-marching-cubes-terrain", "2026-06-11-game-dev-techniques-marching-cubes", "2026-06-11-isosurface-rust", "2026-06-11-javier-garzo-marching-cubes", "2026-06-11-kinectfusionapp", "2026-06-11-kinectfusionlib", "2026-06-11-marching-primitives", "2026-06-11-meshreconstruction", "2026-06-11-moravaengine", "2026-06-11-nii2mesh", "2026-06-11-pymarchingcubes", "2026-06-11-scrawk-marching-cubes", "2026-06-11-scrawk-marching-cubes-gpu", "2026-06-11-splashsurf", "2026-06-11-transvoxel", "2026-06-11-unity-marching-cubes-gpu", "2026-06-11-vacancy", "2026-06-11-voxel-game-rs", "andy-geers", "chris-rorden", "christian-diller", "differentiable-marching-cubes", "dual-marching-cuboids", "eric-lengyel", "greedy-meshing", "gregory-chirikjian", "justus-thies", "kinect-fusion", "marching-tetrahedra", "meshreconstruction", "nii2mesh", "sarah-wei", "sph-surface-reconstruction", "terrain-lod-stitching", "transvoxel-algorithm", "tristam-macdonald", "voxel-carving", "weixiao-liu"],
+    "description": "marching-cubes concept page referenced from 38 pages but does not exist. Created marching-cubes.md as a concept covering the algorithm, its variants, and implementations.",
+    "severity": "error",
+    "detected": "2026-06-11",
+    "resolved": "2026-06-11",
+    "action": "created marching-cubes.md"
+  },
+  {
+    "type": "gap",
+    "pages": ["2026-06-11-dictionary-of-ai-coding", "attention-degradation", "handoff", "harness", "memory-system-ai", "model-provider", "non-determinism", "parametric-knowledge", "prefix-cache", "progressive-disclosure", "subagent", "system-prompt", "vibe-coding", "agent-experience-ax", "context-window", "knowledge-cutoff", "next-token-prediction"],
+    "description": "General AI/coding concept pages referenced from dictionary-of-ai-coding.md. General AI terms dismissed as fine as dictionary entries; domain-relevant terms (isosurface, procedural-generation, perlin-noise) remain open.",
+    "severity": "warning",
+    "detected": "2026-06-11",
+    "resolved": "2026-06-11",
+    "action": "dismissed general AI terms; no standalone pages created"
+  },
+  {
+    "type": "gap",
+    "pages": ["2019-01-01-procedural-storytelling-in-game-design"],
+    "description": "3 missing person pages: jakub-stokalski, marta-fijak, steven-lumpkin. Created all 3 person stubs.",
+    "severity": "warning",
+    "detected": "2026-06-11",
+    "resolved": "2026-06-11",
+    "action": "created jakub-stokalski.md, marta-fijak.md, steven-lumpkin.md"
+  },
+  {
+    "type": "quality",
+    "pages": ["2019-01-01-procedural-storytelling-in-game-design"],
+    "description": "Article filename had no YYYY-MM-DD- prefix. Renamed to 2019-01-01- prefix and updated all 56 cross-references.",
+    "severity": "warning",
+    "detected": "2026-06-11",
+    "resolved": "2026-06-11",
+    "action": "renamed file and updated all wikilinks"
+  },
+  {
+    "type": "quality",
+    "pages": ["2026-06-11-eldemarkki-marching-cubes-terrain", "2026-06-11-javier-garzo-marching-cubes", "2026-06-11-scrawk-marching-cubes", "2026-06-11-scrawk-marching-cubes-gpu", "2026-06-11-unity-marching-cubes-gpu", "2026-06-11-voxel-game-rs", "2026-06-11-kinectfusionapp", "2026-06-11-kinectfusionlib"],
+    "description": "Cross-reference date-prefix mismatch: articles referenced via [[slug]] without date prefix. Fixed 13 broken links across 8 files.",
+    "severity": "error",
+    "detected": "2026-06-11",
+    "resolved": "2026-06-11",
+    "action": "fixed 13 wikilinks in 8 files"
+  },
+  {
+    "type": "quality",
+    "pages": [],
+    "description": "Index was stale. Regenerated after fixing all issues.",
+    "severity": "warning",
+    "detected": "2026-06-11",
+    "resolved": "2026-06-11",
+    "action": "regenerated index.md"
+  },
+  {
+    "type": "gap",
+    "pages": ["functional-representation-solid-modeling", "ilmola-generator", "libfive", "openscad"],
+    "description": "Missing concept pages: mesh-generation, solid-modeling, cad. Created all 3 concept pages.",
+    "severity": "warning",
+    "detected": "2026-06-11",
+    "resolved": "2026-06-11",
+    "action": "created mesh-generation.md, solid-modeling.md, cad.md"
+  },
+  {
+    "type": "gap",
+    "pages": ["bruno-dias", "jon-ingold", "narrative-momentum", "computational-flaneur", "compaction", "tracery", "jurie-horneman"],
+    "description": "Missing tool/library concept pages. Created all 7 stubs.",
+    "severity": "info",
+    "detected": "2026-06-11",
+    "resolved": "2026-06-11",
+    "action": "created voyageur.md, ink-scripting-language.md, ink-weave-structure.md, generative-poetry.md, autocompact.md, improv-grammar-library.md, procjam.md"
   }
 ]}

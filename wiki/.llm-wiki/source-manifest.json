@@ -1,130 +1,284 @@
 {
-  "eac346bab4c5bf9bfa85bda9d13ab2cf0d72a3aa0960ada42ec9c947da4fca4d": {
-    "url": "https://www.redblobgames.com/maps/terrain-from-noise/",
-    "date": "2026-06-11T02:18:07Z",
+  "batch-2026-06-11-marching-cubes-repos": {
+    "name": "Marching Cubes GitHub Repositories Batch (20 repos)",
+    "date": "2026-06-11T15:00:00Z",
+    "sources": [
+      "https://github.com/Eldemarkki/Marching-Cubes-Terrain",
+      "https://github.com/Scrawk/Marching-Cubes",
+      "https://github.com/chrdiller/KinectFusionLib",
+      "https://github.com/Javier-Garzo/Marching-cubes-on-Unity-3D",
+      "https://github.com/SarahWeiii/diso",
+      "https://github.com/dtrajko/MoravaEngine",
+      "https://github.com/Scrawk/Marching-Cubes-On-The-GPU",
+      "https://github.com/InteractiveComputerGraphics/splashsurf",
+      "https://github.com/JustusThies/PyMarchingCubes",
+      "https://github.com/neurolabusc/nii2mesh",
+      "https://github.com/Magnus2/MeshReconstruction",
+      "https://github.com/ChirikjianLab/Marching-Primitives",
+      "https://github.com/chrdiller/KinectFusionApp",
+      "https://github.com/qhdwight/voxel-game-rs",
+      "https://github.com/andygeers/DualMarchingCuboids",
+      "https://github.com/luizppa/game-dev-techniques",
+      "https://github.com/EricLengyel/Transvoxel",
+      "https://github.com/swiftcoder/isosurface",
+      "https://github.com/unclearness/vacancy",
+      "https://github.com/pavelkouril/unity-marching-cubes-gpu"
+    ],
     "pages_created": [
-      "2015-07-07-noise-terrain-maps",
-      "noise-based-terrain-generation",
-      "fractional-brownian-motion",
-      "elevation-redistribution",
-      "biome-maps",
-      "ridged-noise",
-      "blue-noise-placement",
-      "wraparound-noise",
-      "island-shaping",
-      "infinite-terrain",
-      "amit-patel"
-    ],
-    "language": "en",
-    "pages_updated": [],
-    "name": "Making maps with noise functions"
-  },
-  "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9": {
-    "pages_created": [
-      "2010-09-01-polygonal-map-generation",
-      "voronoi-diagram-mapgen",
-      "lloyd-relaxation",
-      "dual-graph-representation",
-      "downhill-river-generation",
-      "noisy-edges",
-      "whittaker-diagram-biomes",
-      "voronoi-island-generation",
-      "elevation-from-coast-distance"
-    ],
-    "name": "Polygonal Map Generation for Games",
-    "date": "2026-06-11T06:18:52Z",
-    "pages_updated": [
-      "amit-patel"
-    ],
-    "url": "http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/",
-    "language": "en"
-  },
-  "4D0ADE1E8FF12A0EEEB2983012C0718C5995414C3F7F548A84B02148867860B0": {
-    "url": "https://www.sciencedirect.com/science/article/pii/S1875952122000155",
-    "date": "2026-06-11T07:15:00Z",
-    "language": "en",
-    "name": "Procedural generation of branching quests for games — Lima, Feijó & Furtado (2022)",
-    "pages_created": [
-      "2026-06-11-branching-quests-genetic-planning",
-      "branching-quest-generation",
-      "game-tree-narrative",
-      "quest-genetic-algorithm",
-      "semantic-integrity-constraints",
-      "tension-story-arc",
-      "story-arc-fitness",
-      "domain-database-quest-gen",
-      "quest-giver",
-      "quest-motif",
-      "off-line-quest-generator",
-      "edirlei-soares-de-lima",
-      "bruno-feijo",
-      "antonio-l-furtado"
-    ],
-    "pages_updated": [
-      "procedural-quest-generation"
+      "marching-tetrahedra",
+      "transvoxel-algorithm",
+      "kinect-fusion",
+      "differentiable-marching-cubes",
+      "voxel-carving",
+      "sph-surface-reconstruction",
+      "greedy-meshing",
+      "dual-marching-cuboids",
+      "nii2mesh",
+      "meshreconstruction",
+      "eric-lengyel",
+      "christian-diller",
+      "chris-rorden",
+      "justus-thies",
+      "andy-geers",
+      "weixiao-liu",
+      "gregory-chirikjian",
+      "tristam-macdonald",
+      "sarah-wei",
+      "2026-06-11-eldemarkki-marching-cubes-terrain",
+      "2026-06-11-scrawk-marching-cubes",
+      "2026-06-11-kinectfusionlib",
+      "2026-06-11-javier-garzo-marching-cubes",
+      "2026-06-11-diso",
+      "2026-06-11-moravaengine",
+      "2026-06-11-scrawk-marching-cubes-gpu",
+      "2026-06-11-splashsurf",
+      "2026-06-11-pymarchingcubes",
+      "2026-06-11-nii2mesh",
+      "2026-06-11-meshreconstruction",
+      "2026-06-11-marching-primitives",
+      "2026-06-11-kinectfusionapp",
+      "2026-06-11-voxel-game-rs",
+      "2026-06-11-dualmarchingcuboids",
+      "2026-06-11-game-dev-techniques-marching-cubes",
+      "2026-06-11-transvoxel",
+      "2026-06-11-isosurface-rust",
+      "2026-06-11-vacancy",
+      "2026-06-11-unity-marching-cubes-gpu"
     ]
   },
-  "3e6cd8e8655a4e7ae1a16a608b0b038c47e99714974ee09d5f52f9ac13aef14c": {
-    "name": "mattpocock/skills — Agent Skills Repository",
-    "pages_updated": [],
-    "date": "2026-06-11T03:13:42Z",
+  "3B5A43067F4CBC72968D6E3AE05A66867AE9CE3FE498D4E94ED5E2897FD82F26": {
+    "name": "Procedural Storytelling in Game Design (full PDF)",
+    "date": "2026-06-11T15:42:54Z",
+    "language": "en",
     "pages_created": [
-      "2026-06-11-mattpocock-skills (article)",
+      "dirty-narrative",
+      "narrative-momentum",
+      "fail-forward",
+      "ethical-procedural-generation",
+      "generative-methods-taxonomy",
+      "artist-in-a-box",
+      "10k-bowls-of-oatmeal-problem",
+      "contradiction-winnowing",
+      "historical-rationalization",
+      "boiling-the-frog",
+      "dramatic-play",
+      "tarot-procedural-storytelling",
+      "procedural-twitterbots",
+      "procedural-dialog",
+      "authoring-tools-procedural-storytelling",
+      "emotional-procedural-generation",
+      "plot-vs-story-distinction",
+      "story-daemon",
+      "only-forwards-design",
+      "curated-narrative",
+      "heavily-authored-dynamic-storytelling",
+      "procedural-descriptions-filter-stack",
+      "computational-flaneur",
+      "procedural-dungeons-and-dragons",
+      "froth",
+      "tarot-of-the-parrigues",
+      "tracery",
+      "kate-compton",
+      "darius-kazemi",
+      "jurie-horneman",
+      "michael-cook",
+      "jon-ingold",
+      "tim-keenan",
+      "benjamin-hill",
+      "daniel-kline",
+      "riad-djemili",
+      "daniel-cook-spry-fox",
+      "richard-rouse-iii",
+      "jason-grinblat",
+      "bruno-dias",
+      "mx-lazer-walker",
+      "alex-epstein",
+      "emily-short",
+      "adam-saltsman",
+      "geoffrey-card",
+      "jorgen-tjerno",
+      "matthew-bozarth",
+      "jongwoo-kim",
+      "elan-ruskin",
+      "cat-manning",
+      "george-buckenham",
+      "marta-fijak",
+      "jakub-stokalski",
+      "steven-lumpkin"
+    ],
+    "pages_updated": [
+      "2019-procedural-storytelling-in-game-design"
+    ],
+    "note": "Full PDF ingestion of all 28 chapters across 409 pages"
+  },
+  "4F6AC1946DC4EDEC69F10B54A3BB12916F3CC8DF5E491A6D78B85099FEA11837": {
+    "date": "2026-06-11T11:45:20Z",
+    "pages_updated": [
+      "matt-pocock",
+      "2026-06-11-mattpocock-skills"
+    ],
+    "language": "en",
+    "name": "mattpocock/sandcastle",
+    "pages_created": [
+      "2026-06-11-sandcastle",
+      "sandcastle",
+      "sandbox-provider",
+      "branch-strategy",
+      "agent-provider"
+    ]
+  },
+  "9011413440502c097c1df89a3a12383e543c85145add23c65a81fda473bb2254": {
+    "name": "MkDocs Network Graph Plugin — GitHub README",
+    "date": "2026-06-11T15:50:00Z",
+    "language": "en",
+    "source_url": "https://github.com/develmusa/mkdocs-network-graph-plugin",
+    "pages_created": [
+      "2026-06-11-mkdocs-network-graph-plugin (article)",
+      "mkdocs-network-graph-plugin (concept)",
+      "material-for-mkdocs (concept)",
+      "develmusa (person)"
+    ]
+  },
+  "DB754B6B740B8D314DA3F128049512F33371AA02EC8AF7F9EA23FC4C35307140": {
+    "date": "2026-06-11T16:00:00Z",
+    "pages_updated": [
       "matt-pocock (person)",
-      "agent-skills (concept)",
-      "grill-me-methodology (concept)",
-      "shared-language-context-md (concept)",
-      "tdd-agent-skill (concept)",
-      "codebase-improvement-skill (concept)"
+      "2026-06-11-mattpocock-skills (article)"
     ],
-    "source_url": "https://github.com/mattpocock/skills/",
-    "language": "en"
-  },
-  "299371c3dd28ad6d7066e8b9cf1bb799b408636eae8b710a30935b87b5f130c2": {
+    "language": "en",
+    "name": "mattpocock/dictionary-of-ai-coding — AI Coding Dictionary",
+    "source_url": "https://github.com/mattpocock/dictionary-of-ai-coding",
     "pages_created": [
-      "2026-06-11-anthropic-skills-repo",
-      "agent-skills",
-      "skill-file-format",
-      "claude-skills-plugin"
+      "2026-06-11-dictionary-of-ai-coding (article)",
+      "next-token-prediction (concept)",
+      "non-determinism (concept)",
+      "model-provider (concept)",
+      "harness (concept)",
+      "prefix-cache (concept)",
+      "context-window (concept)",
+      "system-prompt (concept)",
+      "parametric-knowledge (concept)",
+      "knowledge-cutoff (concept)",
+      "attention-degradation (concept)",
+      "handoff (concept)",
+      "compaction (concept)",
+      "memory-system-ai (concept)",
+      "progressive-disclosure (concept)",
+      "subagent (concept)",
+      "vibe-coding (concept)",
+      "agent-experience-ax (concept)"
+    ]
+  },
+  "2FE789491E7F39DD84C3BC646D2C8867A30E7C7D871224FD0B579CFDB2DB53A3": {
+    "name": "VoltAgent/awesome-agent-skills — Curated Collection of 1000+ Agent Skills",
+    "date": "2026-06-11T16:00:00Z",
+    "language": "en",
+    "source_url": "https://github.com/VoltAgent/awesome-agent-skills",
+    "pages_created": [
+      "2026-06-11-voltagent-awesome-agent-skills (article)"
     ],
+    "pages_updated": [
+      "agent-skills (concept)"
+    ]
+  },
+  "c39df5373b5d206a5f44e520962f00a4ed0a0d41ad29dcba10a663fc2c1356bd": {
+    "language": "en",
+    "name": "VoltAgent/awesome-design-md",
+    "date": "2026-06-11T11:56:44Z",
     "pages_updated": [],
-    "name": "anthropics/skills (GitHub Repo)",
-    "date": "2026-06-11T03:16:43Z",
-    "language": "en"
-  },
-  "825987ab17c33f7ca00876cba960502fca5407a7f14a2fcaebaad0d6588007e1": {
-    "language": "en",
     "pages_created": [
-      "2026-06-11-shokunin",
-      "shokunin",
-      "chromadb-ai-memory",
-      "elias-oulkadi"
-    ],
-    "date": "2026-06-11T10:05:46Z",
-    "pages_updated": [
-      "agent-skills",
-      "claude-skills-plugin",
-      "skill-file-format"
-    ],
-    "name": "EliasOulkadi/shokunin — Shokunin 62 AI agent skills"
+      "2026-06-11-awesome-design-md",
+      "design-md",
+      "google-stitch"
+    ]
   },
-  "conan-1808.06217": {
-    "name": "Let CONAN tell you a story: Procedural quest generation (arXiv:1808.06217) + GitHub repo",
-    "date": "2026-06-11T10:20:00Z",
+  "8ac8e75b89afb9b4e0a89d430e616f79eb4e35b625c54c56ade92c1d4f32ccc5": {
+    "date": "2026-06-11T12:00:00-04:00",
     "language": "en",
-    "url": "https://arxiv.org/abs/1808.06217",
-    "source_url": "https://github.com/science-of-imagination/conan-procedural-quest-generation",
+    "name": "bramp/procgen — GitHub repository",
     "pages_created": [
-      "2018-08-19-conan-quest-generator",
-      "conan-quest-generator",
-      "vincent-breault",
-      "sebastien-ouellet",
-      "jim-davies"
+      "2026-06-11-procgen-dart-library",
+      "procgen-dart",
+      "chaikin-smoothing"
     ],
+    "pages_updated": []
+  },
+  "79DA2A87EDF2D0D098B184A248FDC91A3438F24AEACB5E753C0408A0E11FFC55": {
     "pages_updated": [
-      "procedural-quest-generation",
-      "npc-motivations",
-      "quest-structural-analysis"
+      "jason-grinblat",
+      "wave-function-collapse",
+      "historical-rationalization",
+      "2026-06-11-wave-function-collapse"
+    ],
+    "name": "end-to-end-procgen-caves-of-qud",
+    "language": "en",
+    "date": "2026-06-11T12:53:07-04:00",
+    "pages_created": [
+      "2026-06-11-end-to-end-procgen-caves-of-qud",
+      "caves-of-qud",
+      "brian-butler"
+    ]
+  },
+  "72D6E0D6937A4C2A8CE8A2DAC2D96AB8F257995B777205CB54AF0F50E87ED62E": {
+    "pages_updated": [
+      "jason-grinblat",
+      "wave-function-collapse",
+      "historical-rationalization",
+      "2026-06-11-wave-function-collapse"
+    ],
+    "name": "procedurally-generating-history-caves-of-qud",
+    "language": "en",
+    "date": "2026-06-11T12:53:07-04:00",
+    "pages_created": [
+      "2026-06-11-procedurally-generating-history-caves-of-qud"
+    ]
+  },
+  "96EAA8470F9F0329347F571DB8959FEE95D515B75B5EB3AAAF2393CAC100949F": {
+    "pages_updated": [
+      "jason-grinblat",
+      "wave-function-collapse",
+      "historical-rationalization",
+      "2026-06-11-wave-function-collapse"
+    ],
+    "name": "wfc-map-gen-caves-of-qud",
+    "language": "en",
+    "date": "2026-06-11T12:53:07-04:00",
+    "pages_created": [
+      "2026-06-11-wfc-map-gen-caves-of-qud"
+    ]
+  },
+  "7D8F18AE25DD4384337154EDF3102FEBA1BAF96AC1C067EA58182CDDBB76892B": {
+    "pages_updated": [
+      "jason-grinblat",
+      "wave-function-collapse",
+      "historical-rationalization",
+      "2026-06-11-wave-function-collapse"
+    ],
+    "name": "jason-grinblat-procedural-history-caves-of-qud",
+    "language": "en",
+    "date": "2026-06-11T12:53:07-04:00",
+    "pages_created": [
+      "2026-06-11-jason-grinblat-procedural-history-caves-of-qud"
     ]
   }
 }

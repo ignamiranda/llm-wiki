@@ -22,7 +22,7 @@ Tarn Adams (also known as Toady One) is the sole developer of Dwarf Fortress, a 
 - Designed a complex body-part damage model that eschews traditional hit points for detailed anatomical simulation
 - Developed a connected-component pathfinding system combining A* with flood-fill walkable region indices to handle highly dynamic game maps
 - Created a staggered tick-based game loop that simulates thermodynamics, fluid dynamics, creature AI, and economic systems simultaneously
-- Co-editor of [[2019-procedural-storytelling-in-game-design]] (CRC Press, 2019), the definitive collection on procedural storytelling practice
+- Co-editor of [[2019-01-01-procedural-storytelling-in-game-design]] (CRC Press, 2019), the definitive collection on procedural storytelling practice
 
 ## Related Work
 
@@ -31,7 +31,7 @@ Tarn Adams (also known as Toady One) is the sole developer of Dwarf Fortress, a 
 - [[2019-06-03-dwarf-fortress-development-gamasutra]] — Game Developer interview on game design
 - [[connected-component-pathfinding]] — optimized pathfinding technique developed for DF
 - [[body-part-damage-model]] — anti-numeric damage system
-- [[2019-procedural-storytelling-in-game-design]] — co-editor
+- [[2019-01-01-procedural-storytelling-in-game-design]] — co-editor
 - [[procedural-storytelling]] — the field his work exemplifies
 - [[emergent-narrative]] — his work is the primary example of this concept
 

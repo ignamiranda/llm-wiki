@@ -8,7 +8,6 @@ tags: [wfc, wave-function-collapse, procedural-generation, survey, implementatio
 summary: A survey of 12 open-source Wave Function Collapse implementations spanning
   C#, C++, Rust, Python, Go, GDScript, and TypeScript, across Unity, Godot, and Bevy
   engines.
-source_url: ''
 source_hash: 89411389,CB9E6EB8,A4BBE0A7,BB1D49C3,EDA076B4,9DF7F1E7,8D4E29C3,103AE5ED,8509C4C5,F1D5AE97,D0E84825,68F7911D
 ---
 

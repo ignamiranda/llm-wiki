@@ -46,7 +46,7 @@ WFC has two primary modes:
 
 WFC has been adopted across game development, graphics, and research:
 
-- **Games**: Level generation in Bad North, Caves of Qud, Dead Static Drive, Townscaper, and many smaller titles
+- **Games**: Level generation in [[caves-of-qud]] (first commercial use, see [[2026-06-11-wfc-map-gen-caves-of-qud]]), Bad North, Dead Static Drive, Townscaper, and many smaller titles
 - **3D Synthesis**: Voxel model generation using 5x5x5 and 5x5x2 blocks
 - **Constrained Synthesis**: WFC supports user-specified constraints, enabling autocomplete of partially constructed levels
 - **Research**: Papers on backtracking strategies, alternative heuristics, combination with VQ-VAE, information hiding in textures, and learning from positive/negative examples

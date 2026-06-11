@@ -39,6 +39,8 @@ An approach to generating unbounded (infinite) terrain by exploiting the localit
 - [[modifying-in-blocks]] — an alternative approach to infinite/unbounded generation using WFC
 - [[terrain-lod-stitching]] — stitching LOD tile boundaries in infinite terrain rendering
 - [[2026-06-11-terrain3d]] — a Godot 3.5 implementation of infinite terrain with LOD stitching
+- [[2026-06-11-eldemarkki-marching-cubes-terrain]] — infinite procedural terrain via Marching Cubes in Unity
+- [[2026-06-11-javier-garzo-marching-cubes]] — infinite voxel terrain with Marching Cubes and chunk system
 
 ## References
 
