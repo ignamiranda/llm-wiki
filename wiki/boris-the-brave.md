@@ -28,7 +28,7 @@ Boris the Brave (Boris van Schooten) is a developer known for creating DeBroglie
 - [[chiseling-method]] — his innovation for connected structures
 - [[modifying-in-blocks]] — his adaptation for lazy infinite generation
 
-## Links
-
+## References
 - Blog: https://www.boristhebrave.com
 - DeBroglie: https://boristhebrave.github.io/DeBroglie
+- Boris the Brave, "DeBroglie — C# WFC Library" — GitHub repository

@@ -21,3 +21,7 @@ Chris Green is a Valve engineer who authored the 2007 SIGGRAPH paper "Improved A
 ## Related Work
 - [[signed-distance-field-fonts]] — The technique his paper introduced
 - [[multi-channel-distance-field]] — Improvement his paper suggested
+
+## References
+- Chris Green, "Improved Alpha-Tested Magnification for Vector Textures and Special Effects" (2007) — SIGGRAPH paper
+- Valve Developer Community — SDF font rendering documentation

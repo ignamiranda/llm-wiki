@@ -22,3 +22,8 @@ Viktor Chlumsky authored the 2016 paper "Shape Decomposition for Multi-channel D
 ## Related Work
 - [[multi-channel-distance-field]] — The technique he invented
 - [[signed-distance-field-fonts]] — Foundation his work improved
+
+## References
+- Viktor Chlumsky, "Shape Decomposition for Multi-channel Distance Fields" (2016) — https://github.com/Chlumsky/msdfgen/files/3739469/Shape_Decomposition_for_Multi-channel_Distance_Fields.pdf
+- msdfgen — https://github.com/Chlumsky/msdfgen
+- msdf-atlas-gen — https://github.com/Chlumsky/msdf-atlas-gen
