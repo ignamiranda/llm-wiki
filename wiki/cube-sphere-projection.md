@@ -30,3 +30,7 @@ Common adjustments include tangent (pi/4 * atan(w)), quadratic (Google S2 defaul
 ## Related Concepts
 - [[2026-06-11-square-tiling-sphere]] — Primary implementation
 - [[2026-06-11-hexagon-tiling-sphere]] — Hexagon-based alternative
+
+## References
+- Google S2 Geometry library — quadratic projection used for planet-scale geometry
+- "Cube-to-Sphere Gnomonic Projection" — computational geometry reference

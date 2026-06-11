@@ -27,3 +27,7 @@ Spherical Voronoi diagrams partition a sphere's surface into regions based on di
 - [[voronoi-diagram-mapgen]] — 2D Voronoi foundation
 - [[fibonacci-sphere]] — Point distribution for spherical Voronoi
 - [[dual-graph-representation]] — Dual graph concept extends to spheres
+
+## References
+- Amit Patel, "Mesh Generation on a Sphere", Red Blob Games — https://www.redblobgames.com/maps/mesh-generation-on-a-sphere/
+- Carsten et al., "Spherical Voronoi Diagrams" — computational geometry literature

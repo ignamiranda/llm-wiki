@@ -23,3 +23,7 @@ The Fibonacci sphere algorithm distributes N points on a sphere's surface by spi
 ## Related Concepts
 - [[spherical-voronoi]] — Uses Fibonacci sphere for seed points
 - [[2026-06-11-delaunay-voronoi-sphere]] — Context of use
+
+## References
+- Álvaro González, "Distributing Points on a Sphere" (2010) — https://extremelearning.com.au/evenly-distributing-points-on-a-sphere/
+- R. Swinbank & R. Purser, "Fibonacci grids: A novel approach to global modelling" (2006) — Quarterly Journal of the Royal Meteorological Society

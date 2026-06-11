@@ -28,3 +28,8 @@ MSDF extends the single-channel SDF approach by storing three signed distance fi
 ## Related Concepts
 - [[signed-distance-field-fonts]] — Base technique that MSDF improves
 - [[viktor-chlumsky]] — Author of msdfgen
+
+## References
+- Viktor Chlumsky, "Shape Decomposition for Multi-channel Distance Fields" (2016)
+- Chris Green, "Improved Alpha-Tested Magnification for Vector Textures and Special Effects" (2007)
+- msdfgen — https://github.com/Chlumsky/msdfgen

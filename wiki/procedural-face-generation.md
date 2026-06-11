@@ -26,3 +26,7 @@ Procedural face generation creates cartoon or stylized faces algorithmically fro
 
 ## Related Concepts
 - [[2026-06-11-procedural-face-generator]] — Amit Patel's implementation
+
+## References
+- Amit Patel, "Procedural Face Generation", Red Blob Games (2011) — https://www.redblobgames.com/x/2021-procedural-face/
+- Scott McCloud, "Making Comics" (2006) — facial expression interpolation
