@@ -1,5 +1,6 @@
 import re
 import yaml
+import os
 from pathlib import Path
 
 slug_map = {}
@@ -27,9 +28,14 @@ def on_page_markdown(markdown, page, config, files):
             display = slug_map[target]
         else:
             display = target
-        if target in slug_map:
-            return f'[{display}]({target}/)'
-        return m.group(0)
+        if target not in slug_map:
+            return m.group(0)
+        target_file = files.get_file_from_path(f'{target}.md')
+        if not target_file:
+            return m.group(0)
+        page_dir = os.path.dirname(page.file.src_uri)
+        rel = os.path.relpath(target_file.src_uri, page_dir)
+        return f'[{display}]({rel})'
 
     markdown = re.sub(r'\[\[([^|\]]+)\]\]', replace, markdown)
     markdown = re.sub(r'\[\[([^|\]]+)\|([^\]]+)\]\]', replace, markdown)
