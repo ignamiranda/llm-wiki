@@ -18,26 +18,32 @@ Push to `master` → GitHub Actions (`deploy.yml`) runs `mkdocs build --strict` 
 
 | Path | Purpose |
 |------|---------|
-| `wiki/` | All pages (flat, no subdirs, 191+ files) |
+| `wiki/` | All pages (flat, 191 pages, ~199 files incl. graph.html) |
+| `wiki/index.md` | Main landing page (hand-written) |
+| `wiki/graph.html` | Interactive D3 knowledge graph (embedded data) |
 | `wiki/.llm-wiki/schema.md` | Page types, frontmatter fields, conventions |
-| `wiki/.llm-wiki/index.md` | Auto-generated index (do not edit by hand) |
-| `wiki/.llm-wiki/inbox/` | Source analysis files from `/wiki-ingest` |
-| `wiki/.raw/` | Raw source material (txt files) |
+| `wiki/.llm-wiki/index.md` | Auto-generated index (**do not edit by hand**) |
+| `wiki/.llm-wiki/config.md` | Wiki config (language: en) |
 | `wiki/.llm-wiki/graph.json` | Machine-readable link graph |
-| `wiki/.llm-wiki/review.json` | Review queue (contradictions, quality issues, gaps) |
+| `wiki/.llm-wiki/review.json` | Review queue (contradictions, quality issues, gaps; has pending items) |
 | `wiki/.llm-wiki/source-manifest.json` | Tracks ingested URLs → pages created/updated |
-| `hooks/wikilinks.py` | MkDocs plugin: converts `[[slug]]` to relative links at build time |
-| `mkdocs.yml` | MkDocs config (Material theme, wikilinks hook, dark/light mode) |
+| `wiki/.llm-wiki/inbox/` | Source analysis files from `/wiki-ingest` |
+| `wiki/.llm-wiki/cache/` | Cached analysis data |
+| `wiki/.raw/` | Raw source material (txt files) |
+| `hooks/wikilinks.py` | MkDocs plugin: converts `[[slug]]` → relative links at build time |
+| `mkdocs.yml` | MkDocs config (Material theme, wikilinks hook) |
 | `requirements.txt` | `mkdocs~=1.6`, `mkdocs-material~=9.5`, `pyyaml~=6.0` |
 
 ## Page types
 
 See `wiki/.llm-wiki/schema.md` for full spec.
 
-- **concept** (`{slug}.md`) — term, idea, methodology
-- **article** (`{YYYY-MM-DD}-{slug}.md`) — research notes, blog imports
-- **person** (`{slug}.md`) — researcher, notable individual
-- **synthesis** (`synth-{YYYY-MM-DD}-{slug}.md`) — saved query answer
+| Type | File pattern | Extra required frontmatter |
+|------|-------------|---------------------------|
+| concept | `{slug}.md` | — |
+| article | `{YYYY-MM-DD}-{slug}.md` | — |
+| person | `{slug}.md` | `aliases` |
+| synthesis | `synth-{YYYY-MM-DD}-{slug}.md` | `query`, `based_on`, `confidence` |
 
 ## Key conventions
 
