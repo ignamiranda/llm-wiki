@@ -13,5 +13,29 @@
       "jonathan-doran"
     ],
     "name": "A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs"
+  },
+  "98524c25a93c23bc1c62a8cfdadc4ab61059f0ccfde490c8ed8f2f292ab76e6d": {
+    "name": "Fast and Gorgeous Erosion Filter (blog post)",
+    "date": "2026-06-11T13:30:00Z",
+    "language": "en",
+    "pages_created": [
+      "2026-03-30-fast-and-gorgeous-erosion-filter",
+      "erosion-filter-technique",
+      "phacelle-noise",
+      "clay-john",
+      "felix-westin"
+    ],
+    "pages_updated": [
+      "rune-skovbo-johansen"
+    ]
+  },
+  "9b0d5a42065582a75f247a631b840b846aff989abb8e66d9c6d41b493177682d": {
+    "name": "Fast and Gorgeous Erosion Filter (YouTube video)",
+    "date": "2026-06-11T13:30:00Z",
+    "language": "en",
+    "pages_created": [],
+    "pages_updated": [
+      "2026-03-30-fast-and-gorgeous-erosion-filter"
+    ]
   }
 }
