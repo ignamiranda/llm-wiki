@@ -12,11 +12,11 @@ source_url: "https://github.com/BumbertFiddlesticks/Sword-Maker"
 
 # Sword-Maker (Godot)
 
-## Definition / 定义
+## Definition
 
 Sword-Maker is an open-source Godot project that procedurally generates pixel art swords using GLSL fragment shaders (52.3%) for rendering and GDScript (46.4%) for UI and logic. It produces 2D pixel art sword sprites with a name generator, playable via browser at snoopethduckduck.itch.io/sword-maker.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Language**: GLSL (shader) + GDScript (game logic)
 - **Engine**: Godot (3.x+)
@@ -26,20 +26,20 @@ Sword-Maker is an open-source Godot project that procedurally generates pixel ar
 - **Live demo**: Itch.io browser playable
 - **Inspiration sources**: Deep-Fold's SpriteGenerator and PixelPlanets, Godot Game of Life, Shadertoy
 
-## Examples / 示例
+## Examples
 
 - Real-time sword sprite generation with randomised visuals
 - Name generation for each sword
 - HTML5 export for browser play
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[2026-06-11-caius-walker-pcg-swords]] — 3D mesh-based sword generator (contrasting approach)
 - [[procedural-sword-gen-blender]] — Blender addon for 3D sword generation
 - [[hello-sword-openscad]] — OpenSCAD parametric blade generation
 - [[procedural-weapon-generation]] — umbrella concept for algorithmic weapon creation
 
-## References / 参考资料
+## References
 
 - GitHub: https://github.com/BumbertFiddlesticks/Sword-Maker
 - Playable: https://snoopethduckduck.itch.io/sword-maker

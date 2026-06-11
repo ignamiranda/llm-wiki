@@ -13,22 +13,22 @@ affiliations: []
 
 # Pamir Bal
 
-## Bio / 简介
+## Bio
 
 Pamir Bal is the creator of the commercial Procedural Sword Generator for Blender, a paid addon available on the Superhive marketplace. The addon generates a wide variety of swords, blades, and other weapons using Blender's geometry nodes system, targeting game developers, artists, and 3D modellers for both commercial and personal use.
 
-## Key Contributions / 主要贡献
+## Key Contributions
 
 - Developed and published the Procedural Sword Generator for Blender — a commercial PCG weapon tool
 - Made procedural weapon generation accessible to Blender users without programming expertise
 
-## Related Work / 相关工作
+## Related Work
 
 - [[procedural-sword-gen-blender]] — his Blender addon
 - [[procedural-weapon-generation]] — PCG domain his tool serves
 - [[2026-06-11-caius-walker-pcg-swords]] — academic counterpart (different platform)
 
-## Links / 链接
+## Links
 
 - Blender Addons listing: https://blender-addons.org/procedural-sword-generator-for-blender/
 - Superhive marketplace: https://superhivemarket.com/products/procedural-sword-generator-for-blender

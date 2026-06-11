@@ -11,11 +11,11 @@ summary: "A prototype procedural quest generator written in Prolog with a Java a
 
 # Prolog Quest Generator (Doran & Parberry)
 
-## Definition / 定义
+## Definition
 
 A prototype procedural quest generator described in Doran & Parberry (2011), written in **Prolog** with a **Java applet** front-end. It generates RPG quests by expanding a BNF grammar tree starting from a randomly chosen NPC motivation, using Prolog's built-in backtracking to handle dead ends during expansion.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Language**: Prolog (generation engine) + Java (front-end applet)
 - **Input**: NPC motivation + random seed
@@ -33,7 +33,7 @@ A prototype procedural quest generator described in Doran & Parberry (2011), wri
 6. If alternatives remain, pick randomly
 7. Assign specific details (item names, NPC names, locations) during expansion
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[npc-motivations]] — root of the generation tree
 - [[procedural-quest-generation]] — the broader field
@@ -42,7 +42,7 @@ A prototype procedural quest generator described in Doran & Parberry (2011), wri
 - [[ian-parberry]] — co-author
 - [[jonathan-doran]] — co-author
 
-## References / 参考资料
+## References
 
 - Doran, J. & Parberry, I. (2011). A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs. Technical Report LARC-2011-02.
 - Generator online (archived): http://www.eng.unt.edu/ian/research/quests/

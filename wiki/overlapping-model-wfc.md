@@ -10,11 +10,11 @@ summary: "A WFC mode where NxN pixel patterns are extracted from the input bitma
 
 # Overlapping Model (WFC)
 
-## Definition / 定义
+## Definition
 
 The overlapping model is one of two primary modes of the Wave Function Collapse algorithm. It extracts all NxN patterns of pixels from the input bitmap and uses them to define the superposition states of each region in the output. Each element of the output "wave" represents a superposition of these patterns with boolean coefficients, where a false coefficient means the pattern is forbidden and true means it is not yet forbidden.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - Directly works from example images without manual tile definition
 - Typical pattern size is N=3
@@ -23,19 +23,19 @@ The overlapping model is one of two primary modes of the Wave Function Collapse 
 - Contradictions arise when all patterns for a region become forbidden
 - The model can be augmented with additional heuristics (height, density, curvature) for higher-dimensional synthesis
 
-## Examples / 示例
+## Examples
 
 - Generating brick wall textures from a small sample
 - Synthesizing pixel art level segments from example tilesets
 - 3D voxel generation using 5x5x5 and 5x5x2 block patterns
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[wave-function-collapse]] — the parent algorithm
 - [[simple-tiled-model]] — the alternative WFC mode
 - [[entropy-heuristic-wfc]] — observation selection
 - [[observation-propagation-cycle]] — core loop
 
-## References / 参考资料
+## References
 
 - Maxim Gumin, "WaveFunctionCollapse" — https://github.com/mxgmn/WaveFunctionCollapse

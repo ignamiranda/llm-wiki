@@ -11,23 +11,23 @@ summary: "An architectural pattern for procedural RPG content generation that de
 
 # Multi-Stage RPG Generation
 
-## Definition / 定义
+## Definition
 
 Multi-stage RPG generation is an architectural pattern for creating RPG content procedurally by decomposing the overall generation task into sequential, dependency-linked stages. Each stage focuses on a specific layer of the RPG (world, characters, quests, encounters) and produces structured intermediate data that subsequent stages consume. The pattern ensures that later content (e.g., quests) is consistent with earlier content (e.g., world geography and NPCs), enabling coherent, scalable RPG world creation.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Sequential decomposition**: Generation flows through stages: world → NPCs → PC → quest plan → expanded quests
 - **Data dependency**: Each stage requires structured output from one or more prior stages
 - **Layer isolation**: Each stage operates on a specific RPG layer, keeping generation focused and manageable
 - **Consistency enforcement**: Dependencies ensure that late-stage content respects early-stage decisions
 
-## Examples / 示例
+## Examples
 
 - [[2026-04-28-llm-prompt-pipeline-quest-gen]] — Borawski et al. (2026) implement a five-stage pipeline using LLMs with JSON schema outputs
 - Traditional RPG world-building tools often use similar layering (terrain → biomes → settlements → quests) but with rule-based rather than LLM generation
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[dependency-driven-prompt-pipeline]] — the LLM-specific instantiation of this pattern
 - [[structured-llm-quest-generation]] — the quest-focused subset of this pattern
@@ -36,6 +36,6 @@ Multi-stage RPG generation is an architectural pattern for creating RPG content 
 - [[procedural-quest-generation]] — broader context
 - [[2026-04-28-llm-prompt-pipeline-quest-gen]] — paper introducing this pattern to the wiki
 
-## References / 参考资料
+## References
 
 - Borawski, D., Szulc, M., Chudy, R., Giedrowicz, M., & Mironowicz, P. (2026). From World-Gen to Quest-Line: A Dependency-Driven Prompt Pipeline for Coherent RPG Generation. arXiv:2604.25482.

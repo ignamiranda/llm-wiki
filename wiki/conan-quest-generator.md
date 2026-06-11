@@ -11,11 +11,11 @@ summary: "A planning-based procedural quest generator that takes world descripti
 
 # CONAN (Creation Of Novel Adventure Narrative)
 
-## Definition / 定义
+## Definition
 
 CONAN (Creation Of Novel Adventure Narrative) is a procedural quest generator that uses a planning approach to story generation. It accepts a formal world description — a set of facts about characters, locations, and items — and generates quests based on the current state of the world and the preferences of its characters. Quests are defined as sequences of actions that must be performed to achieve a goal, usually for a reward. Developed by Breault, Ouellet & Davies (2018), it is an open-source engine released under the MIT license.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Planning-based**: generates quests from first principles using general planning, not grammar expansion or genetic algorithms
 - **World-aware**: takes a formal world description as input (facts about characters, locations, items, relationships)
@@ -24,12 +24,12 @@ CONAN (Creation Of Novel Adventure Narrative) is a procedural quest generator th
 - **Open source**: MIT-licensed, [repository on GitHub](https://github.com/science-of-imagination/conan-procedural-quest-generation)
 - **Implementation**: primarily SAS (93.1%) with Python (6.9%) components
 
-## Examples / 示例
+## Examples
 
 - Given a world with an ailing villager, a healer NPC, and a rare herb location, CONAN can generate a "cure the villager" quest by planning the sequence: travel to herb location → acquire herb → return to healer → administer cure
 - Given a world with warring factions, CONAN generates quests reflecting Protection or Conquest motivations depending on character preferences
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[procedural-quest-generation]] — the broader field CONAN belongs to
 - [[planning-approach-procgen]] — the planning-based generation methodology
@@ -39,7 +39,7 @@ CONAN (Creation Of Novel Adventure Narrative) is a procedural quest generator th
 - [[quest-generator-prolog]] — Doran & Parberry's grammar-based generator (contrasting approach)
 - [[branching-quest-generation]] — Lima, Feijó & Furtado's GA+planning approach (contrasting approach)
 
-## References / 参考资料
+## References
 
 - Breault, V., Ouellet, S. & Davies, J. (2018). Let CONAN tell you a story: Procedural quest generation. arXiv:1808.06217.
 - GitHub repository: https://github.com/science-of-imagination/conan-procedural-quest-generation

@@ -13,11 +13,11 @@ source_hash: "D0E84825CDD9E71BE132985B5D98579A7403E59B7B41D4A5D8D2FB91BD798203"
 
 # Graph Wave Function Collapse (GWFC)
 
-## Definition / 定义
+## Definition
 
 Graph Wave Function Collapse (GWFC) extends the WFC algorithm from regular grid structures to arbitrary graphs. Patterns are defined via a "local similarity graph" (GL) and extracted from a colored example graph (GI) using VF2 subgraph isomorphism. The target output graph (GO) is then colored using the extracted patterns with constraint propagation.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - Generalizes WFC from grids to any graph structure
 - Uses VF2 algorithm (via networkx) for subgraph isomorphism
@@ -29,19 +29,19 @@ Graph Wave Function Collapse (GWFC) extends the WFC algorithm from regular grid 
 - Includes a thesis (German) on the algorithm
 - MIT licensed, 64 GitHub stars
 
-## Examples / 示例
+## Examples
 
 - Generating colored trees, hexagonal grids, and custom graph structures
 - Can simulate standard grid-based WFC by constructing appropriate GL graphs
 - Example models: beach, starcave, city
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[debroglie]] — grid-based WFC in C#
 - [[2026-06-11-wfc-implementations-survey]] — surveyed in the WFC survey article
 - [[layer-based-procedural-generation]] — alternative procgen architecture
 
-## References / 参考资料
+## References
 
 - https://github.com/lamelizard/GraphWaveFunctionCollapse
 - https://lamelizard.github.io/GraphWaveFunctionCollapse/graphwfc.html

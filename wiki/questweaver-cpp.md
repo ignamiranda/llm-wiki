@@ -11,11 +11,11 @@ summary: "A C++ quest/story generation system using weighted graph search with t
 
 # QuestWeaver (C++)
 
-## Definition / 定义
+## Definition
 
 QuestWeaver is a C++ quest and story generation system by Cultrarius that generates narrative content using **weighted graph search** over template-defined quest structures. It separates quest logic from data via template files, supports **serialization** of generated quests, and uses weighted random selection to traverse its quest graph.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Approach**: Weighted graph search over template-defined quest nodes
 - **Language**: C++
@@ -25,7 +25,7 @@ QuestWeaver is a C++ quest and story generation system by Cultrarius that genera
 - **Repository**: 68 stars, 473 commits
 - **Maturity**: Largest and most active of the surveyed quest gen repos
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[procedural-quest-generation]] — the broader field
 - [[questgen-tiendil]] — Python graph-based quest generation (different graph approach)
@@ -33,6 +33,6 @@ QuestWeaver is a C++ quest and story generation system by Cultrarius that genera
 - [[procedural-quest-generator-rust]] — Rust template-based quest generation
 - [[tracery-questgen]] — grammar-based approach (JS)
 
-## References / 参考资料
+## References
 
 - Repository: https://github.com/Cultrarius/QuestWeaver

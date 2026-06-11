@@ -11,11 +11,11 @@ summary: "Lima's 2019 PhD thesis at PUC-Rio presents the foundational method com
 
 # Procedural Generation of Quests for Games Using Genetic Algorithms and Automated Planning — Lima (2019)
 
-## Summary / 摘要
+## Summary
 
 This PhD thesis by Edirlei Soares de Lima at PUC-Rio (advised by Bruno Feijó and Antonio L. Furtado) establishes the core method for procedural quest generation using genetic algorithms and automated planning. It introduces the Domain Database formalism for describing game worlds, semantic integrity constraints for coherent branch generation, a tree-structured genetic algorithm with state-compatibility crossover, and the story arc fitness function. This work is the foundation for the subsequent journal publication [[2026-06-11-branching-quests-genetic-planning|Lima, Feijó & Furtado (2022)]].
 
-## Content / 内容
+## Content
 
 ### Core Method
 
@@ -51,14 +51,14 @@ The 2022 Entertainment Computing paper [[2026-06-11-branching-quests-genetic-pla
 A shorter version was also presented at SBGames 2019:
 - Lima, E.S., Feijó, B. & Furtado, A.L. (2019). Procedural generation of quests for games using genetic algorithms and automated planning. *2019 18th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)*, pp. 5-8.
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - Foundational PhD thesis establishing GA + automated planning for quest generation
 - Introduces Domain Database, semantic integrity constraints, and story arc fitness
 - All components reused and extended in the 2022 journal publication
 - Demonstrates convergence within ~35 generations (consistent with 2022 results)
 
-## Related / 关联
+## Related
 
 - [[2026-06-11-branching-quests-genetic-planning]] — journal version (2022)
 - [[branching-quest-generation]] — core concept

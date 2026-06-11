@@ -14,24 +14,24 @@ confidence: low
 
 # Joanna Bryson
 
-## Bio / 简介
+## Bio
 
 Joanna Bryson is a professor of AI Ethics and Technology Policy at the Hertie School in Berlin, Germany. She is widely recognized for her work on AI ethics, robot ethics, and diversity in AI. Earlier in her career, she also contributed to AI for games and procedural content generation, including work on procedural quest generation.
 
 She has held positions at the University of Bath and Princeton University.
 
-## Key Contributions / 主要贡献
+## Key Contributions
 
 - **AI Ethics** — influential work on ethical AI system design, robot ethics, and AI governance
 - **Procedural Quest Generation** — research on structured approaches to generating game quests
 - **Intelligent Agent Systems** — earlier work on behavior selection and agent architectures
 
-## Related Work / 相关工作
+## Related Work
 
 - [[2026-06-11-bryson-procedural-quests]] — her work on procedural quests
 - [[procedural-quest-generation]] — quest generation as a research area
 
-## Links / 链接
+## Links
 
 - [Hertie School profile](https://www.hertie-school.org/en/governance/programmes/research-fellows/profile/joanna-bryson)
 - [Personal site](https://joanna-bryson.squarespace.com/)

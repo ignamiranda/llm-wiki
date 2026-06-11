@@ -11,17 +11,17 @@ summary: "Lead author of the CONAN procedural quest generation paper, researcher
 
 # Vincent Breault
 
-## Bio / 简介
+## Bio
 
 Vincent Breault is a researcher affiliated with the Science of Imagination laboratory (Carleton University, Canada). His primary research contribution is the CONAN (Creation Of Novel Adventure Narrative) engine, a planning-based procedural quest generator. His work focuses on using AI planning techniques for interactive narrative generation in games.
 
-## Key Contributions / 主要贡献
+## Key Contributions
 
 - Lead author of "Let CONAN tell you a story: Procedural quest generation" (2018, arXiv:1808.06217)
 - Co-creator of the CONAN procedural quest generation engine
 - Research on multi-agent planning for interactive emergent narrative systems
 
-## Related Work / 相关工作
+## Related Work
 
 - [[2018-08-19-conan-quest-generator]] — lead author
 - [[conan-quest-generator]] — core contribution

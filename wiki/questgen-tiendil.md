@@ -11,11 +11,11 @@ summary: "A Python library for automatic non-linear quest generation using direc
 
 # questgen (the-tale/questgen)
 
-## Definition / 定义
+## Definition
 
 questgen is an open-source Python library for automatic non-linear quest generation by the [the-tale](https://github.com/the-tale) project. It represents quests as **directed graphs** with nodes connected by edges annotated with **predicates** — conditions that must be satisfied for the edge to be traversable. This enables nested, nonlinear quest structures with events and constraints, moving beyond simple linear or tree-shaped quests.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Representation**: Directed graph with predicate-annotated edges
 - **Nonlinear**: Supports branching and rejoining quest paths, not just trees
@@ -25,7 +25,7 @@ questgen is an open-source Python library for automatic non-linear quest generat
 - **License**: BSD-3-Clause
 - **Repository**: 34 stars, 68 commits
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[procedural-quest-generation]] — the broader field
 - [[quest-structural-analysis]] — alternative grammar-based approach
@@ -33,6 +33,6 @@ questgen is an open-source Python library for automatic non-linear quest generat
 - [[questify-js]] — JavaScript motivation-based generator
 - [[decrews-quest-generator]] — C#/Unity implementation of Doran & Parberry
 
-## References / 参考资料
+## References
 
 - Repository: https://github.com/the-tale/questgen

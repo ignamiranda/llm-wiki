@@ -11,11 +11,11 @@ summary: "A hybrid quest generation system developed by BYU's DRAGN Lab combinin
 
 # DRAGN Town Quests
 
-## Definition / 定义
+## Definition
 
 DRAGN Town Quests is a hybrid procedural quest generation system built by Brigham Young University's DRAGN Lab. It combines a Neo4j knowledge graph for structured reasoning about quest coherence and player state with a GPT-2 language model fine-tuned on World of Warcraft quest text for natural language generation. The system produces personalized quests adapted to individual player characteristics.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Hybrid architecture**: Knowledge graph (symbolic) + language model (neural)
 - **Graph database**: Neo4j encodes characters, locations, items, objectives, and player state
@@ -23,11 +23,11 @@ DRAGN Town Quests is a hybrid procedural quest generation system built by Brigha
 - **Personalization**: Player characteristics and preferences encoded in the KG
 - **Implementation**: Python/Jupyter Notebook, Hugging Face Transformers, Neo4j driver
 
-## Examples / 示例
+## Examples
 
 - The system can generate quests with varied objectives (fetch, kill, escort, deliver) with natural-language quest text and NPC dialogue personalized to the player's in-game profile
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[knowledge-graph-quest-generation]] — the KG approach this system uses
 - [[gpt2-quest-generation]] — the LM approach this system uses
@@ -38,7 +38,7 @@ DRAGN Town Quests is a hybrid procedural quest generation system built by Brigha
 - [[gregory-knapp]] — first author
 - [[nancy-fulda]] — supervisor
 
-## References / 参考资料
+## References
 
 - Knapp, G., Ashby, T. & Fulda, N. (2023). Personalized Quest and Dialogue Generation in Role-Playing Games: A Knowledge Graph- and Language Model-based Approach. CHI 2023. DOI: 10.1145/3544548.3581441
 - GitHub: DRAGNLabs/DRAGN-Town-Quests

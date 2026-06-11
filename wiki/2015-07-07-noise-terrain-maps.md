@@ -12,11 +12,11 @@ source_hash: "eac346bab4c5bf9bfa85bda9d13ab2cf0d72a3aa0960ada42ec9c947da4fca4d"
 
 # Noise-Based Terrain Maps
 
-## Summary / 摘要
+## Summary
 
 Amit Patel's comprehensive tutorial on using gradient noise (Perlin, Simplex) as a building block for 2D game terrain generation. Covers the entire pipeline from raw noise values to elevation maps, biome assignment, climate modeling, island shaping, and infinite/wraparound terrain. Emphasizes simplicity — the core loop fits in under 50 lines of code — while noting the limitations of purely local computation.
 
-## Content / 内容
+## Content
 
 ### Noise as a Building Block
 
@@ -58,7 +58,7 @@ Seamless wrapping maps use 3D or 4D noise, where 2D map coordinates are projecte
 
 Because each position is computed independently, the noise function supports infinite terrain. The camera position is subtracted from noise coordinates, allowing the player to scroll arbitrarily without pre-generating or storing the entire map.
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - Noise-based terrain generation is simple (<50 lines) and fast, ideal for prototyping and game jams
 - The pure FBM approach is purely local — no global constraints like "there should be 3-5 lakes" or river systems
@@ -66,7 +66,7 @@ Because each position is computed independently, the noise function supports inf
 - The technique was used in the alpha version of Realm of the Mad God, then replaced with a Voronoi-based generator
 - Patel recommends starting with this approach and replacing it once the game design clarifies what the map needs
 
-## Related / 关联
+## Related
 
 - [[functional-approach-procgen]] — noise-based terrain is a concrete example of spatially-local, functional generation
 - [[deterministic-generation]] — noise with a fixed seed produces deterministic output

@@ -11,11 +11,11 @@ summary: "Creator of the Wave Function Collapse reference implementation and rel
 
 # Maxim Gumin
 
-## Bio / 简介
+## Bio
 
 Maxim Gumin (also known online as mxgmn and ExUtumno) is the creator of the canonical Wave Function Collapse (WFC) reference implementation, which popularized the algorithm for procedural generation in games and graphics. He also created related algorithms including ConvChain and MarkovJunior, and has contributed research on path generation with WFC and cube-symmetry WFC for Escheresque scenes.
 
-## Key Contributions / 主要贡献
+## Key Contributions
 
 - Created the reference WFC implementation in C#/.NET
 - Introduced the lowest entropy heuristic for observation
@@ -23,7 +23,7 @@ Maxim Gumin (also known online as mxgmn and ExUtumno) is the creator of the cano
 - Created ConvChain (satisfies strong C2) and MarkovJunior (3D simple tiled model)
 - Generalized WFC to work with cube symmetry group for 3D scenes
 
-## Related Work / 相关工作
+## Related Work
 
 - [[wave-function-collapse]] — his most influential project
 - [[2026-06-11-wave-function-collapse]] — overview article covering his work
@@ -31,7 +31,7 @@ Maxim Gumin (also known online as mxgmn and ExUtumno) is the creator of the cano
 - [[markovjunior]] — 3D WFC implementation
 - [[entropy-heuristic-wfc]] — his innovation
 
-## Links / 链接
+## Links
 
 - GitHub: https://github.com/mxgmn
 - itch.io: https://exutumno.itch.io

@@ -43,8 +43,7 @@ See `wiki/.llm-wiki/schema.md` for full spec.
 
 - **Wikilinks**: `[[slug]]` or `[[slug|display text]]` — resolved to `{slug}/` at build time by `hooks/wikilinks.py`. Slugs are filenames minus `.md`, no paths.
 - **Frontmatter**: Every page needs `title`, `type`, `language`, `created`, `modified`, `tags`, `summary`. Person pages also need `aliases`.
-- **Language detection**: CJK >70% → `zh`, Latin >70% → `en`, 30-70% → `bilingual`
-- **Aliases**: Used for cross-language wikilink resolution in frontmatter
+- **Aliases**: Used for wikilink resolution in frontmatter
 
 ## Wiki management commands
 

@@ -12,11 +12,11 @@ source_hash: "3e6cd8e8655a4e7ae1a16a608b0b038c47e99714974ee09d5f52f9ac13aef14c"
 
 # Matt Pocock's Agent Skills Repository
 
-## Summary / 摘要
+## Summary
 
 The `mattpocock/skills` repository provides ~18 composable agent skills for AI coding agents (Claude Code, Codex, etc.), packaged as declarative SKILL.md files with accompanying workflows. The skills address four common failure modes of AI-assisted development: misalignment between human and agent, excessive verbosity, lack of feedback loops, and accelerated software entropy. Skills are organized into Engineering (10), Productivity (5), and Misc (4) categories, each implementing a specific best practice from software engineering.
 
-## Content / 内容
+## Content
 
 ### Philosophy
 
@@ -48,7 +48,7 @@ npx skills@latest add mattpocock/skills
 
 Select desired skills and agents, then run `/setup-matt-pocock-skills` to configure the issue tracker and triage labels.
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - The most critical skill is aligning with the agent before starting work ([[grill-me-methodology]])
 - A shared language document ([[shared-language-context-md]]) dramatically reduces token usage and improves code consistency
@@ -56,7 +56,7 @@ Select desired skills and agents, then run `/setup-matt-pocock-skills` to config
 - Codebase architecture deteriorates faster with AI assistance — systematic improvement skills are necessary
 - Skills should be small, composable, and hackable rather than monolithic process frameworks
 
-## Related / 关联
+## Related
 
 - [[matt-pocock]] — author of the skills repository
 - [[agent-skills]] — the concept of composable declarative skills for coding agents

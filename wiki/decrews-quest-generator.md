@@ -11,11 +11,11 @@ summary: "A C#/Unity implementation of Doran & Parberry's quest generation algor
 
 # Decrews Procedural Quest Generator
 
-## Definition / 定义
+## Definition
 
 A C# implementation of Doran & Parberry's procedural quest generation algorithm for the **Unity** game engine, by decrews. It creates **quest action trees** using Unity's **ScriptableObject** system to define NPCs, locations, enemies, and items as data assets, separating quest logic from game content.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Engine**: Unity (C#)
 - **Approach**: Doran & Parberry's quest structural analysis
@@ -24,7 +24,7 @@ A C# implementation of Doran & Parberry's procedural quest generation algorithm 
 - **Repository**: 11 stars
 - **Design**: Clean separation between generation logic and game content via Unity's asset pipeline
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[quest-structural-analysis]] — the underlying methodology
 - [[npc-motivations]] — root taxonomy used for generation
@@ -34,7 +34,7 @@ A C# implementation of Doran & Parberry's procedural quest generation algorithm 
 - [[ian-parberry]] — co-author
 - [[jonathan-doran]] — co-author
 
-## References / 参考资料
+## References
 
 - Repository: https://github.com/decrews/Procedural-Quest-Generator
 - Doran, J. & Parberry, I. (2011). A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs.

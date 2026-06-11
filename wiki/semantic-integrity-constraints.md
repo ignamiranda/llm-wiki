@@ -11,11 +11,11 @@ summary: "A set of six constraint types (t, opp, u, r, qualif, motif) used in ge
 
 # Semantic Integrity Constraints
 
-## Definition / 定义
+## Definition
 
 Semantic integrity constraints (Γ) are a set of rules in the Domain Database that guide branch generation in the quest genetic algorithm. Each constraint is a 5-tuple γ = ⟨pred, (u₁r₁t₁, ..., uₙrₙtₙ), opp, qualif, motif⟩ attached to a predicate symbol, defining six types of semantic restrictions: variable types, opposite/contradictory relations, existential uniqueness, recurrence importance, qualification types, and goal motifs. These constraints ensure generated branches respect the logical structure of the game world. The constraint formalism was introduced in Lima's 2019 PhD thesis [[2019-11-01-lima-genetic-planning-quests]] at PUC-Rio.
 
-## Key Properties / 关键特性
+## Key Properties
 
 Six constraint types:
 1. **t (variable types):** Required object type for each predicate term (e.g., cured must have a character term)
@@ -25,13 +25,13 @@ Six constraint types:
 5. **qualif (qualification):** Whether a predicate can be dynamically added to initial state (initial) or goal state (goal) without logical inconsistency
 6. **motif (goal motif):** Groups related predicates under a motif name for coherent goal generation
 
-## Examples / 示例
+## Examples
 
 - γ = (at, (character, ∃! place), null, initial, null) — a character can only be at one place; at predicates can be added to initial states
 - γ = (request, (character, character, ?item, place), null, null, null) — item term recurrence contributes to continuity
 - γ = (hasreceived, (character, character, ∃!item), null, null, askitem) — hasreceived is part of the askitem motif
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[domain-database-quest-gen]] — where constraints are defined
 - [[quest-genetic-algorithm]] — uses constraints in branch generation
@@ -40,7 +40,7 @@ Six constraint types:
 - [[2019-11-01-lima-genetic-planning-quests]] — foundational PhD thesis
 - [[2026-06-11-branching-quests-genetic-planning]] — the journal paper
 
-## References / 参考资料
+## References
 
 - Lima, E.S. (2019). Procedural generation of quests for games using genetic algorithms and automated planning. PhD Thesis, PUC-Rio.
 - Lima, E.S., Feijó, B. & Furtado, A.L. (2022). Procedural generation of branching quests for games. Entertainment Computing, 43, 100491.

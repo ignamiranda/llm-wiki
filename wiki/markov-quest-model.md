@@ -11,11 +11,11 @@ summary: "A quest generation approach using Markov chains to model transition pr
 
 # Markov Quest Model
 
-## Definition / 定义
+## Definition
 
 A Markov quest model is a procedural quest generation technique that uses a Markov chain to capture transition probabilities between actions. Given a corpus of action sequences (e.g., recipes), the model learns P(action B | action A) — the probability that action B follows action A in a valid sequence. Generation proceeds by sampling the next action from the learned distribution, proceeding step by step until a terminal action is reached.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Local coherence**: Captures which actions plausibly follow each other
 - **No long-range structure**: Cannot ensure the sequence as a whole progresses toward a goal
@@ -23,13 +23,13 @@ A Markov quest model is a procedural quest generation technique that uses a Mark
 - **Computationally lightweight**: Simple to train and generate from
 - **First-order**: Considers only the immediately preceding action (standard Markov assumption)
 
-## Examples / 示例
+## Examples
 
 - Trained on recipe data to generate cooking quests
 - Starting with "take flour", the model might generate: "take flour" → "crack egg" → "mix" → "pour" → "bake"
 - Local transitions (mix after crack-egg) are plausible, but the sequence may wander without reaching a coherent end
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[text-adventure-quest-generation]] — the application domain
 - [[neural-quest-model]] — alternative approach using LSTM
@@ -37,6 +37,6 @@ A Markov quest model is a procedural quest generation technique that uses a Mark
 - [[convchain]] — another Markov-based procedural generation technique (texture synthesis)
 - [[procedural-quest-generation]] — broader field
 
-## References / 参考资料
+## References
 
 - Ammanabrolu, P., Broniec, W., Mueller, A., Paul, J., & Riedl, M. O. (2019). Toward Automated Quest Generation in Text-Adventure Games. arXiv:1909.06283.

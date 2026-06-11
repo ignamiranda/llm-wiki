@@ -11,11 +11,11 @@ summary: "A constraint-based texture synthesis algorithm that generates outputs 
 
 # Wave Function Collapse (WFC)
 
-## Definition / 定义
+## Definition
 
 Wave Function Collapse (WFC) is an algorithm for procedural generation that synthesizes images or tilemaps that are locally similar to a given input example. It frames generation as a constraint satisfaction problem: the output must contain only NxN patterns present in the input (condition C1), with a distribution approximating the input's distribution (weak condition C2). The algorithm borrows terminology from quantum mechanics — the output starts in a superposition of all possible states and iteratively "collapses" regions to definite states.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Constraint-based**: Unlike noise or function-based generators, WFC works by enforcing local pattern constraints derived from an example
 - **NP-hard**: Determining whether a bitmap admits nontrivial satisfying bitmaps is NP-hard, so the algorithm can fail with contradictions
@@ -24,7 +24,7 @@ Wave Function Collapse (WFC) is an algorithm for procedural generation that synt
 - **Entropy heuristic**: Selects the region with lowest Shannon entropy for collapse, which produces organic-looking results
 - **Constraint support**: Can incorporate user-specified constraints, enabling mixed-initiative design
 
-## Examples / 示例
+## Examples
 
 - Generating brick wall textures that retain correct brick alignment (where simpler texture synthesis fails)
 - Procedural level generation in Bad North, Caves of Qud, and Townscaper
@@ -32,7 +32,7 @@ Wave Function Collapse (WFC) is an algorithm for procedural generation that synt
 - 3D voxel structure generation using 5x5x5 blocks
 - Encoding QR-code-like information inside WFC tilings (Lefebvre et al.)
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[2026-06-11-wave-function-collapse]] — overview article on the algorithm
 - [[overlapping-model-wfc]] — pixel-pattern-based mode
@@ -45,7 +45,7 @@ Wave Function Collapse (WFC) is an algorithm for procedural generation that synt
 - [[markovjunior]] — extends WFC to 3D with extensive tilesets
 - [[maxim-gumin]] — creator of the reference implementation
 
-## References / 参考资料
+## References
 
 - Maxim Gumin, "WaveFunctionCollapse" — https://github.com/mxgmn/WaveFunctionCollapse
 - Paul C. Merrell, "Model Synthesis" (2009) — http://graphics.stanford.edu/~pmerrell/thesis.pdf

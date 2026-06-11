@@ -11,11 +11,11 @@ summary: "Ammanabrolu et al. (2019) present two approaches to procedurally gener
 
 # Toward Automated Quest Generation in Text-Adventure Games
 
-## Summary / 摘要
+## Summary
 
 This paper by Ammanabrolu, Broniec, Mueller, Paul & Riedl (2019) addresses procedural quest generation for interactive fiction (text-adventure games). The authors frame quest generation as a sequence-generation problem: given a starting state and a goal, produce a coherent sequence of actions that forms a valid quest. They propose and compare two approaches — a Markov model and a neural generative model — both trained on recipe data to generate cooking-themed quests. The key challenge is semantic coherence: the generated action sequences must describe plausible, ordered steps toward a goal.
 
-## Content / 内容
+## Content
 
 ### Problem Definition
 
@@ -53,7 +53,7 @@ Both models are evaluated on **semantic coherence** — whether the generated se
 
 This work is among the first to apply neural sequence-generation methods to procedural quest generation, opening a direction orthogonal to the grammar-based and planning-based approaches that dominated prior work. However, the reliance on recipe data as a proxy for quest structure limits the generality of the results.
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - Quest generation can be framed as a sequence-generation problem, amenable to Markov models and neural networks
 - The Markov model captures local coherence but lacks long-range goal structure
@@ -61,7 +61,7 @@ This work is among the first to apply neural sequence-generation methods to proc
 - Using recipe data as a training corpus is a novel proxy for quest structure, but limits generality
 - Sequence-generation approaches are complementary to grammar-based and planning-based quest generation methods
 
-## Related / 关联
+## Related
 
 - [[text-adventure-quest-generation]] — the concept this paper defines
 - [[procedural-quest-generation]] — the broader field this paper contributes to

@@ -13,11 +13,11 @@ summary: "Joanna Bryson's work on procedural quest generation, likely presenting
 
 # Procedural Quests — Joanna Bryson
 
-## Summary / 摘要
+## Summary
 
 A paper by Joanna Bryson on procedural quest generation, hosted on her personal site. Joanna Bryson, now known primarily for AI ethics and technology policy at the Hertie School (Berlin), also published on AI game systems including procedural content generation. This work likely presents a structured methodology for generating quests — consistent with her broader interest in intelligent agent behavior and structured AI systems.
 
-## Content / 内容
+## Content
 
 ### About the Author
 
@@ -34,13 +34,13 @@ Given the title and context, the work likely presents:
 - A structured or rule-based approach to quest construction
 - Possibly an early work predating more recent ML/LLM-based approaches
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - Represents an academic perspective on procedural quest generation from a researcher better known for AI ethics
 - Likely a structured, non-ML approach to quest generation
 - Useful as a point of comparison with search-based (Yu et al. 2020), GA-based (Lima et al. 2022), and LLM-based approaches
 
-## Related / 关联
+## Related
 
 - [[procedural-quest-generation]] — broader concept of algorithmic quest generation
 - [[joanna-bryson]] — researcher page

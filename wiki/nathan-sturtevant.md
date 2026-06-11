@@ -14,13 +14,13 @@ confidence: low
 
 # Nathan Sturtevant
 
-## Bio / 简介
+## Bio
 
 Nathan Sturtevant is a professor in the Department of Computing Science at the University of Alberta, Edmonton, Canada. He is widely known for his contributions to AI for games, particularly pathfinding algorithms, procedural content generation, and the General Video Game AI (GVG-AI) framework.
 
 He was previously at the University of Denver. His research group at Alberta continues to produce influential work in game AI, search, and procedural content generation.
 
-## Key Contributions / 主要贡献
+## Key Contributions
 
 - **HPA*** (Hierarchical Pathfinding A*) — hierarchical approach to pathfinding in games
 - **Jump Point Search (JPS)** — symmetry reduction for grid-based pathfinding
@@ -29,12 +29,12 @@ He was previously at the University of Denver. His research group at Alberta con
 - **Procedural Content Generation** — algorithms for generating game content, including quests (Yu et al. 2020)
 - **Abstract Strategy Games** — solving and generating combinatorial game content
 
-## Related Work / 相关工作
+## Related Work
 
 - [[2020-01-01-yu-quest-generation]] — procedural quest generation paper from his group
 - [[procedural-quest-generation]] — quest generation as a research area
 - [[ut-alberta-quest-research]] — research group context
 
-## Links / 链接
+## Links
 
 - [U of A faculty page](https://webdocs.cs.ualberta.ca/~nathanst/)

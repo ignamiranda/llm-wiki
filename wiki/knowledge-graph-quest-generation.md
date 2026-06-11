@@ -11,11 +11,11 @@ summary: "A procedural quest generation approach that uses a knowledge graph (ty
 
 # Knowledge Graph Quest Generation
 
-## Definition / 定义
+## Definition
 
 Knowledge graph quest generation is a procedural quest generation approach that uses a structured knowledge graph — typically implemented with a graph database like Neo4j — to encode semantic relationships between quest elements: characters, locations, items, objectives, and player state. The knowledge graph enables logical reasoning about quest coherence, ensures generated content maintains internal consistency, and supports personalization by encoding player characteristics within the graph.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Structured semantics**: Relations between entities (character `located_at` location, item `needed_for` objective) enable reasoning
 - **Coherence guarantees**: The graph enforces logical consistency that pure language models lack
@@ -23,11 +23,11 @@ Knowledge graph quest generation is a procedural quest generation approach that 
 - **Composable**: Can be paired with language models for natural language generation
 - **Queryable**: SPARQL-like queries (Cypher in Neo4j) can retrieve relevant subgraphs for generation
 
-## Examples / 示例
+## Examples
 
 - DRAGN Town Quests uses a Neo4j knowledge graph to structure quest elements and condition the GPT-2 language model output
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[dragn-town-quests]] — system implementing this approach
 - [[gpt2-quest-generation]] — complementary LM approach
@@ -35,6 +35,6 @@ Knowledge graph quest generation is a procedural quest generation approach that 
 - [[procedural-quest-generation]] — broader field
 - [[2023-04-19-dragn-town-quest-generation]] — paper describing this approach
 
-## References / 参考资料
+## References
 
 - Knapp, G., Ashby, T. & Fulda, N. (2023). Personalized Quest and Dialogue Generation in Role-Playing Games: A Knowledge Graph- and Language Model-based Approach. CHI 2023. DOI: 10.1145/3544548.3581441

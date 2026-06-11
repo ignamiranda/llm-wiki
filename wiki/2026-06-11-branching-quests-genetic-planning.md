@@ -12,11 +12,11 @@ summary: "Lima, Feijó & Furtado (2022) present a novel method combining automat
 
 # Procedural Generation of Branching Quests for Games — Lima, Feijó & Furtado (2022)
 
-## Summary / 摘要
+## Summary
 
 This paper presents a quest generation method combining automated planning with a genetic algorithm guided by story arcs to produce coherent branching quests for interactive game worlds. Quests are modeled as tree structures where branches represent different story paths. The genetic algorithm uses state-compatibility crossover (equal, sub, super types) and a fitness function comparing story arcs to a desired template via MSE. A Turing Test with 38 players achieved 48.68% accuracy — statistically indistinguishable from human-designed quests. This journal publication builds on the foundational method established in Lima's 2019 PhD thesis [[2019-11-01-lima-genetic-planning-quests]].
 
-## Content / 内容
+## Content
 
 > Updated from [[2019-11-01-lima-genetic-planning-quests]] — the 2019 PhD thesis established the core method, Domain Database formalism, GA design, and story arc fitness. The 2022 paper adds the Turing Test evaluation and focuses specifically on branching quests.
 
@@ -74,7 +74,7 @@ Each branch is encoded as a STRIPS planning problem: Eᵢ = ⟨F, Sⱼ, Gᵢ, O�
 - No rigorous user study on overall game experience impact yet
 - Game implementation must handle all story variants consistently
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - First method combining genetic algorithms + automated planning specifically for branching (nonlinear) quest generation
 - Tree-structured individuals with state-compatibility crossover are a novel contribution
@@ -82,7 +82,7 @@ Each branch is encoded as a STRIPS planning problem: Eᵢ = ⟨F, Sⱼ, Gᵢ, O�
 - Turing Test shows AI-generated branching quests are indistinguishable from professional human-designed quests
 - Main practical barrier: manual authoring of the Domain Database
 
-## Related / 关联
+## Related
 
 - [[branching-quest-generation]] — core concept
 - [[quest-genetic-algorithm]] — the GA approach

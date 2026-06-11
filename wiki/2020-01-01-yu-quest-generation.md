@@ -13,11 +13,11 @@ summary: "A paper on procedural quest generation from Nathan Sturtevant's group 
 
 # Procedural Quest Generation — Yu et al. 2020 (Sturtevant Group)
 
-## Summary / 摘要
+## Summary
 
 A paper authored by Yu et al. from Nathan Sturtevant's research group at the University of Alberta, focused on procedural quest generation for games. The precise title is inferred as procedural quest generation from the URL filename `yu2020quest.pdf`. The paper likely applies search or planning techniques — a core competency of the Sturtevant group — to the problem of generating structured quest content for role-playing games.
 
-## Content / 内容
+## Content
 
 ### Context: Nathan Sturtevant's Research Group
 
@@ -37,13 +37,13 @@ Given the group's expertise, the approach likely involves:
 - **Planning**: Using forward or backward search to construct sequences of actions/objectives that form coherent quests
 - **Evaluation metrics**: Measuring quest quality and diversity
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - Adds to the body of work treating quest generation as a search/planning problem
 - Represents University of Alberta's contribution to procedural quest generation research
 - Complements other approaches (genetic algorithms, grammar-based, LLM-based)
 
-## Related / 关联
+## Related
 
 - [[procedural-quest-generation]] — broader concept of algorithmic quest generation
 - [[nathan-sturtevant]] — group lead and co-author

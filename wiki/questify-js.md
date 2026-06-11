@@ -11,11 +11,11 @@ summary: "A JavaScript procedural quest generator implementing Doran & Parberry'
 
 # Questify (JS)
 
-## Definition / 定义
+## Definition
 
 Questify is a JavaScript procedural quest generator by Dean L. Johnson that directly implements the **quest structural analysis** methodology of Doran & Parberry (2011). It structures generation around the three-level hierarchy — **NPC motivations** (root), **strategies** (approaches), and **atomic actions** (leaves) — and produces quest action trees as output.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Approach**: Based on Doran & Parberry's BNF grammar formalism
 - **Language**: JavaScript (Node.js)
@@ -24,7 +24,7 @@ Questify is a JavaScript procedural quest generator by Dean L. Johnson that dire
 - **Repository**: 3 stars, 76 commits
 - **Maturity**: Moderate development history with 76 commits
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[quest-structural-analysis]] — the underlying methodology
 - [[npc-motivations]] — root taxonomy used for generation
@@ -34,7 +34,7 @@ Questify is a JavaScript procedural quest generator by Dean L. Johnson that dire
 - [[ian-parberry]] — co-author of the structural analysis paper
 - [[jonathan-doran]] — co-author of the structural analysis paper
 
-## References / 参考资料
+## References
 
 - Repository: https://github.com/deanljohnson/Questify
 - Doran, J. & Parberry, I. (2011). A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs.

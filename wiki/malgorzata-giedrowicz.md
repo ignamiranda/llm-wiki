@@ -11,16 +11,16 @@ summary: "Researcher and co-author of the dependency-driven prompt pipeline for 
 
 # Małgorzata Giedrowicz
 
-## Bio / 简介
+## Bio
 
 Małgorzata Giedrowicz is a researcher and co-author of the 2026 paper "From World-Gen to Quest-Line: A Dependency-Driven Prompt Pipeline for Coherent RPG Generation" (arXiv:2604.25482). Her work focuses on LLM-based procedural content generation for RPGs.
 
-## Key Contributions / 主要贡献
+## Key Contributions
 
 - Co-author of the [[dependency-driven-prompt-pipeline]] approach for multi-stage RPG generation (2026)
 - Contributed to the design of structured intermediate representations for LLM-based narrative generation
 
-## Related Work / 相关工作
+## Related Work
 
 - [[2026-04-28-llm-prompt-pipeline-quest-gen]] — co-author
 - [[dominik-borawski]] — co-author

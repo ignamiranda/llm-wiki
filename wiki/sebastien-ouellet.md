@@ -11,17 +11,17 @@ summary: "Co-author of the CONAN procedural quest generation paper, researcher i
 
 # Sebastien Ouellet
 
-## Bio / 简介
+## Bio
 
 Sebastien Ouellet (also Sébastien Ouellet) is a researcher and co-author of the CONAN (Creation Of Novel Adventure Narrative) paper. His work contributes to procedural quest generation and AI-driven narrative systems, with a focus on planning-based approaches to interactive storytelling.
 
-## Key Contributions / 主要贡献
+## Key Contributions
 
 - Co-author of "Let CONAN tell you a story: Procedural quest generation" (2018, arXiv:1808.06217)
 - Co-creator of the CONAN procedural quest generation engine
 - Research on multi-agent planning for interactive emergent narrative systems
 
-## Related Work / 相关工作
+## Related Work
 
 - [[2018-08-19-conan-quest-generator]] — co-author
 - [[conan-quest-generator]] — core contribution

@@ -11,11 +11,11 @@ summary: "A JavaScript procedural quest generator using Tracery grammar to produ
 
 # Tracery Quest Generator (lemilonkh/questgen)
 
-## Definition / 定义
+## Definition
 
 A JavaScript procedural quest generator by lemilonkh that uses **Tracery** — a context-free grammar expansion library — to produce random quest descriptions for role-playing games. It defines quest structures, NPC names, locations, objectives, and rewards as grammar rules in a `grammar.json` file, then expands them into human-readable quest text.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Approach**: Grammar-based generation using Tracery (context-free grammar)
 - **Language**: JavaScript
@@ -25,14 +25,14 @@ A JavaScript procedural quest generator by lemilonkh that uses **Tracery** — a
 - **Repository**: 10 stars
 - **Design philosophy**: Minimal and focused — simply defines a grammar and expands it
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[procedural-quest-generation]] — the broader field
 - [[quest-structural-analysis]] — a more formal BNF grammar methodology
 - [[quest-generator-prolog]] — different grammar-based approach (Prolog)
 - [[questify-js]] — another JavaScript quest generator (motivation-based)
 
-## References / 参考资料
+## References
 
 - Repository: https://github.com/lemilonkh/questgen
 - Tracery: https://github.com/galaxykate/tracery

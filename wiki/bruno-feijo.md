@@ -11,23 +11,23 @@ summary: "Researcher at Pontifical Catholic University of Rio de Janeiro (PUC-Ri
 
 # Bruno Feijó
 
-## Bio / 简介
+## Bio
 
 Bruno Feijó is a researcher at the Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Department of Informatics, Rio de Janeiro, Brazil. His research spans procedural content generation for games, interactive storytelling, and player behavior modeling.
 
-## Key Contributions / 主要贡献
+## Key Contributions
 
 - Co-author of the branching quest generation method combining genetic algorithms and automated planning (2022)
 - Co-author of hierarchical generation of dynamic and nondeterministic quests (2014)
 - Research on player behavior and personality modeling for interactive storytelling (2018)
 
-## Related Work / 相关工作
+## Related Work
 
 - [[2026-06-11-branching-quests-genetic-planning]] — co-author
 - [[branching-quest-generation]] — core contribution
 - [[edirlei-soares-de-lima]] — co-author
 - [[antonio-l-furtado]] — co-author
 
-## Links / 链接
+## Links
 
 - [PUC-Rio](https://www.puc-rio.br)

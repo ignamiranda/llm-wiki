@@ -12,11 +12,11 @@ source_hash: "36142B04C75B15030ADDE49CDF5B03C6D0C44C27035DC8C1B7533898E51E5F3D"
 
 # A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs
 
-## Summary / 摘要
+## Summary
 
 An analysis of approximately 3000 quests from Eve Online, World of Warcraft, Everquest, and Vanguard: Saga of Heroes reveals that RPG quests share a common underlying structure expressible as a formal grammar. The authors identify 9 distinct NPC motivations, 20 atomic actions, and a BNF production rule system that can describe any quest from the dataset. A prototype procedural quest generator written in Prolog (with a Java applet front-end) uses this grammar to produce complex, multi-leveled quests, leveraging Prolog's automatic backtracking to handle the combinatorial search.
 
-## Content / 内容
+## Content
 
 ### Motivation and Approach
 
@@ -57,7 +57,7 @@ Output consists of a terse action tree and a narrative with simple boilerplate N
 
 The paper distinguishes itself from prior quest classification work by Sullivan, Ashmore & Nitsche (key-lock structure), Jill Walker (exploration/combat binary), and Dickey (classification without generation). It frames quest generation as a restricted planning problem — NP-complete in general, but made tractable through domain-specific constraints derived from observed quest structure.
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - Human-authored quests share more structural commonality than expected — authors unconsciously follow patterns
 - 9 NPC motivations provide a natural taxonomy for driving procedural quest generation
@@ -65,7 +65,7 @@ The paper distinguishes itself from prior quest classification work by Sullivan,
 - Prolog's backtracking is a natural fit for tree-expansion quest generation
 - The structural approach avoids the NP-complete general planning problem by restricting the domain to observed patterns
 
-## Related / 关联
+## Related
 
 - [[npc-motivations]] — the 9-category taxonomy defined in this paper
 - [[procedural-quest-generation]] — the broader concept this paper implements

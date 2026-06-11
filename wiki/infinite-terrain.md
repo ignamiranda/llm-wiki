@@ -11,11 +11,11 @@ summary: "A locally-computed terrain generation technique where any position in 
 
 # Infinite Terrain
 
-## Definition / 定义
+## Definition
 
 An approach to generating unbounded (infinite) terrain by exploiting the locality of noise computation. Instead of pre-generating the entire world, the camera position is subtracted from the noise coordinates: `noise(nx - camera.x, ny - camera.y)`. This allows any position in the world to be generated independently, on demand, without storing or pre-computing the full map.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Fully local**: Each position is computed independently — no global constraints (rivers, lakes, mountain chains) spanning across view boundaries
 - **Parallelizable**: Multiple positions can be computed simultaneously
@@ -24,12 +24,12 @@ An approach to generating unbounded (infinite) terrain by exploiting the localit
 - **Camera-driven**: The camera position (or player position) determines the offset into noise space
 - **Not suitable for all games**: Games requiring global features (hand-placed dungeons, continent-spanning rivers) need a hybrid approach
 
-## Examples / 示例
+## Examples
 
 - Scrolling terrain in sandbox games
 - Procedural open worlds where players can travel arbitrarily far
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[noise-based-terrain-generation]] — noise is the foundation technique for infinite terrain
 - [[chunk-based-generation]] — infinite terrain can be divided into chunks for loading/unloading
@@ -40,6 +40,6 @@ An approach to generating unbounded (infinite) terrain by exploiting the localit
 - [[terrain-lod-stitching]] — stitching LOD tile boundaries in infinite terrain rendering
 - [[2026-06-11-terrain3d]] — a Godot 3.5 implementation of infinite terrain with LOD stitching
 
-## References / 参考资料
+## References
 
 - Patel, Amit J., "Making maps with noise functions", Red Blob Games, 2015, https://www.redblobgames.com/maps/terrain-from-noise/

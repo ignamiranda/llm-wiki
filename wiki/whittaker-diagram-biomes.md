@@ -13,11 +13,11 @@ source_hash: "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9"
 
 # Whittaker Diagram Biomes
 
-## Definition / 定义
+## Definition
 
 A biome classification scheme adapted from the Whittaker diagram for use in procedural map generation. Biome types are assigned to land polygons based on two parameters: elevation (serving as a proxy for temperature, with higher elevations being colder) and moisture level. The classification produces a grid of biome types ranging from snow at high elevations to tropical rain forest at low, wet areas.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Water bodies:** OCEAN (connected to border), LAKE (not connected), ICE (high elevation lake), MARSH (low elevation lake)
 - **Coast:** BEACH — land polygons adjacent to ocean
@@ -28,19 +28,19 @@ A biome classification scheme adapted from the Whittaker diagram for use in proc
 - Can be extended with latitude-based temperature (north/south colder than equator)
 - Alternative approaches exist: noise-based moisture, wind/evaporation/rain shadows, groundwater models
 
-## Examples / 示例
+## Examples
 
 - In the mapgen2 demo, each polygon is colored by its Whittaker biome, producing visually distinct climate zones from snowy peaks to tropical coasts
 - Realm of the Mad God used a custom biome formula derived from this Whittaker-based system
 - The biome per-pixel approach interpolates elevation and moisture at each pixel for smoother transitions
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[elevation-from-coast-distance]] — provides the elevation axis
 - [[voronoi-diagram-mapgen]] — the polygons being classified
 - [[2010-09-01-polygonal-map-generation]] — the article that adapted this for game maps
 
-## References / 参考资料
+## References
 
 - Amit Patel, "Polygonal Map Generation for Games", Red Blob Games, 2010
 - Whittaker diagram (pcg.wikidot.com)

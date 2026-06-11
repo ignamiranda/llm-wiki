@@ -12,11 +12,11 @@ status: published
 
 # Procedural Sword Generator — Caius Walker BSc Honours Project
 
-## Summary / 摘要
+## Summary
 
 Caius Walker's BSc Honours project (Computer Games Technology) designed and implemented a procedural sword generator in C#/Unity. It selects random sword parts from CSV data files, generates 3D meshes from vertex position calculations, and computes physics-based damage using kinetic energy, point of balance, and target mass.
 
-## Content / 内容
+## Content
 
 ### Architecture
 
@@ -55,14 +55,14 @@ A second prototype is in development addressing:
 - Corrected kinetic energy calculations
 - Standalone visual sword viewer outside Unity Editor
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - First documented academic project (BSc Honours) on procedural sword generation
 - Novel integration of physics-based damage calculation with procedural mesh generation
 - CSV-based part data enabling designer-friendly extensibility
 - Demonstrates feasibility of historically/fictionally-informed procedural weapon design
 
-## Related / 关联
+## Related
 
 - [[caius-walker]] — BSc student, creator of the Procedural Sword Generator
 - [[sword-maker-godot]] — Godot pixel-art sword generator (alternative 2D approach)

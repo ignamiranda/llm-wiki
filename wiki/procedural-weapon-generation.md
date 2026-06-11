@@ -11,11 +11,11 @@ summary: "The algorithmic generation of weapons — swords, blades, firearms —
 
 # Procedural Weapon Generation
 
-## Definition / 定义
+## Definition
 
 Procedural weapon generation is the application of procedural content generation (PCG) techniques to the creation of weapons — most commonly swords and blades, but also firearms, staves, and melee weapons. Approaches range from part-based assembly with mesh generation to shader-driven pixel art to parametric CAD modelling. Weapon properties (mass, balance, damage) can be derived from generated geometry for gameplay integration.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Part-based assembly**: Random selection from a database of components (blades, guards, grips, pommels) combined into complete weapons
 - **Parametric control**: Length, width, thickness, curvature, and material parameters that modify generated output
@@ -23,14 +23,14 @@ Procedural weapon generation is the application of procedural content generation
 - **Output formats**: 3D meshes, 2D sprites, CAD models (STL), pixel art
 - **Platform diversity**: Unity (C#), Godot (GDScript/GLSL), Blender (Python/geometry nodes), OpenSCAD
 
-## Examples / 示例
+## Examples
 
 - Caius Walker's Honours Project — Unity/C# part-based 3D sword generator with physics damage
 - Sword-Maker — Godot pixel-art sword generator via GLSL shader
 - Pamir Bal's Procedural Sword Generator — commercial Blender addon
 - Hello-Sword — OpenSCAD single-file parametric blade generator
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[2026-06-11-caius-walker-pcg-swords]] — academic Unity-based sword generator
 - [[sword-maker-godot]] — Godot pixel-art sword generator
@@ -41,7 +41,7 @@ Procedural weapon generation is the application of procedural content generation
 - [[procedural-quest-generation]] — related PCG domain for RPGs
 - [[procedural-face-generation]] — analogous PCG domain (parameter-controlled generation)
 
-## References / 参考资料
+## References
 
 - Caius Walker, "Procedural Sword Generator", BSc Honours Project, https://www.caiuswalker.co.uk/pcg-swords
 - BumbertFiddlesticks, "Sword-Maker", https://github.com/BumbertFiddlesticks/Sword-Maker

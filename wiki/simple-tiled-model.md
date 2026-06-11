@@ -10,11 +10,11 @@ summary: "A WFC mode where tile adjacency constraints replace pixel pattern matc
 
 # Simple Tiled Model (WFC)
 
-## Definition / 定义
+## Definition
 
 The simple tiled model is the second primary mode of the Wave Function Collapse algorithm, where generation is driven by pre-defined tiles and their adjacency constraints rather than extracted pixel patterns. It is the simplest nontrivial case of WFC, corresponding to NxN=1x2, where propagation reduces to adjacency constraint propagation. The model is initialized with a list of tiles and their adjacency data rather than a sample bitmap.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - Uses explicitly defined tilesets instead of pixel pattern extraction
 - Propagation is adjacency constraint propagation (simpler than the overlapping model)
@@ -23,14 +23,14 @@ The simple tiled model is the second primary mode of the Wave Function Collapse 
 - "Easy" tilesets never produce contradictions but also lack interesting global structure
 - Can be extended to 3D with additional heuristic functions
 
-## Examples / 示例
+## Examples
 
 - Knot tileset (5 tiles, not easy — produces complex patterns)
 - Circuit tileset (non-Wang — corners cannot be adjacent but can connect via Connection tiles)
 - Townscaper's irregular grid tileset (Oskar Stålberg)
 - 3D castle generation with voxel tilesets
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[wave-function-collapse]] — the parent algorithm
 - [[overlapping-model-wfc]] — the alternative WFC mode
@@ -38,6 +38,6 @@ The simple tiled model is the second primary mode of the Wave Function Collapse 
 - [[markovjunior]] — 3D simple tiled model implementation
 - [[entropy-heuristic-wfc]] — observation selection
 
-## References / 参考资料
+## References
 
 - Maxim Gumin, "WaveFunctionCollapse" — https://github.com/mxgmn/WaveFunctionCollapse

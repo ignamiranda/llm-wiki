@@ -13,11 +13,11 @@ source_hash: "B996558CD403FDD124ABCC155317B8BBDAF943366AEE3AF70521E0D7970D35D9"
 
 # Downhill River Generation
 
-## Definition / 定义
+## Definition
 
 A river generation algorithm for polygon-based maps that places river sources at random high-elevation (mountain) corner nodes, then follows the steepest downhill direction from each corner to the next until reaching the ocean. Downhill vectors are computed from the elevation differences between adjacent corners.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - Rivers flow through the Voronoi corner graph rather than polygon centers, producing more natural-looking paths
 - Multiple rivers merge when they share downstream segments; combined flow is summed
@@ -26,18 +26,18 @@ A river generation algorithm for polygon-based maps that places river sources at
 - Requires monotonic elevation (no local minima) to guarantee all rivers reach the ocean
 - Elevation defined as distance from coast ensures monotonicity without needing lake-filling or channel-carving algorithms
 
-## Examples / 示例
+## Examples
 
 - Starting at a mountain ridge, a river flows downhill through multiple polygon corners, widening as tributaries join
 - Multiple mountain-top sources produce a branching river network
 - Rivers naturally form valleys with adjacent lakes at their edges
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[elevation-from-coast-distance]] — elevation model that guarantees downhill paths reach the ocean
 - [[voronoi-diagram-mapgen]] — the corner graph that rivers traverse
 - [[2010-09-01-polygonal-map-generation]] — the article that described this technique
 
-## References / 参考资料
+## References
 
 - Amit Patel, "Polygonal Map Generation for Games", Red Blob Games, 2010

@@ -11,11 +11,11 @@ summary: "The procedural generation of quests specifically within text-adventure
 
 # Text-Adventure Quest Generation
 
-## Definition / 定义
+## Definition
 
 Text-adventure quest generation is a subfield of procedural quest generation that focuses on creating quests for interactive fiction environments — games where players interact entirely through textual descriptions and text commands. A quest is defined as a series of actions required to progress toward a goal. The key challenge is semantic coherence: generated action sequences must describe plausible, ordered steps in a textual world.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Action sequences**: Quests are sequences of textual commands (e.g., "take flour", "mix eggs")
 - **Semantic coherence**: Actions must make sense together and follow logical ordering
@@ -23,13 +23,13 @@ Text-adventure quest generation is a subfield of procedural quest generation tha
 - **Goal-directed**: Sequences must lead toward a specified objective
 - **Domain-specific**: Often focused on specific domains (e.g., cooking) to constrain the problem space
 
-## Approaches / 方法
+## Approaches
 
 - **Markov models**: Learn transition probabilities between actions from corpora
 - **Neural generative models**: LSTM encoder-decoder architectures for sequence generation
 - **Recipe-based training**: Using recipe data as a proxy for quest structure in the cooking domain
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[procedural-quest-generation]] — the broader field of algorithmic quest creation
 - [[markov-quest-model]] — Markov approach to action sequence generation
@@ -38,6 +38,6 @@ Text-adventure quest generation is a subfield of procedural quest generation tha
 - [[quest-structural-analysis]] — grammar-based analysis of quest structure
 - [[branching-quest-generation]] — alternative approach using genetic algorithms
 
-## References / 参考资料
+## References
 
 - Ammanabrolu, P., Broniec, W., Mueller, A., Paul, J., & Riedl, M. O. (2019). Toward Automated Quest Generation in Text-Adventure Games. arXiv:1909.06283.

@@ -11,18 +11,18 @@ summary: "Co-author of the CONAN procedural quest generation paper, researcher i
 
 # Jim Davies
 
-## Bio / 简介
+## Bio
 
 Jim Davies is a researcher and professor at Carleton University, Ottawa, Canada, as well as the director of the Science of Imagination laboratory. His research spans AI, cognitive science, and narrative generation. He is a co-author of the CONAN (Creation Of Novel Adventure Narrative) paper, which applies AI planning techniques to procedural quest generation for games.
 
-## Key Contributions / 主要贡献
+## Key Contributions
 
 - Co-author of "Let CONAN tell you a story: Procedural quest generation" (2018, arXiv:1808.06217)
 - Director of the Science of Imagination laboratory at Carleton University
 - Co-creator of the CONAN procedural quest generation engine
 - Research on cognitive science approaches to AI and narrative
 
-## Related Work / 相关工作
+## Related Work
 
 - [[2018-08-19-conan-quest-generator]] — co-author
 - [[conan-quest-generator]] — core contribution

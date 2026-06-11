@@ -12,11 +12,11 @@ summary: "Breault, Ouellet & Davies (2018) propose CONAN — a planning-based pr
 
 # Let CONAN tell you a story: Procedural quest generation
 
-## Summary / 摘要
+## Summary
 
 This paper presents CONAN (Creation Of Novel Adventure Narrative), a procedural quest generator that uses a planning approach to story generation. The engine accepts a world description represented as a set of facts — including characters, locations, and items — and generates quests based on the state of the world and the preferences of characters. Quests are evaluated through classification of their underlying motivations by analyzing the sequences of actions required to complete them. Compared against [[quest-structural-analysis]] of commercial video game quests, CONAN was found to successfully replicate the quest structures found in human-authored games.
 
-## Content / 内容
+## Content
 
 ### The CONAN Engine
 
@@ -48,7 +48,7 @@ CONAN represents a distinct approach in the [[procedural-quest-generation]] land
 
 CONAN's planning approach occupies a middle ground — more flexible than grammar-based templates but computationally lighter than evolving populations of branching quest trees.
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - CONAN uses a planning-based approach (not grammar or GA) for procedural quest generation
 - World descriptions are formalized as sets of facts about characters, locations, and items
@@ -56,7 +56,7 @@ CONAN's planning approach occupies a middle ground — more flexible than gramma
 - CONAN successfully replicates quest structures found in commercial MMORPGs
 - The engine is open-source under MIT license, implemented primarily in SAS with Python components
 
-## Related / 关联
+## Related
 
 - [[conan-quest-generator]] — the CONAN engine concept page
 - [[procedural-quest-generation]] — broader field

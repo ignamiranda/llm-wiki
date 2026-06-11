@@ -11,17 +11,17 @@ summary: "Professor at Brigham Young University, supervisor of the DRAGN Lab, an
 
 # Nancy Fulda
 
-## Bio / 简介
+## Bio
 
 Dr. Nancy Fulda is a professor in the Department of Computer Science at Brigham Young University (BYU) and the supervisor of the DRAGN Lab (Data Retrieval and Analysis Group for NLP). Her research spans natural language processing, procedural content generation, and human-computer interaction. She supervised the CHI 2023 paper on personalized quest and dialogue generation using knowledge graphs and language models.
 
-## Key Contributions / 主要贡献
+## Key Contributions
 
 - Supervisor of the DRAGN Lab at BYU
 - Co-author of the CHI 2023 paper on KG+LM hybrid quest generation
 - Research in NLP, procedural generation, and HCI
 
-## Related Work / 相关工作
+## Related Work
 
 - [[gregory-knapp]] — advisee and co-author
 - [[2023-04-19-dragn-town-quest-generation]] — supervised paper
@@ -29,7 +29,7 @@ Dr. Nancy Fulda is a professor in the Department of Computer Science at Brigham 
 - [[dragn-lab]] — directs this lab
 - [[procedural-quest-generation]] — research area
 
-## Links / 链接
+## Links
 
 - [DRAGN Lab](https://dragn.byu.edu/)
 - [BYU CS Faculty](https://cs.byu.edu/)

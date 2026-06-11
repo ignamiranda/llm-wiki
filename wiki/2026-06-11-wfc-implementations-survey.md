@@ -1,22 +1,25 @@
 ---
-title: "WFC Implementations Survey / WFC 实现概览"
+title: WFC Implementations Survey / WFC
 type: article
 language: en
 created: 2026-06-11
 modified: 2026-06-11
 tags: [wfc, wave-function-collapse, procedural-generation, survey, implementations]
-summary: "A survey of 12 open-source Wave Function Collapse implementations spanning C#, C++, Rust, Python, Go, GDScript, and TypeScript, across Unity, Godot, and Bevy engines."
-source_url: ""
-source_hash: "89411389,CB9E6EB8,A4BBE0A7,BB1D49C3,EDA076B4,9DF7F1E7,8D4E29C3,103AE5ED,8509C4C5,F1D5AE97,D0E84825,68F7911D"
+summary: A survey of 12 open-source Wave Function Collapse implementations spanning
+  C#, C++, Rust, Python, Go, GDScript, and TypeScript, across Unity, Godot, and Bevy
+  engines.
+source_url: ''
+source_hash: 89411389,CB9E6EB8,A4BBE0A7,BB1D49C3,EDA076B4,9DF7F1E7,8D4E29C3,103AE5ED,8509C4C5,F1D5AE97,D0E84825,68F7911D
 ---
 
-# WFC Implementations Survey / WFC 实现概览
 
-## Summary / 摘要
+# WFC Implementations Survey
+
+## Summary
 
 This article surveys 12 open-source implementations of the Wave Function Collapse (WFC) algorithm, originally created by Maxim Gumin (mxgmn). These implementations span 7 programming languages, 3 game engines, and extend WFC to arbitrary graphs, 3D voxels, hex grids, and general constraint satisfaction.
 
-## Content / 内容
+## Content
 
 ### DeBroglie (C#) — 515★
 
@@ -114,7 +117,7 @@ Extends WFC from grids to arbitrary graphs. Patterns are defined via a "local si
 
 A Python WFC implementation supporting 1D, 2D, and 3D samples. Supports Magica Voxel (.vox) files via py-vox-io and MIDI file generation. Clean modular architecture (cell, grid, pattern, propagator, wfc modules).
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - C# dominates WFC implementation ecosystem (DeBroglie, WfcMaze, AutoLevel) with Unity integration
 - Rust is emerging as a new target (ghx_proc_gen for Bevy)
@@ -122,7 +125,7 @@ A Python WFC implementation supporting 1D, 2D, and 3D samples. Supports Magica V
 - Backtracking is a key differentiator — most implementations give up on contradiction, DeBroglie and godot-constraint-solving retry
 - Performance varies by 10x+ between implementations; fast-wfc and krychu/wfc lead on speed
 
-## Related / 关联
+## Related
 
 - [[debroglie]] — C# WFC library with backtracking
 - [[fast-wfc]] — Performance-optimized C++ WFC

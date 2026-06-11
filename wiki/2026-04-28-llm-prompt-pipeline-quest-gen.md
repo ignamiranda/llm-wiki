@@ -10,11 +10,11 @@ summary: "Borawski et al. (2026) propose a dependency-aware multi-stage LLM prom
 
 # From World-Gen to Quest-Line: A Dependency-Driven Prompt Pipeline for Coherent RPG Generation
 
-## Summary / 摘要
+## Summary
 
 Borawski et al. (2026) present a dependency-aware, multi-stage prompt pipeline for procedural RPG content generation using LLMs. The approach decomposes generation into five sequential stages — world building, NPC creation, player character creation, campaign-level quest planning, and quest expansion — each conditioning on structured JSON outputs from previous stages. By enforcing schemas and explicit data flow, the pipeline reduces narrative drift, limits hallucinations, and supports scalable creation of interconnected narrative elements.
 
-## Content / 内容
+## Content
 
 ### The Problem
 
@@ -41,14 +41,14 @@ The paper models narrative dependencies through **structured intermediate repres
 
 The paper situates itself within [[procedural-quest-generation]] research, drawing on the structural analysis tradition of [[quest-structural-analysis]] but shifting from rule-based or GA-based approaches to LLM-driven generation. It shares the top-down decomposition philosophy of [[planning-approach-procgen]] and the dependency management concerns seen in [[layer-based-procedural-generation]].
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - Multi-stage prompt pipelines with structured intermediate representations improve LLM narrative coherence in RPG generation
 - The five-stage decomposition (world → NPCs → PC → quest plan → quest expansion) provides a reusable template for RPG content generation
 - Schema enforcement is a practical mechanism for reducing hallucinations and narrative drift
 - The [[dependency-driven-prompt-pipeline]] concept generalises beyond games to any domain requiring coherent multi-stage generation
 
-## Related / 关联
+## Related
 
 - [[procedural-quest-generation]] — broader context for this work
 - [[branching-quest-generation]] — alternative approach to quest generation

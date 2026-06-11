@@ -11,11 +11,11 @@ summary: "The algorithmic generation of quests for role-playing games, using str
 
 # Procedural Quest Generation
 
-## Definition / 定义
+## Definition
 
 Procedural quest generation is the algorithmic creation of quest content for role-playing games without manual authoring. It is a subfield of procedural content generation (PCG) focused on narrative and task structures. A key challenge is that general planning (which quest generation reduces to) is NP-complete, making domain-specific constraints essential for practical generators.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - Reduces to a planning problem: initial state + goal state + set of actions
 - General planning is NP-complete (PSPACE-hard for non-trivial domains)
@@ -33,13 +33,13 @@ Procedural quest generation is the algorithmic creation of quest content for rol
 - **Sequence generation for text-adventure games** (Ammanabrolu et al. 2019): frames quest generation as action sequence generation, using Markov models and LSTM-based neural models trained on recipe data to produce cooking quests in interactive fiction
 - **Knowledge graph + language model** (Knapp, Ashby & Fulda 2023): combines a Neo4j knowledge graph with a fine-tuned GPT-2 language model for structured reasoning plus natural language generation, enabling player-personalized quests
 
-## Examples / 示例
+## Examples
 
 - Doran & Parberry's Prolog-based generator starts with an NPC motivation, selects a strategy, and recursively expands a quest tree using production rules
 - The generator produces both a terse action tree and a narrative with boilerplate NPC dialog
 - The [[dragn-town-quests]] system uses a Neo4j knowledge graph to condition GPT-2 output for personalized quest generation
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[conan-quest-generator]] — planning-based quest generator with character preferences
 - [[npc-motivations]] — root taxonomy for grammar-based quest generation
@@ -70,7 +70,7 @@ Procedural quest generation is the algorithmic creation of quest content for rol
 - [[nancy-fulda]] — senior author (KG+LM approach)
 - [[dragn-lab]] — research lab
 
-## References / 参考资料
+## References
 
 - Doran, J. & Parberry, I. (2011). A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs. Technical Report LARC-2011-02.
 - Ashmore, C. & Nitsche, M. (2007). The Quest in a Generated World. Proc. DiGRA 2007.

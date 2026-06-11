@@ -11,11 +11,11 @@ summary: "Creator of the Shokunin ecosystem — 62 CI-validated AI agent enginee
 
 # Elias Oulkadi
 
-## Bio / 简介
+## Bio
 
-Elias Oulkadi is the creator and maintainer of [[shokunin]] (职人), an open-source ecosystem of 62 engineering skills, ChromaDB-based persistent memory, and MCP servers for AI coding agents. The project aims for "artisan" quality in agent skill development, with every skill CI-validated for frontmatter, workflow structure, error handling, and cited sources.
+Elias Oulkadi is the creator and maintainer of [[shokunin]] (), an open-source ecosystem of 62 engineering skills, ChromaDB-based persistent memory, and MCP servers for AI coding agents. The project aims for "artisan" quality in agent skill development, with every skill CI-validated for frontmatter, workflow structure, error handling, and cited sources.
 
-## Key Contributions / 主要贡献
+## Key Contributions
 
 - Created the Shokunin ecosystem — the largest curated collection of AI agent engineering skills (62 skills across 10 domains)
 - Developed a multi-strategy memory recall system (vector + BM25 + temporal + RRF) with freshness decay
@@ -23,7 +23,7 @@ Elias Oulkadi is the creator and maintainer of [[shokunin]] (职人), an open-so
 - Established CI-validated skill quality standards (frontmatter, workflow, error handling, sources)
 - Produced a technical overview document covering the full ecosystem architecture
 
-## Related Work / 相关工作
+## Related Work
 
 - [[shokunin]] — the ecosystem he created
 - [[chromadb-ai-memory]] — the memory system within his ecosystem
@@ -31,7 +31,7 @@ Elias Oulkadi is the creator and maintainer of [[shokunin]] (职人), an open-so
 - [[matt-pocock]] — parallel work on agent skills ecosystems
 - [[agent-skills]] — the broader field of AI agent skills
 
-## Links / 链接
+## Links
 
 - GitHub: https://github.com/EliasOulkadi
 - Shokunin website: https://eliasoulkadi.github.io/shokunin/

@@ -11,7 +11,7 @@ summary: "A 9-category taxonomy of NPC motivations (Knowledge, Comfort, Reputati
 
 # NPC Motivations
 
-## Definition / 定义
+## Definition
 
 NPC motivations are a 9-category taxonomy proposed by Doran & Parberry (2011) to describe the underlying reasons why non-player characters assign quests to players in role-playing games. Each quest maps to exactly one motivation, which determines the set of strategies the NPC can use and constrains the quest's structure. The taxonomy was derived from structural analysis of approximately 3000 quests from Eve Online, World of Warcraft, Everquest, and Vanguard: Saga of Heroes.
 
@@ -31,19 +31,19 @@ NPC motivations are a 9-category taxonomy proposed by Doran & Parberry (2011) to
 
 Distribution is non-uniform; the authors suggest designers can shift distributions over time to affect game flavor.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - Each NPC's motivation is expected to change as game events unfold
 - Each motivation maps to 1-7 specific strategies (verb-noun pairs like "kill pests", "rescue NPC")
 - The motivation determines the root of the quest tree, which is then expanded recursively
 - Motivations are essential for making procedurally generated quests appear intentional rather than random
 
-## Examples / 示例
+## Examples
 
 - A **Protection**-motivated NPC asks the player to cure an ailing NPC (the "Cure for Lempeck Hargrin" quest from Everquest uses the Treat or Repair strategy)
 - A **Knowledge**-motivated NPC asks the player to spy on a goblin (generated example in the paper)
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[procedural-quest-generation]] — uses NPC motivations as the root of quest generation
 - [[quest-structural-analysis]] — the methodology that identified these motivations
@@ -52,6 +52,6 @@ Distribution is non-uniform; the authors suggest designers can shift distributio
 - [[ian-parberry]] — co-author
 - [[jonathan-doran]] — co-author
 
-## References / 参考资料
+## References
 
 - Doran, J. & Parberry, I. (2011). A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs. Technical Report LARC-2011-02.

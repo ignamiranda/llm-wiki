@@ -11,11 +11,11 @@ summary: "A quest generation approach using LSTM-based encoder-decoder neural ne
 
 # Neural Quest Model
 
-## Definition / 定义
+## Definition
 
 A neural quest model is a procedural quest generation technique that uses an LSTM-based neural network to generate sequences of actions that form a quest. Unlike Markov models which consider only local transition probabilities, the LSTM encoder-decoder architecture can capture longer-range dependencies in action sequences, learning the conditional probability of each action given the full history of previous actions.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Long-range dependencies**: Can learn relationships between non-adjacent actions in a sequence
 - **LSTM encoder-decoder**: Standard architecture for sequence-to-sequence generation
@@ -24,13 +24,13 @@ A neural quest model is a procedural quest generation technique that uses an LST
 - **Data-hungry**: Requires larger training corpora than Markov models
 - **Limited long-term planning**: Still struggles with overall goal structure despite better local coherence
 
-## Examples / 示例
+## Examples
 
 - Trained on recipe data with word embeddings and LSTM layers
 - Generates cooking quest action sequences with better flow between steps
 - Captures that "preheat oven" early implies "bake" later, a relationship invisible to first-order Markov models
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[text-adventure-quest-generation]] — the application domain
 - [[markov-quest-model]] — alternative Markov approach (weaker but simpler)
@@ -38,6 +38,6 @@ A neural quest model is a procedural quest generation technique that uses an LST
 - [[procedural-quest-generation]] — broader field
 - [[quest-structural-analysis]] — grammar-based analysis methodology
 
-## References / 参考资料
+## References
 
 - Ammanabrolu, P., Broniec, W., Mueller, A., Paul, J., & Riedl, M. O. (2019). Toward Automated Quest Generation in Text-Adventure Games. arXiv:1909.06283.

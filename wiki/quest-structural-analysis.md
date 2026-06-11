@@ -11,11 +11,11 @@ summary: "A methodology for analyzing RPG quests by decomposing them into a form
 
 # Quest Structural Analysis
 
-## Definition / 定义
+## Definition
 
 Quest structural analysis is a methodology for decomposing RPG quests into a formal grammar. Developed by Doran & Parberry (2011), it analyzes quests at three levels: NPC motivation (why), strategy (approach), and atomic actions (what the player does). The resulting BNF grammar enables both the description of existing quests and the generation of new ones.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - Based on corpus analysis of ~3000 quests from 4 MMORPGs
 - Quests form trees: root = motivation, internal nodes = subquests, leaves = atomic actions
@@ -40,7 +40,7 @@ Quest structural analysis is a methodology for decomposing RPG quests into a for
 
 Non-terminal symbols expand via production rules (18 rules in the paper). Terminal symbols are atomic actions from Table 4.
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[conan-quest-generator]] — evaluated its output against this structural analysis taxonomy
 - [[npc-motivations]] — the root level of the analysis
@@ -50,6 +50,6 @@ Non-terminal symbols expand via production rules (18 rules in the paper). Termin
 - [[ian-parberry]] — co-author
 - [[jonathan-doran]] — co-author
 
-## References / 参考资料
+## References
 
 - Doran, J. & Parberry, I. (2011). A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs. Technical Report LARC-2011-02.

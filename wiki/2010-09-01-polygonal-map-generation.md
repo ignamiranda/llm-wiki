@@ -13,11 +13,11 @@ status: archived
 
 # Polygonal Map Generation for Games
 
-## Summary / 摘要
+## Summary
 
 A comprehensive guide to procedural map generation using Voronoi diagrams rather than traditional tile grids. The pipeline produces island maps with coastlines, mountains, rivers, lakes, biomes, and noisy-edge rendering. The approach prioritizes gameplay constraints over realism — elevation monotonically increases from coast to mountain peak, rivers always flow downhill to the ocean, and biomes are determined by elevation (temperature proxy) and moisture.
 
-## Content / 内容
+## Content
 
 The generation pipeline consists of these stages:
 
@@ -39,7 +39,7 @@ The generation pipeline consists of these stages:
 
 **Rendering:** Additional techniques include noise textures for visual variety, per-pixel biome interpolation, and coordinate distortion for less polygon-like appearance.
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - Voronoi diagrams provide irregular polygon shapes with distinct player-recognizable areas useful for gameplay (towns, quests, territories, landmarks)
 - The dual graph representation (Voronoi + Delaunay stored together) enables both shape rendering and adjacency/pathfinding
@@ -47,7 +47,7 @@ The generation pipeline consists of these stages:
 - Gameplay constraints should drive generation decisions, not realism — the article explicitly chose volcano-island geometry for Realm of the Mad God
 - Noisy edges hide the underlying polygon structure while preserving it for game mechanics
 
-## Related / 关联
+## Related
 
 - [[voronoi-diagram-mapgen]] — the core geometric structure
 - [[lloyd-relaxation]] — algorithm for evening out polygon distribution

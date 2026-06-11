@@ -1,22 +1,25 @@
 ---
-title: "Wave Function Collapse / 波函数坍缩算法"
+title: Wave Function Collapse
 type: article
 language: en
 created: 2026-06-11
 modified: 2026-06-11
 tags: [procedural-generation, constraint-satisfaction, texture-synthesis, algorithm]
-summary: "An overview of the Wave Function Collapse algorithm — a constraint-based texture synthesis method that generates locally similar outputs from example bitmaps, popularized by Maxim Gumin's reference implementation."
-source_url: "https://github.com/mxgmn/WaveFunctionCollapse"
-source_hash: "f3136128c2e9c51b7e695f8991730c2bde81f30f31bdf5d8fff36bd3fa7f5d3b"
+summary: "An overview of the Wave Function Collapse algorithm \u2014 a constraint-based\
+  \ texture synthesis method that generates locally similar outputs from example bitmaps,\
+  \ popularized by Maxim Gumin's reference implementation."
+source_url: https://github.com/mxgmn/WaveFunctionCollapse
+source_hash: f3136128c2e9c51b7e695f8991730c2bde81f30f31bdf5d8fff36bd3fa7f5d3b
 ---
 
-# Wave Function Collapse / 波函数坍缩算法
 
-## Summary / 摘要
+# Wave Function Collapse
+
+## Summary
 
 Wave Function Collapse (WFC) is a constraint-based texture synthesis algorithm that generates images locally similar to a given input bitmap. Inspired by quantum mechanics (specifically wave function collapse), it initializes the output in a superposition of all possible states and iteratively collapses regions into definite states while propagating adjacency constraints. The algorithm was popularized by Maxim Gumin's (mxgmn) open-source reference implementation, has been ported to dozens of languages and engines, and is widely used for procedural level generation in games.
 
-## Content / 内容
+## Content
 
 ### The Algorithm
 
@@ -62,7 +65,7 @@ WFC builds on prior work in texture synthesis and constraint satisfaction:
 
 The reference implementation is C#/.NET. Notable ports include: C++ (fast-wfc), Python, Rust, Kotlin, Go, Java, Julia, JavaScript, Dart, Haxe, Clojure. Engine integrations exist for Unity, Unreal Engine 5, Godot 4, and Houdini.
 
-## Key Takeaways / 关键收获
+## Key Takeaways
 
 - WFC is a constraint-based (not noise/function-based) approach to procedural generation
 - The algorithm is inherently NP-hard but practical for most use cases
@@ -70,7 +73,7 @@ The reference implementation is C#/.NET. Notable ports include: C++ (fast-wfc), 
 - Widely adopted in game development for level generation, especially for tile-based games
 - Supports constraints, enabling mixed-initiative design and integration with other generators
 
-## Related / 关联
+## Related
 
 - [[wave-function-collapse]] — core concept definition
 - [[overlapping-model-wfc]] — pixel pattern mode

@@ -12,11 +12,11 @@ source_url: "https://blender-addons.org/procedural-sword-generator-for-blender/"
 
 # Procedural Sword Generator for Blender
 
-## Definition / 定义
+## Definition
 
 A commercial Blender addon by Pamir Bal that generates a wide variety of procedurally-generated swords, blades, and weapons for both commercial and personal use. Sold on the Superhive marketplace, it leverages Blender's geometry nodes system for parametric weapon creation.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Author**: Pamir Bal
 - **Platform**: Blender (geometry nodes-based addon)
@@ -25,13 +25,13 @@ A commercial Blender addon by Pamir Bal that generates a wide variety of procedu
 - **Categories**: Generators, Rendering
 - **Use cases**: Game asset creation, rendering, concept art
 
-## Examples / 示例
+## Examples
 
 - Longswords, shortswords, daggers, and fantasy blade designs
 - Customisable blade cross-sections, guard shapes, and handle geometry
 - Suitable for both game-ready assets and high-resolution rendering
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[pamir-bal]] — creator of the addon
 - [[2026-06-11-caius-walker-pcg-swords]] — academic Unity-based sword generator
@@ -39,7 +39,7 @@ A commercial Blender addon by Pamir Bal that generates a wide variety of procedu
 - [[hello-sword-openscad]] — OpenSCAD parametric blade generation
 - [[procedural-weapon-generation]] — umbrella concept for algorithmic weapon creation
 
-## References / 参考资料
+## References
 
 - Blender Addons listing: https://blender-addons.org/procedural-sword-generator-for-blender/
 - Superhive marketplace: https://superhivemarket.com/products/procedural-sword-generator-for-blender

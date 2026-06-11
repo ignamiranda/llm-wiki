@@ -11,22 +11,22 @@ summary: "The Data Retrieval and Analysis Group for NLP (DRAGN Lab) at Brigham Y
 
 # DRAGN Lab
 
-## Definition / 定义
+## Definition
 
 The DRAGN Lab (Data Retrieval and Analysis Group for NLP) is a research group at Brigham Young University (BYU) directed by Dr. Nancy Fulda. The lab focuses on natural language processing, knowledge graphs, human-computer interaction, and procedural content generation. Notable output includes the DRAGN Town Quests system published at CHI 2023, which combines knowledge graphs with fine-tuned language models for personalized quest generation.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Affiliation**: Brigham Young University, Department of Computer Science
 - **Director**: Dr. Nancy Fulda
 - **Research areas**: NLP, knowledge graphs, procedural generation, HCI
 - **Notable output**: DRAGN Town Quests (CHI 2023)
 
-## Examples / 示例
+## Examples
 
 - The DRAGN Town Quests project represents the lab's work at the intersection of knowledge graphs, language models, and game content generation
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[nancy-fulda]] — lab director
 - [[gregory-knapp]] — lab researcher
@@ -36,6 +36,6 @@ The DRAGN Lab (Data Retrieval and Analysis Group for NLP) is a research group at
 - [[procedural-quest-generation]] — lab research area
 - [[personalized-quest-generation]] — lab research area
 
-## Links / 链接
+## Links
 
 - [DRAGN Lab Website](https://dragn.byu.edu/)

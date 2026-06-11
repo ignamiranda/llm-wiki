@@ -11,11 +11,11 @@ summary: "A methodology for generating 2D terrain maps using Perlin/Simplex nois
 
 # Noise-Based Terrain Generation
 
-## Definition / 定义
+## Definition
 
 A terrain generation approach where bandwidth-limited gradient noise (Perlin, Simplex, OpenSimplex) is evaluated at each map position and then transformed through a pipeline of octave stacking (FBM), elevation redistribution, and biome lookup to produce height maps and biome maps. Each position is computed independently, enabling parallel generation and infinite terrain.
 
-## Key Properties / 关键特性
+## Key Properties
 
 - **Purely local computation** — each position is independent of all others, enabling parallelism and infinite terrain
 - **Simple implementation** — core loop in under 50 lines of code in most languages
@@ -23,13 +23,13 @@ A terrain generation approach where bandwidth-limited gradient noise (Perlin, Si
 - **Limited by locality** — no global features (rivers, lakes, mountain ranges with intent), no spatial relationships beyond local noise correlation
 - **Parameter-heavy** — requires significant tweaking of frequencies, amplitudes, exponents, and biome thresholds
 
-## Examples / 示例
+## Examples
 
 - Early alpha maps for Realm of the Mad God
 - Prototyping terrain for game jams and indie games
 - Procedural planet surfaces in space games
 
-## Related Concepts / 相关概念
+## Related Concepts
 
 - [[fractional-brownian-motion]] — the octave stacking technique that produces fractal terrain detail
 - [[elevation-redistribution]] — reshaping noise values with power functions and curves
@@ -46,6 +46,6 @@ A terrain generation approach where bandwidth-limited gradient noise (Perlin, Si
 - [[wave-function-collapse]] — alternative constraint-based approach
 - [[2026-06-11-wfc-implementations-survey]] — survey of WFC implementations
 
-## References / 参考资料
+## References
 
 - Patel, Amit J., "Making maps with noise functions", Red Blob Games, 2015, https://www.redblobgames.com/maps/terrain-from-noise/
