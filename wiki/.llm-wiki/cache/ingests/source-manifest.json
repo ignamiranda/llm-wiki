@@ -1,0 +1,17 @@
+{
+  "36142B04C75B15030ADDE49CDF5B03C6D0C44C27035DC8C1B7533898E51E5F3D": {
+    "date": "2026-06-11T03:02:10Z",
+    "pages_updated": [],
+    "language": "en",
+    "pages_created": [
+      "2011-03-01-procedural-quest-generator",
+      "npc-motivations",
+      "procedural-quest-generation",
+      "quest-structural-analysis",
+      "quest-generator-prolog",
+      "ian-parberry",
+      "jonathan-doran"
+    ],
+    "name": "A Prototype Quest Generator Based on a Structural Analysis of Quests from Four MMORPGs"
+  }
+}

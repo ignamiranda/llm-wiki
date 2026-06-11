@@ -21,7 +21,7 @@ Layer dependencies define how layers relate to each other in [[layer-based-proce
 - Padding must be specified as the maximum any chunk of the user layer might request
 - Before a user chunk is generated, all provider chunks within its bounds + padding are generated first
 - This is recursive — providers' own dependencies are resolved first
-- Dependencies form a [[deterministic-generation | directed acyclic graph (DAG)]] — no cycles allowed
+- Dependencies form a [[deterministic-generation|directed acyclic graph (DAG)]] — no cycles allowed
 - Runtime errors are logged if a data request exceeds the configured padding
 
 ## Examples

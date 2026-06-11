@@ -1,1 +1,72 @@
-{"pending":[]}
+{"pending":[
+  {
+    "type": "contradiction",
+    "pages": ["2026-06-11-mapgen2", "2026-06-11-mapgen3"],
+    "description": "mapgen2 claims mapgen3 is 'its abandoned predecessor' but mapgen3 was a later failed attempt to port mapgen2. Direction is reversed: mapgen2 → mapgen3, not the other way.",
+    "severity": "error",
+    "detected": "2026-06-11"
+  },
+  {
+    "type": "contradiction",
+    "pages": ["ghx-proc-gen", "model-synthesis"],
+    "description": "ghx-proc-gen says 'Model Synthesis (also known as Wave Function Collapse)' treating them as synonyms. model-synthesis page says WFC generalizes Merrell's approach — historically distinct.",
+    "severity": "warning",
+    "detected": "2026-06-11"
+  },
+  {
+    "type": "contradiction",
+    "pages": ["observation-propagation-cycle"],
+    "description": "Definition says 'lowest Shannon entropy' without 'nonzero' qualifier; Key Properties correctly says 'minimal nonzero entropy'. entropy-heuristic-wfc page also uses correct qualifier.",
+    "severity": "info",
+    "detected": "2026-06-11"
+  },
+  {
+    "type": "contradiction",
+    "pages": ["whittaker-diagram-biomes"],
+    "description": "TEMPERATE DESERT appears in both Medium-high (3) and Medium-low (2) tiers without explanation. May be intentional but needs a note clarifying overlap.",
+    "severity": "info",
+    "detected": "2026-06-11"
+  },
+  {
+    "type": "quality",
+    "pages": ["chris-green", "viktor-chlumsky", "boris-the-brave"],
+    "description": "Person pages under 100 words, too shallow. Missing References sections.",
+    "severity": "warning",
+    "detected": "2026-06-11"
+  },
+  {
+    "type": "quality",
+    "pages": ["fibonacci-sphere", "multi-channel-distance-field", "spherical-voronoi", "procedural-face-generation", "convchain", "cube-sphere-projection", "markovjunior", "tile-symmetry-system-wfc"],
+    "description": "Concept pages under 200 words, too shallow for the topic. Several missing References sections.",
+    "severity": "warning",
+    "detected": "2026-06-11"
+  },
+  {
+    "type": "gap",
+    "pages": ["oskar-stalberg", "wave-function-collapse", "simple-tiled-model", "entropy-heuristic-wfc"],
+    "description": "Townscaper is referenced in 4+ pages but has no wiki page. Create a page for this game.",
+    "severity": "warning",
+    "detected": "2026-06-11"
+  },
+  {
+    "type": "gap",
+    "pages": ["2010-09-01-polygonal-map-generation", "2015-07-07-noise-terrain-maps", "2026-06-11-mapgen2", "elevation-from-coast-distance", "whittaker-diagram-biomes", "voronoi-diagram-mapgen"],
+    "description": "Realm of the Mad God is referenced in 6+ pages but has no wiki page. Create a page for this game.",
+    "severity": "info",
+    "detected": "2026-06-11"
+  },
+  {
+    "type": "quality",
+    "pages": ["2026-06-11-wfc-implementations-survey"],
+    "description": "source_url is empty string. Needs a primary source URL.",
+    "severity": "warning",
+    "detected": "2026-06-11"
+  },
+  {
+    "type": "gap",
+    "pages": ["cube-sphere-projection", "spherical-voronoi", "procedural-face-generation", "fibonacci-sphere"],
+    "description": "Pages missing References section entirely.",
+    "severity": "warning",
+    "detected": "2026-06-11"
+  }
+]}
