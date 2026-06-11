@@ -1,5 +1,5 @@
 ---
-title: Q&A: Dissecting the Development of Dwarf Fortress with Creator Tarn Adams
+title: "Q&A: Dissecting the Development of Dwarf Fortress with Creator Tarn Adams"
 type: article
 language: en
 created: 2026-06-11
