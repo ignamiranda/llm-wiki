@@ -12,7 +12,7 @@ summary: "The core loop of the Wave Function Collapse algorithm that alternates 
 
 ## Definition
 
-The observation-propagation cycle is the iterative core of the Wave Function Collapse algorithm. It alternates between two phases until the output is fully determined or a contradiction is reached. In the observation step, the region with lowest Shannon entropy is collapsed to a definite state. In the propagation step, this new information propagates through the output, reducing the set of possible patterns for neighboring regions via constraint propagation.
+The observation-propagation cycle is the iterative core of the Wave Function Collapse algorithm. It alternates between two phases until the output is fully determined or a contradiction is reached. In the observation step, the region with lowest nonzero Shannon entropy is collapsed to a definite state. In the propagation step, this new information propagates through the output, reducing the set of possible patterns for neighboring regions via constraint propagation.
 
 ## Key Properties
 

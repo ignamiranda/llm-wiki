@@ -23,7 +23,7 @@ A biome classification scheme adapted from the Whittaker diagram for use in proc
 - **Coast:** BEACH — land polygons adjacent to ocean
 - **High elevation (4):** SNOW, TUNDRA, BARE, SCORCHED (from wet to dry)
 - **Medium-high (3):** TAIGA, SHRUBLAND, TEMPERATE DESERT
-- **Medium-low (2):** TEMPERATE RAIN FOREST, TEMPERATE DECIDUOUS FOREST, GRASSLAND, TEMPERATE DESERT
+- **Medium-low (2):** TEMPERATE RAIN FOREST, TEMPERATE DECIDUOUS FOREST, GRASSLAND, TEMPERATE DESERT *(note: TEMPERATE DESERT spans both tiers — dry conditions can occur at medium-high and medium-low elevations)*
 - **Low elevation (1):** TROPICAL RAIN FOREST, TROPICAL SEASONAL FOREST, GRASSLAND, SUBTROPICAL DESERT
 - Can be extended with latitude-based temperature (north/south colder than equator)
 - Alternative approaches exist: noise-based moisture, wind/evaporation/rain shadows, groundwater models

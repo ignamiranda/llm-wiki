@@ -15,7 +15,7 @@ source_hash: "8D4E29C3DDAE0A3A8C4E7B076E321CB85695BE092CE4F451261F78F78906CF22"
 
 ## Definition
 
-ghx_proc_gen is a Rust library for 2D and 3D procedural generation using Model Synthesis (also known as Wave Function Collapse), created by Gilles Henaux. It uses an AC-4 constraint solver and is designed for grid-based generation (terrain, structures). It integrates with the Bevy engine via the bevy_ghx_proc_gen crate.
+ghx_proc_gen is a Rust library for 2D and 3D procedural generation using Model Synthesis, which WFC generalizes, created by Gilles Henaux. It uses an AC-4 constraint solver and is designed for grid-based generation (terrain, structures). It integrates with the Bevy engine via the bevy_ghx_proc_gen crate.
 
 ## Key Properties
 
