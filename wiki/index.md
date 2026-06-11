@@ -6,7 +6,6 @@ Built from 190+ curated source documents. Browse pages below or explore the [kno
 
 ## Quick Links
 
-- [Wiki Index](.llm-wiki/index.md) — full table of all pages
 - [Knowledge Graph](graph.html) — interactive D3 visualization
 - [GitHub](https://github.com/ignamiranda/llm-wiki)
 

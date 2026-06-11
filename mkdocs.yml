@@ -3,6 +3,9 @@ site_url: https://ignamiranda.github.io/llm-wiki
 repo_url: https://github.com/ignamiranda/llm-wiki
 repo_name: ignamiranda/llm-wiki
 docs_dir: wiki
+exclude_docs:
+  .llm-wiki/
+  .raw/
 hooks:
   - hooks/wikilinks.py
 
