@@ -60,6 +60,7 @@ Select desired skills and agents, then run `/setup-matt-pocock-skills` to config
 
 - [[matt-pocock]] — author of the skills repository
 - [[agent-skills]] — the concept of composable declarative skills for coding agents
+- [[2026-06-11-anthropic-skills-repo]] — Anthropic's reference repository of Agent Skills
 - [[grill-me-methodology]] — the grilling interview pattern for agent alignment
 - [[shared-language-context-md]] — ubiquitous language via CONTEXT.md
 - [[tdd-agent-skill]] — TDD adapted for AI-assisted development

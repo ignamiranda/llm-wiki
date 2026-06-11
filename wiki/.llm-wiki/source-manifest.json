@@ -79,5 +79,17 @@
     ],
     "source_url": "https://github.com/mattpocock/skills/",
     "language": "en"
+  },
+  "299371c3dd28ad6d7066e8b9cf1bb799b408636eae8b710a30935b87b5f130c2": {
+    "pages_created": [
+      "2026-06-11-anthropic-skills-repo",
+      "agent-skills",
+      "skill-file-format",
+      "claude-skills-plugin"
+    ],
+    "pages_updated": [],
+    "name": "anthropics/skills (GitHub Repo)",
+    "date": "2026-06-11T03:16:43Z",
+    "language": "en"
   }
 }

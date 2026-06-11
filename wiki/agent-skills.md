@@ -38,6 +38,8 @@ Agent Skills are folders of instructions, scripts, and resources that an AI agen
 - [[skill-file-format]] — The SKILL.md file format used to define skills
 - [[claude-skills-plugin]] — Plugin marketplace registration for distributing skills
 - [[2026-06-11-anthropic-skills-repo]] — Anthropic's reference repository of example skills
+- [[2026-06-11-mattpocock-skills]] — Matt Pocock's skills repository (engineering-focused, composable skills)
+- [[matt-pocock]] — Creator of the influential skills repository for AI coding agents
 
 ## References
 
