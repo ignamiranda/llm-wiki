@@ -1,4 +1,87 @@
 {
+  "D0142EF408B901707C8E5BDDD7E985DE345E58F18BCC6CE61AA59F1535334FF4": {
+    "name": "Matt Pocock AI Workshop — Smart Zone / Agent Skills (YouTube)",
+    "date": "2026-06-11T18:30:00Z",
+    "language": "en",
+    "source_url": "https://www.youtube.com/watch?v=-QFHIoCo-Ko",
+    "pages_created": [
+      "2026-06-11-matt-pocock-ai-workshop",
+      "smart-zone-dumb-zone",
+      "ralph-wiggum-pattern",
+      "specs-to-code-criticism",
+      "compaction-vs-clearing",
+      "session-stages",
+      "token-awareness",
+      "grill-me-skill",
+      "dex-hardy"
+    ],
+    "pages_updated": [
+      "matt-pocock",
+      "attention-degradation"
+    ]
+  },
+  "96EAA8470F9F0329347F571DB8959FEE95D515B75B5EB3AAAF2393CAC100949F": {
+    "pages_updated": [
+      "jason-grinblat",
+      "wave-function-collapse",
+      "historical-rationalization",
+      "2026-06-11-wave-function-collapse"
+    ],
+    "name": "wfc-map-gen-caves-of-qud",
+    "language": "en",
+    "date": "2026-06-11T12:53:07-04:00",
+    "pages_created": [
+      "2026-06-11-wfc-map-gen-caves-of-qud"
+    ]
+  },
+  "batch-2026-06-11-dan-harmon-story-structure": {
+    "name": "Dan Harmon Story Structure Series 101–106 (Channel 101 Wiki)",
+    "date": "2026-06-11T19:00:00Z",
+    "language": "en",
+    "sources": [
+      "https://channel101.fandom.com/wiki/Story_Structure_101:_Super_Basic_Shit",
+      "https://channel101.fandom.com/wiki/Story_Structure_102:_Pure,_Boring_Theory",
+      "https://channel101.fandom.com/wiki/Story_Structure_103:_Let%27s_Simplify_Before_Moving_On",
+      "https://channel101.fandom.com/wiki/Story_Structure_104:_The_Juicy_Details",
+      "https://channel101.fandom.com/wiki/Story_Structure_105:_How_TV_is_Different",
+      "https://channel101.fandom.com/wiki/Story_Structure_106:_Five_Minute_Pilots"
+    ],
+    "pages_created": [
+      "2026-06-11-dan-harmon-story-structure-series (article)",
+      "harmon-story-circle (concept)",
+      "story-structure (concept)",
+      "channel-101 (concept)",
+      "monomyth (concept)",
+      "dan-harmon (person)",
+      "joseph-campbell (person)"
+    ]
+  },
+  "72D6E0D6937A4C2A8CE8A2DAC2D96AB8F257995B777205CB54AF0F50E87ED62E": {
+    "pages_updated": [
+      "jason-grinblat",
+      "wave-function-collapse",
+      "historical-rationalization",
+      "2026-06-11-wave-function-collapse"
+    ],
+    "name": "procedurally-generating-history-caves-of-qud",
+    "language": "en",
+    "date": "2026-06-11T12:53:07-04:00",
+    "pages_created": [
+      "2026-06-11-procedurally-generating-history-caves-of-qud"
+    ]
+  },
+  "9011413440502c097c1df89a3a12383e543c85145add23c65a81fda473bb2254": {
+    "name": "MkDocs Network Graph Plugin — GitHub README",
+    "date": "2026-06-11T15:50:00Z",
+    "language": "en",
+    "source_url": "https://github.com/develmusa/mkdocs-network-graph-plugin",
+    "pages_created": [
+      "2026-06-11-mkdocs-network-graph-plugin (article)",
+      "mkdocs-network-graph-plugin (concept)",
+      "material-for-mkdocs (concept)",
+      "develmusa (person)"
+    ]
+  },
   "batch-2026-06-11-marching-cubes-repos": {
     "name": "Marching Cubes GitHub Repositories Batch (20 repos)",
     "date": "2026-06-11T15:00:00Z",
@@ -64,6 +147,204 @@
       "2026-06-11-isosurface-rust",
       "2026-06-11-vacancy",
       "2026-06-11-unity-marching-cubes-gpu"
+    ]
+  },
+  "E2899F6A425086708EC315F05AA3A64DF5A11441FBE297B874C97AD8945B27AD": {
+    "name": "No Priors Podcast — Andrej Karpathy (YouTube)",
+    "date": "2026-06-11T18:30:00Z",
+    "language": "en",
+    "source_url": "https://youtu.be/kwSVtQ7dziU",
+    "pages_created": [
+      "2026-06-11-karpathy-no-priors-interview",
+      "auto-research",
+      "open-ground",
+      "ai-speciation",
+      "bits-vs-atoms-thesis",
+      "micro-gpt",
+      "ai-education-paradigm",
+      "frontier-vs-open-source-dynamic",
+      "information-markets"
+    ],
+    "pages_updated": []
+  },
+  "batch-2026-06-11-runevision-blog": {
+    "name": "RuneVision Blog — 42 articles (2004–2026)",
+    "date": "2026-06-11T18:00:00Z",
+    "language": "en",
+    "pages_created": [
+      "2025-10-23-hair-shader",
+      "2025-06-29-atmospheric-perspective",
+      "2025-06-27-photos-japan-trip",
+      "2025-01-10-procedural-creatures",
+      "2025-01-05-2024-retrospective",
+      "2024-10-02-dependency-graphs",
+      "2024-08-18-the-cluster-released",
+      "2024-01-08-2023-retrospective",
+      "2023-09-15-unity-runtime-fee",
+      "2023-05-06-eye-of-temple-quest2",
+      "2022-10-14-one-year-later",
+      "2021-11-22-eye-of-temple-launch",
+      "2021-02-08-mystery-and-wonder",
+      "2020-12-04-goodbye-unity",
+      "2018-09-17-creaking-gorge",
+      "2018-07-14-level-design-workflows",
+      "2017-08-03-whip-and-levers",
+      "2017-06-13-verticality-puzzles",
+      "2017-04-02-fire-blades-speedrun",
+      "2017-02-21-gems",
+      "2017-01-30-january-update",
+      "2017-01-04-smooth-edges",
+      "2016-09-27-announcing-eye-of-temple",
+      "2016-09-06-cluster-on-hold",
+      "2016-05-03-the-big-forest",
+      "2016-04-05-puzzlegraph",
+      "2016-03-01-natural-paths",
+      "2015-12-22-cluster-2015-retrospective",
+      "2015-11-21-study-in-composition",
+      "2015-10-10-procedural-world-approaches",
+      "2015-01-01-primer-random-numbers",
+      "2011-12-20-epic-ant-battle",
+      "2011-12-18-google-ai-challenge",
+      "2011-11-23-ant-colony-ai",
+      "2010-06-14-cluster-levels",
+      "2009-03-19-locomotion-system-gdc",
+      "2009-02-16-locomotion-system-gdc-announce",
+      "2008-03-03-blog-online",
+      "face-weighted-normals",
+      "game-progression-dependency-graph",
+      "puzzlegraph",
+      "silhouette-gradient-descent-fitting",
+      "procedural-creature-generation",
+      "procedural-animation-locomotion-system",
+      "slope-penalty-pathfinding",
+      "hair-anisotropic-shader",
+      "simulation-functional-planning-taxonomy",
+      "random-hash-vs-rng",
+      "graph-rewrite-rule-procgen",
+      "sugiyama-layered-graph-drawing",
+      "HSV-color-palette-generation",
+      "l-system-tree-generation",
+      "puzzle-state-space-analysis",
+      "hash-functions-procgen"
+    ],
+    "pages_updated": [
+      "rune-skovbo-johansen",
+      "layerprocgen"
+    ]
+  },
+  "f3624d705c6e04e2e7538ae9bf26cb817ebab58bc58a64cb6d04be83c6486c2e": {
+    "date": "2026-06-11T20:28:13Z",
+    "pages_created": [
+      "2026-06-11-claude-code-memory-systems",
+      "context-rot",
+      "claude-md",
+      "kairos",
+      "memsearch",
+      "mem-palace",
+      "john-connolly",
+      "pavel-huryn"
+    ],
+    "url": "https://youtu.be/UHVFcUzAGlM",
+    "language": "en",
+    "pages_updated": [
+      "memory-system-ai",
+      "nate-openbrain",
+      "open-brain-pattern"
+    ],
+    "name": "Every Claude Code Memory System Compared (YouTube)"
+  },
+  "DB754B6B740B8D314DA3F128049512F33371AA02EC8AF7F9EA23FC4C35307140": {
+    "date": "2026-06-11T16:00:00Z",
+    "pages_updated": [
+      "matt-pocock (person)",
+      "2026-06-11-mattpocock-skills (article)"
+    ],
+    "language": "en",
+    "name": "mattpocock/dictionary-of-ai-coding — AI Coding Dictionary",
+    "source_url": "https://github.com/mattpocock/dictionary-of-ai-coding",
+    "pages_created": [
+      "2026-06-11-dictionary-of-ai-coding (article)",
+      "next-token-prediction (concept)",
+      "non-determinism (concept)",
+      "model-provider (concept)",
+      "harness (concept)",
+      "prefix-cache (concept)",
+      "context-window (concept)",
+      "system-prompt (concept)",
+      "parametric-knowledge (concept)",
+      "knowledge-cutoff (concept)",
+      "attention-degradation (concept)",
+      "handoff (concept)",
+      "compaction (concept)",
+      "memory-system-ai (concept)",
+      "progressive-disclosure (concept)",
+      "subagent (concept)",
+      "vibe-coding (concept)",
+      "agent-experience-ax (concept)"
+    ]
+  },
+  "79DA2A87EDF2D0D098B184A248FDC91A3438F24AEACB5E753C0408A0E11FFC55": {
+    "pages_updated": [
+      "jason-grinblat",
+      "wave-function-collapse",
+      "historical-rationalization",
+      "2026-06-11-wave-function-collapse"
+    ],
+    "name": "end-to-end-procgen-caves-of-qud",
+    "language": "en",
+    "date": "2026-06-11T12:53:07-04:00",
+    "pages_created": [
+      "2026-06-11-end-to-end-procgen-caves-of-qud",
+      "caves-of-qud",
+      "brian-butler"
+    ]
+  },
+  "8ac8e75b89afb9b4e0a89d430e616f79eb4e35b625c54c56ade92c1d4f32ccc5": {
+    "date": "2026-06-11T12:00:00-04:00",
+    "language": "en",
+    "name": "bramp/procgen — GitHub repository",
+    "pages_created": [
+      "2026-06-11-procgen-dart-library",
+      "procgen-dart",
+      "chaikin-smoothing"
+    ],
+    "pages_updated": []
+  },
+  "2FE789491E7F39DD84C3BC646D2C8867A30E7C7D871224FD0B579CFDB2DB53A3": {
+    "name": "VoltAgent/awesome-agent-skills — Curated Collection of 1000+ Agent Skills",
+    "date": "2026-06-11T16:00:00Z",
+    "language": "en",
+    "source_url": "https://github.com/VoltAgent/awesome-agent-skills",
+    "pages_created": [
+      "2026-06-11-voltagent-awesome-agent-skills (article)"
+    ],
+    "pages_updated": [
+      "agent-skills (concept)"
+    ]
+  },
+  "7D8F18AE25DD4384337154EDF3102FEBA1BAF96AC1C067EA58182CDDBB76892B": {
+    "pages_updated": [
+      "jason-grinblat",
+      "wave-function-collapse",
+      "historical-rationalization",
+      "2026-06-11-wave-function-collapse"
+    ],
+    "name": "jason-grinblat-procedural-history-caves-of-qud",
+    "language": "en",
+    "date": "2026-06-11T12:53:07-04:00",
+    "pages_created": [
+      "2026-06-11-jason-grinblat-procedural-history-caves-of-qud"
+    ]
+  },
+  "c39df5373b5d206a5f44e520962f00a4ed0a0d41ad29dcba10a663fc2c1356bd": {
+    "language": "en",
+    "name": "VoltAgent/awesome-design-md",
+    "date": "2026-06-11T11:56:44Z",
+    "pages_updated": [],
+    "pages_created": [
+      "2026-06-11-awesome-design-md",
+      "design-md",
+      "google-stitch"
     ]
   },
   "3B5A43067F4CBC72968D6E3AE05A66867AE9CE3FE498D4E94ED5E2897FD82F26": {
@@ -147,138 +428,25 @@
       "agent-provider"
     ]
   },
-  "9011413440502c097c1df89a3a12383e543c85145add23c65a81fda473bb2254": {
-    "name": "MkDocs Network Graph Plugin — GitHub README",
-    "date": "2026-06-11T15:50:00Z",
+  "038F3058CAD3EA44BDF9259D759CD57472F28C3A5ACA37BFD330430183FC48CC": {
+    "name": "Karpathy Wiki vs Open Brain — Nate (YouTube)",
+    "date": "2026-06-11T18:30:00Z",
     "language": "en",
-    "source_url": "https://github.com/develmusa/mkdocs-network-graph-plugin",
+    "source_url": "https://www.youtube.com/watch?v=dxq7WtWxi44",
     "pages_created": [
-      "2026-06-11-mkdocs-network-graph-plugin (article)",
-      "mkdocs-network-graph-plugin (concept)",
-      "material-for-mkdocs (concept)",
-      "develmusa (person)"
-    ]
-  },
-  "DB754B6B740B8D314DA3F128049512F33371AA02EC8AF7F9EA23FC4C35307140": {
-    "date": "2026-06-11T16:00:00Z",
-    "pages_updated": [
-      "matt-pocock (person)",
-      "2026-06-11-mattpocock-skills (article)"
-    ],
-    "language": "en",
-    "name": "mattpocock/dictionary-of-ai-coding — AI Coding Dictionary",
-    "source_url": "https://github.com/mattpocock/dictionary-of-ai-coding",
-    "pages_created": [
-      "2026-06-11-dictionary-of-ai-coding (article)",
-      "next-token-prediction (concept)",
-      "non-determinism (concept)",
-      "model-provider (concept)",
-      "harness (concept)",
-      "prefix-cache (concept)",
-      "context-window (concept)",
-      "system-prompt (concept)",
-      "parametric-knowledge (concept)",
-      "knowledge-cutoff (concept)",
-      "attention-degradation (concept)",
-      "handoff (concept)",
-      "compaction (concept)",
-      "memory-system-ai (concept)",
-      "progressive-disclosure (concept)",
-      "subagent (concept)",
-      "vibe-coding (concept)",
-      "agent-experience-ax (concept)"
-    ]
-  },
-  "2FE789491E7F39DD84C3BC646D2C8867A30E7C7D871224FD0B579CFDB2DB53A3": {
-    "name": "VoltAgent/awesome-agent-skills — Curated Collection of 1000+ Agent Skills",
-    "date": "2026-06-11T16:00:00Z",
-    "language": "en",
-    "source_url": "https://github.com/VoltAgent/awesome-agent-skills",
-    "pages_created": [
-      "2026-06-11-voltagent-awesome-agent-skills (article)"
-    ],
-    "pages_updated": [
-      "agent-skills (concept)"
-    ]
-  },
-  "c39df5373b5d206a5f44e520962f00a4ed0a0d41ad29dcba10a663fc2c1356bd": {
-    "language": "en",
-    "name": "VoltAgent/awesome-design-md",
-    "date": "2026-06-11T11:56:44Z",
-    "pages_updated": [],
-    "pages_created": [
-      "2026-06-11-awesome-design-md",
-      "design-md",
-      "google-stitch"
-    ]
-  },
-  "8ac8e75b89afb9b4e0a89d430e616f79eb4e35b625c54c56ade92c1d4f32ccc5": {
-    "date": "2026-06-11T12:00:00-04:00",
-    "language": "en",
-    "name": "bramp/procgen — GitHub repository",
-    "pages_created": [
-      "2026-06-11-procgen-dart-library",
-      "procgen-dart",
-      "chaikin-smoothing"
+      "2026-06-11-karpathy-wiki-vs-open-brain",
+      "compile-time-knowledge",
+      "query-time-knowledge",
+      "memory-architecture-fork",
+      "wiki-compile-pattern",
+      "open-brain-pattern",
+      "ai-as-writer",
+      "ai-as-reader",
+      "knowledge-contradiction-preservation",
+      "hybrid-memory-architecture",
+      "andrej-karpathy",
+      "nate-openbrain"
     ],
     "pages_updated": []
-  },
-  "79DA2A87EDF2D0D098B184A248FDC91A3438F24AEACB5E753C0408A0E11FFC55": {
-    "pages_updated": [
-      "jason-grinblat",
-      "wave-function-collapse",
-      "historical-rationalization",
-      "2026-06-11-wave-function-collapse"
-    ],
-    "name": "end-to-end-procgen-caves-of-qud",
-    "language": "en",
-    "date": "2026-06-11T12:53:07-04:00",
-    "pages_created": [
-      "2026-06-11-end-to-end-procgen-caves-of-qud",
-      "caves-of-qud",
-      "brian-butler"
-    ]
-  },
-  "72D6E0D6937A4C2A8CE8A2DAC2D96AB8F257995B777205CB54AF0F50E87ED62E": {
-    "pages_updated": [
-      "jason-grinblat",
-      "wave-function-collapse",
-      "historical-rationalization",
-      "2026-06-11-wave-function-collapse"
-    ],
-    "name": "procedurally-generating-history-caves-of-qud",
-    "language": "en",
-    "date": "2026-06-11T12:53:07-04:00",
-    "pages_created": [
-      "2026-06-11-procedurally-generating-history-caves-of-qud"
-    ]
-  },
-  "96EAA8470F9F0329347F571DB8959FEE95D515B75B5EB3AAAF2393CAC100949F": {
-    "pages_updated": [
-      "jason-grinblat",
-      "wave-function-collapse",
-      "historical-rationalization",
-      "2026-06-11-wave-function-collapse"
-    ],
-    "name": "wfc-map-gen-caves-of-qud",
-    "language": "en",
-    "date": "2026-06-11T12:53:07-04:00",
-    "pages_created": [
-      "2026-06-11-wfc-map-gen-caves-of-qud"
-    ]
-  },
-  "7D8F18AE25DD4384337154EDF3102FEBA1BAF96AC1C067EA58182CDDBB76892B": {
-    "pages_updated": [
-      "jason-grinblat",
-      "wave-function-collapse",
-      "historical-rationalization",
-      "2026-06-11-wave-function-collapse"
-    ],
-    "name": "jason-grinblat-procedural-history-caves-of-qud",
-    "language": "en",
-    "date": "2026-06-11T12:53:07-04:00",
-    "pages_created": [
-      "2026-06-11-jason-grinblat-procedural-history-caves-of-qud"
-    ]
   }
 }

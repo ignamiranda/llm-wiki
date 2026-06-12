@@ -1,6 +1,4 @@
-import hashlib
 import json
-import os
 import re
 import yaml
 from datetime import datetime, timezone
@@ -64,17 +62,28 @@ def collect_pages():
     return pages
 
 
-def load_graph():
-    """Load graph.json to get orphan info."""
-    if not GRAPH_PATH.exists():
-        print("Warning: graph.json not found — skipping orphan detection")
-        return {}
-    with open(GRAPH_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    orphans = {}
-    for node in data.get("nodes", []):
-        if node.get("isOrphan"):
-            orphans[node["id"]] = node
+def detect_orphans(pages):
+    """Detect orphan pages by scanning all page bodies for [[slug]] references."""
+    # Build set of all slugs
+    all_slugs = {p["slug"] for p in pages}
+
+    # Build set of slugs that appear in any other page's body
+    referenced = set()
+    for p in pages:
+        fpath = WIKI_DIR / f"{p['slug']}.md"
+        if not fpath.exists():
+            continue
+        with open(fpath, "r", encoding="utf-8") as f:
+            body = f.read()
+        for slug in all_slugs:
+            if slug == p["slug"]:
+                continue
+            if f"[[{slug}]]" in body or f"[[{slug}|" in body:
+                referenced.add(slug)
+
+    orphans = all_slugs - referenced
+    # Remove index.md itself from consideration
+    orphans.discard("index")
     return orphans
 
 
@@ -96,23 +105,12 @@ def fmt_tags(tags):
     return "[" + ", ".join("'" + t + "'" for t in tags) + "]"
 
 
-def compute_hash(pages):
-    """Compute a simple hash of concatenated frontmatter for staleness detection."""
-    h = hashlib.sha256()
-    for p in pages:
-        block = f"{p['title']}|{p['type']}|{p['tags']}|{p['summary']}|{p['modified']}|{p['aliases']}"
-        h.update(block.encode("utf-8"))
-    return h.hexdigest()[:8]
-
-
 def generate_index(pages, orphans, review_pending):
     """Generate the full index content."""
     now = datetime.now(timezone.utc).isoformat()
-    h = compute_hash(pages)
 
     lines = []
     lines.append("# Wiki Index")
-    lines.append(f"<!-- hash: {h} -->")
     lines.append("<!-- AUTO-GENERATED — DO NOT EDIT BY HAND -->")
     lines.append("")
     lines.append(f"**Last generated:** {now}")
@@ -140,20 +138,23 @@ def generate_index(pages, orphans, review_pending):
     tag_to_pages = {}
     for p in pages:
         for tag in p.get("tags", []):
-            tag_to_pages.setdefault(tag, []).append(p["slug"])
+            tag_to_pages.setdefault(tag, []).append(p)
     for tag in sorted(tag_to_pages.keys()):
-        slug_list = ", ".join(f"[[{s}]]" for s in tag_to_pages[tag])
-        lines.append(f"- **{tag}**: {slug_list}")
-    lines.append("")
+        tagged = tag_to_pages[tag]
+        lines.append(f"### {tag} ({len(tagged)} pages)")
+        lines.append("")
+        for p in tagged:
+            summary = p["summary"].replace("|", "\\|")
+            lines.append(f"- [[{p['slug']}]] — {summary}")
+        lines.append("")
 
     # Orphan Pages
     lines.append("## Orphan Pages")
     lines.append("")
     if orphans:
-        orphan_slugs = sorted(orphans.keys())
+        orphan_slugs = sorted(orphans)
         for slug in orphan_slugs:
-            node = orphans[slug]
-            lines.append(f"- [[{slug}]] ({node.get('incomingLinks', 0)} incoming links)")
+            lines.append(f"- [[{slug}]]")
     else:
         lines.append("No orphan pages found.")
     lines.append("")
@@ -180,7 +181,7 @@ def generate_index(pages, orphans, review_pending):
 
 def main():
     pages = collect_pages()
-    orphans = load_graph()
+    orphans = detect_orphans(pages)
     review_pending = load_review()
 
     content = generate_index(pages, orphans, review_pending)
