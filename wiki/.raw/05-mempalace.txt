@@ -1,0 +1,14 @@
+# MemPalace - MemPalace/mempalace
+Local-first AI memory. Verbatim storage, pluggable backend.
+96.6% R@5 raw on LongMemEval - zero API calls.
+v3.4.0, 55.4k stars.
+Storage: ChromaDB (default), sqlite_exact, qdrant, pgvector.
+Architecture: wings (people/projects) -> rooms (topics) -> drawers (original content).
+Pluggable backend interface via mempalace/backends/base.py.
+Features: knowledge graph with temporal entity-relationship + validity windows, 29 MCP tools, auto-save hooks for Claude Code/Codex CLI/Cursor IDE, per-message recall via sweep.
+Embedding models: embeddinggemma-300m (multilingual, 100+ languages) or all-MiniLM-L6-v2.
+Benchmarks: LongMemEval 96.6% R@5 raw, hybrid v4 98.4%, +LLM rerank >=99%.
+LoCoMo: 60.3% R@10 raw, hybrid v5 88.9%.
+Agents get own wing + diary in palace.
+By MemPalace team. MIT license.
+https://github.com/MemPalace/mempalace

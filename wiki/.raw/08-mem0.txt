@@ -1,0 +1,9 @@
+# Mem0 - mem0.ai
+AI memory layer for agents and apps. Y Combinator backed.
+Drop-in memory infrastructure. 90,000+ developers.
+Memory Compression Engine: condenses chat history into compact memories.
+Features: persistent context across sessions and agents, SOC 2 + HIPAA compliant, BYOK, zero-trust, Kubernetes/private cloud/air-gapped.
+SDK: Python, Node.js. Cloud API.
+Benchmarked across LoCoMo, LongMemEval, BEAM.
+Use cases: healthcare, education, e-commerce, customer support, sales & CRM.
+https://mem0.ai/

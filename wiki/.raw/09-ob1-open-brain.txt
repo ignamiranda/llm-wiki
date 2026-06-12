@@ -1,0 +1,12 @@
+# Open Brain (OB1) - NateBJones-Projects/OB1
+Infrastructure layer for your thinking.
+One database (Supabase + pgvector), one AI gateway, one chat channel. Any AI plugs in.
+3.7k stars, 700 forks.
+Architecture: PostgreSQL + pgvector + Supabase + MCP server.
+Extensions: Household Knowledge, Home Maintenance, Family Calendar, Meal Planning, Professional CRM, Job Hunt Pipeline.
+Recipes: Import tools for ChatGPT, Perplexity, Obsidian, X/Twitter, Instagram, Google, Grok, Email.
+Skills: Auto-Capture, Competitive Analysis, Research Synthesis, Meeting Synthesis, etc.
+Primitives: Edge Functions, Remote MCP, RLS, Shared MCP Server.
+Dashboards: SvelteKit and Next.js options.
+Community: Discord, Substack. FSL-1.1-MIT license.
+https://github.com/NateBJones-Projects/OB1

@@ -1,0 +1,5 @@
+# How to Give Claude Code Memory - Pawel Huryn (Feb 18, 2026)
+Basic: append discoveries to .claude/memory.md automatically.
+Structured: split into memory.md, general.md, domain/{topic}.md, tools/{tool}.md.
+Maintenance: reorganize memory -> dedup, merge, split, resort, update index.
+https://substack.com/@huryn/note/c-216337711

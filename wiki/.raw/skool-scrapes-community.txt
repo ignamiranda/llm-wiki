@@ -1,0 +1,12 @@
+# Agentic Academy - Simon Scrapes
+
+Private community. 1.5k members. /month.
+By Simon Scrapes.
+
+Build agentic systems that run your business.
+- The repetitive work across 6 tools → handled by your agents
+- Content, outreach, ops, admin → running on autopilot
+- Your output → doubled without hiring
+- The workflow you've been "meaning to build" → live and running
+
+All built with Claude Code + n8n. No dev skills needed.

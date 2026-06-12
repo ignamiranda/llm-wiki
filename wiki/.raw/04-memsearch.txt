@@ -1,0 +1,14 @@
+# memsearch - zilliztech/memsearch
+Cross-platform semantic memory for AI coding agents.
+Backed by Markdown (source of truth) + Milvus (shadow index).
+Supports: Claude Code, OpenClaw, OpenCode, Codex CLI.
+Features: Progressive retrieval (search -> expand -> transcript), hybrid search (BM25+vector+RRF), SHA-256 dedup, live file watcher.
+3-layer recall: L1 search, L2 expand, L3 parse-transcript for raw dialogue.
+Embedding: Defaults to ONNX bge-m3 (local CPU, no API key).
+Milvus backends: Milvus Lite, Zilliz Cloud, self-hosted Milvus.
+Capture: per-turn summarization via stop hooks.
+Configuration: memory-config skill for inspection.
+Python API: MemSearch class with index(), search(), watch(), compact().
+CLI: memsearch index, search, expand, watch, compact, stats, reset.
+By Zilliz (Milvus team). MIT license.
+https://github.com/zilliztech/memsearch

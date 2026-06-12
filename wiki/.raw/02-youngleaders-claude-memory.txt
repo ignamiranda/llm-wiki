@@ -1,0 +1,12 @@
+# How I Finally Sorted My Claude Code Memory - John Conneely (Mar 18, 2026)
+Young Leaders in Tech newsletter #98.
+Structured memory system for Claude Code using .claude/memory/ directory.
+memory.md (index) -> general.md + tools/{tool}.md + domain/{topic}.md files.
+Inspired by Pawel Huryn's Substack post.
+Claude Code auto-memory shipped in v2.1.59 on 26 Feb 2026.
+Project MEMORY.md only loads first 200 lines at session start.
+PreToolUse hook via ~/.claude/hooks/pre-tool-memory.sh for auto-injection.
+PPID-based flag file to prevent re-injection per process context.
+Routing rules should live in CLAUDE.md, not project MEMORY.md (200-line budget).
+Domain knowledge lifecycle: staging -> promotion -> pointer (to skill).
+https://www.youngleaders.tech/p/how-i-finally-sorted-my-claude-code-memory

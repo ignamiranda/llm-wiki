@@ -1,0 +1,8 @@
+# Recall - recall.it
+AI knowledge base. Save, summarize, chat with your content.
+500,000+ professionals.
+Features: browser extension + web app + mobile, instant summaries, AI chat with knowledge, smart auto-tagging, augmented browsing (links related ideas), automated quizzes with spaced repetition, MCP & API access.
+Sources: YouTube, podcasts, articles, PDFs, TikToks, Wikipedia, notes.
+AI models: GPT, Claude, Gemini - switch mid-conversation.
+Data ownership: export as Markdown. Privacy focused.
+https://www.recall.it/

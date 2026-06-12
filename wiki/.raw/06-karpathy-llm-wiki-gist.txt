@@ -1,0 +1,13 @@
+# LLM Wiki - Andrej Karpathy (April 4, 2026)
+Pattern for building personal knowledge bases using LLMs.
+Three layers: Raw sources (immutable) -> Wiki (LLM-generated markdown) -> Schema (CLAUDE.md conventions).
+Key insight: wiki is a persistent, compounding artifact.
+Operations: Ingest, Query, Lint.
+Indexing: index.md (content-oriented catalog) + log.md (chronological append-only).
+Uses Obsidian as IDE, LLM as programmer, wiki as codebase.
+Obsidian Web Clipper for converting articles to markdown.
+Marp for slide decks from wiki content.
+Dataview for queries over page frontmatter.
+5k+ stars, 5k+ forks.
+Related: qmd for local search, git for version history.
+https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
