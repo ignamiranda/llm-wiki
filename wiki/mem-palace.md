@@ -39,6 +39,7 @@ A Claude Code memory system implementing proper RAG (Retrieval-Augmented Generat
 - [[memory-system-ai]] — broader AI memory category
 - [[context-rot]] — the problem it solves
 - [[2026-06-11-claude-code-memory-systems]] — Level 4 in the taxonomy
+- [[mempalace]] — separate open-source project (55.4k stars) with similar name using verbatim markdown + ChromaDB
 
 ## References
 
