@@ -34,6 +34,7 @@ An agent working on a large refactor that exceeds 50 turns writes a `handoff.md`
 - [[clearing]] — ending a session without handoff
 - [[attention-degradation]] — what makes handoffs necessary
 - [[stateless]] — why handoffs are needed
+- [[compaction-vs-clearing]] — comparison of context management approaches
 
 ## References
 

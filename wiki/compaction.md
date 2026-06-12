@@ -34,6 +34,7 @@ After 30 turns of debugging, the agent summarizes what was learned and what rema
 - [[handoff]] — full compaction with session transfer
 - [[clearing]] — ending a session without compaction
 - [[autocompact]] — automatic harness-level compaction
+- [[compaction-vs-clearing]] — comparison of two context management strategies
 
 ## References
 

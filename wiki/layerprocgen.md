@@ -51,3 +51,5 @@ The framework contrasts two approaches to procedural generation: the [[functiona
 - [[top-layer-dependencies]] — generation entry points
 - [[planning-approach-procgen]] — what LayerProcGen enables at scale
 - [[functional-approach-procgen]] — the alternative sandbox approach
+
+> 📝 **Updated from LayerProcGen blog**: Community ports — Sythelux Rikd ported LayerProcGen to Godot, Oli Scherer created a Rust implementation (`layer-proc-gen` on crates.io), and Thomas ten Cate (Frozen Fractal) wrote his own implementation for spherical worlds in his game Around The World.

@@ -43,6 +43,7 @@ Agent Skills are folders of instructions, scripts, and resources that an AI agen
 - [[shokunin]] — A large-scale skill ecosystem with 62 CI-validated engineering skills and persistent memory
 - [[2026-06-11-shokunin]] — Article describing the Shokunin ecosystem as a concrete example
 - [[2026-06-11-voltagent-awesome-agent-skills]] — The largest curated listing of 1,000+ agent skills from 50+ official teams
+- [[grill-me-skill]] — Agent skill pattern for requirements alignment before implementation
 
 > 📝 **Updated from [[2026-06-11-shokunin]]**: Added Shokunin as a concrete example of a large-scale skill ecosystem with CI validation and multi-runtime support.
 > 📝 **Updated from [[2026-06-11-voltagent-awesome-agent-skills]]**: Added VoltAgent/awesome-agent-skills as the largest curated listing of agent skills from official teams.

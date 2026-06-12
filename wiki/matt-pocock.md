@@ -21,6 +21,8 @@ Matt Pocock is a prominent TypeScript educator and software engineer known for c
 - **Sandcastle** — Created `mattpocock/sandcastle`, a TypeScript library for orchestrating AI coding agents in isolated sandboxes with configurable providers, branch strategies, and a flexible prompt system
 - **Skills Repository** — Created and maintains the widely-adopted `mattpocock/skills` repository (~125k GitHub stars), defining the pattern of composable declarative skills for AI coding agents
 - **Dictionary of AI Coding** — Author of the AI Coding Dictionary, a comprehensive glossary of 60+ AI coding terms translated into plain English, covering model internals, session mechanics, tooling, failure modes, handoffs, memory systems, and workflow patterns
+- **AI Software Engineering Workshop** — Delivered a workshop on practical AI-assisted development covering the Smart Zone / Dumb Zone, compaction vs clearing, session lifecycle, and agent skills
+- **Grill Me Skill** — Created the grill-me agent skill pattern for requirements gathering and alignment before implementation
 - **TypeScript Open Source** — Contributor to TypeScript ecosystem tools, type utilities, and educational content
 
 ## Related Work

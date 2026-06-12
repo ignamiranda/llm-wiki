@@ -4,7 +4,7 @@ type: concept
 language: en
 created: 2026-06-11
 modified: 2026-06-11
-tags: [llm, memory, agent, persistence]
+tags: [llm, memory, agent, persistence, claude-code, memory-taxonomy]
 aliases: ["AI memory system", "agent memory"]
 summary: "A mechanism that persists information across agent sessions by writing to the filesystem, enabling the agent to recall preferences, conventions, and context from previous work."
 ---
@@ -34,6 +34,7 @@ Memory systems typically store: user preferences, project conventions, architect
 - [[chromadb-ai-memory]] — a concrete memory system implementation
 - [[AGENTS.md]] — the simplest form of memory
 - [[handoff]] — cross-session context transfer
+- [[2026-06-11-claude-code-memory-systems]] — a 6-level taxonomy of Claude Code memory systems
 
 ## References
 

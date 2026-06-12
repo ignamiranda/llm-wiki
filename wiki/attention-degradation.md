@@ -34,6 +34,7 @@ An agent that was following conventions precisely in turn 5 starts making incons
 - [[compaction]] — technique to combat degradation
 - [[handoff]] — transfer to a fresh context when degraded
 - [[Session]] — the unit that accumulates and degrades
+- [[smart-zone-dumb-zone]] — alternative framing of the same phenomenon by Dex Hardy
 
 ## References
 
